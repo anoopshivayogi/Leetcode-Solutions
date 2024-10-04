@@ -26,10 +26,10 @@ class Solution:
             elif not root.left:
                 return root.right
             else:
-                cur = root.right # Get the right subtree
-                while cur.left:  # Pick the smallest from the right subtree
+                cur = root.right    # Get the right subtree
+                while cur.left:     # Pick the smallest from the right subtree
                     cur = cur.left
-                root.val = cur.val  # Replace the value directly
+                root.val = cur.val      # Replace the value directly
                 root.right = self.deleteNode(root.right, cur.val)
         
         return root
@@ -41,10 +41,9 @@ class Solution:
 
         #           5
         #      4          6
-        #  2     4    nul    7
+        #  2     None  nul    7
                 
 
-        # stack = [deleteNode(3, 3), deleteNode(4, 4)]
+        # stack = [deleteNode(3, 3), deleteNode(4, 4)] ; stack will become empty
         # root = 4
 
-        
