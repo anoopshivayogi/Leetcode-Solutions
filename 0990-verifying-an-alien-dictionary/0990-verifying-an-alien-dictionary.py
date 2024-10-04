@@ -50,7 +50,11 @@ class Solution:
         # Time - O(n)
         # Space - O(26) = O(1)
 
-        order_dict = {key: idx for idx, key in enumerate(order)}
+        # order_dict = {key: idx for idx, key in enumerate(order)}
+        order_dict = [0] * 26
+
+        for idx, c in enumerate(order):
+            order_dict[ord(c) - ord('a')] = idx
 
         for i in range(len(words) - 1):
 
@@ -63,7 +67,7 @@ class Solution:
                     return False
 
                 if word1[j] != word2[j]:
-                    if order_dict[word1[j]] > order_dict[word2[j]]:
+                    if order_dict[ord(word1[j]) - ord('a')] > order_dict[ord(word2[j]) - ord('a')]:
                         return False
                     break
 
