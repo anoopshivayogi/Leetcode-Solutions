@@ -15,7 +15,7 @@ class Solution:
         adj_list = collections.defaultdict(set)
         in_degree = collections.defaultdict(int)
 
-        for word in words:
+        for word in words:  # NOTE: One more important step
             for char in word:
                 in_degree[char] = 0
 
@@ -30,7 +30,7 @@ class Solution:
                     return ""
                 
                 if word1[j] != word2[j]:
-                    if word2[j] not in adj_list[word1[j]]:
+                    if word2[j] not in adj_list[word1[j]]:  # NOTE: 2nd most important thing
                         adj_list[word1[j]].add(word2[j])
                         in_degree[word2[j]] += 1
                     break  # NOTE: Important to keep this inside first if condition
