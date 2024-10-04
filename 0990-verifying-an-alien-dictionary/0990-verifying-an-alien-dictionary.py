@@ -47,13 +47,12 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(26) = O(1)
 
         order_dict = {key: idx for idx, key in enumerate(order)}
 
         for i in range(len(words) - 1):
-
 
             word1 = words[i]
             word2 = words[i + 1]
