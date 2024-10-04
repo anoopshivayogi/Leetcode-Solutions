@@ -33,11 +33,7 @@ class Solution:
                     if word2[j] not in adj_list[word1[j]]:
                         adj_list[word1[j]].add(word2[j])
                         in_degree[word2[j]] += 1
-                    break
-
-
-        # print(adj_list)
-        # print(in_degree)
+                    break  # NOTE: Important to keep this inside first if condition
 
         q = collections.deque()
         res = []
@@ -54,7 +50,5 @@ class Solution:
                 in_degree[neigh] -= 1
                 if in_degree[neigh] == 0:
                     q.append(neigh)
-
-        # print(res)
 
         return "".join(res) if len(res) == len(in_degree) else ""         
