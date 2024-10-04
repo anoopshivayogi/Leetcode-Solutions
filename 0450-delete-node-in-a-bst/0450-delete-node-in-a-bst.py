@@ -21,11 +21,10 @@ class Solution:
         elif key > root.val:
             root.right = self.deleteNode(root.right, key)
         else:
-
-            if not root.left:
-                return root.right
             if not root.right:
                 return root.left
+            elif not root.left:
+                return root.right
             else:
                 cur = root.right # Get the right subtree
                 while cur.left:  # Pick the smallest from the right subtree
@@ -47,3 +46,5 @@ class Solution:
 
         # stack = [deleteNode(3, 3), deleteNode(4, 4)]
         # root = 4
+
+        
