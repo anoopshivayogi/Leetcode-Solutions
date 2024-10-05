@@ -2,8 +2,9 @@ class Solution:
     def alienOrder(self, words: List[str]) -> str:
         
         # Solution 1 - Using Topologial sorting - Khan's algorithm
-        # Time - O(c)
-        # Space - O(c)
+        # let V be the unique letters in the word and E be the edges
+        # Time - O(Word * max_word_length + V + E)
+        # Space - O(V + E) -> BFS with a queue space complexity and to store all the vertices and edges 
 
         #  t -> f
         #  w -> e
