@@ -2,8 +2,8 @@ class Solution:
     def alienOrder(self, words: List[str]) -> str:
         
         # Solution 1 - Using Topologial sorting - Khan's algorithm
-        # Time - 
-        # Space - 
+        # Time - O(c)
+        # Space - O(c)
 
         #  t -> f
         #  w -> e
@@ -19,7 +19,7 @@ class Solution:
             for char in word:
                 in_degree[char] = 0
 
-        for i in range(len(words) - 1):
+        for i in range(len(words) - 1): # O(c)
             
             word1 = words[i]
             word2 = words[i + 1]
