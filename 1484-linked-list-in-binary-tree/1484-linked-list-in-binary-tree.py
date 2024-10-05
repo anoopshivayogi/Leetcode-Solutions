@@ -11,6 +11,9 @@
 #         self.right = right
 class Solution:
     def isSubPath(self, head: Optional[ListNode], root: Optional[TreeNode]) -> bool:
+        # Solution 0 - Brute force
+        # Time - O(m * n)
+        # Space - O(m + n) - height in case of skewed tree
 
         if self.helper(head, root):
             return True
