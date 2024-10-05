@@ -22,15 +22,23 @@ class Solution:
 
 
         def can_ship(cap):
-            ships = 1
-            cur_capacity = cap
+            # ships = 1
+            # cur_capacity = cap
 
+            # for w in weights:
+            #     if cur_capacity - w < 0:
+            #         ships += 1
+            #         cur_capcity = cap
+            #     cur_capacity -= w
+
+            # return ships <= days
+
+            ships, currCap = 1, cap
             for w in weights:
-                if cur_capacity - w < 0:
-                    cur_capcity = cap
+                if currCap - w < 0:
                     ships += 1
-                cur_capacity -= w
-
+                    currCap = cap
+                currCap -= w 
             return ships <= days
 
 
@@ -40,7 +48,7 @@ class Solution:
         while l <= r:
             cap = (l + r) // 2
 
-            if canShip(cap):
+            if can_ship(cap):
                 res = min(res, cap)
                 r = cap - 1
             else:
