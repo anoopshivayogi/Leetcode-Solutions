@@ -7,18 +7,10 @@ class Solution:
         # minimum = max(weights) = 4  ; 4 ; 4 ; 6
         # maximum = sum(weights) = 16 ; 9 ; 6 ; 6
 
-        # Solution 1 - Binary search ?
-        # Time - 
-        # Space - 
-
-        def canShip(cap):
-            ships, currCap = 1, cap
-            for w in weights:
-                if currCap - w < 0:
-                    ships += 1
-                    currCap = cap
-                currCap -= w 
-            return ships <= days
+        # Solution 1 - Binary search
+        # N is the number of weights
+        # Time - O(log(sum(weights)) * n)
+        # Space - O(1)
 
 
         def can_ship(cap):
@@ -47,29 +39,3 @@ class Solution:
                 l = cap + 1
         
         return res
-
-
-
-        # l, r = max(weights), sum(weights)
-        # res = r
-
-        # def canShip(cap):
-        #     ships, currCap = 1, cap
-        #     for w in weights:
-        #         if currCap - w < 0:
-        #             ships += 1
-        #             currCap = cap
-        #         currCap -= w 
-        #     return ships <= days
-
-
-        # while l <= r:
-        #     cap = (l + r) // 2
-
-        #     if canShip(cap):
-        #         res = min(res, cap)
-        #         r = cap - 1
-        #     else:
-        #         l = cap + 1
-
-        # return res
