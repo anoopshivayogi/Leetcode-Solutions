@@ -23,13 +23,13 @@ class Solution:
 
         def can_ship(cap):
             ships = 1
-            currCap = cap
+            cur_capacity = cap
 
             for w in weights:
-                if currCap - w < 0:
+                if cur_capacity - w < 0:
                     ships += 1
-                    currCap = cap
-                currCap -= w
+                    cur_capacity = cap
+                cur_capacity -= w
 
             return ships <= days
 
