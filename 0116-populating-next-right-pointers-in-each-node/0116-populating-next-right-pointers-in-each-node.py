@@ -27,7 +27,7 @@ class Solution:
             for i in range(q_len):
                 cur_node = q.popleft()
 
-                if i < q_len - 1:
+                if i < q_len - 1:  # NOTE: one less than the last
                     cur_node.next = q[0]
                 
                 if cur_node.left:
