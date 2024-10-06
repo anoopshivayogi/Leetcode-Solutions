@@ -24,7 +24,7 @@ class Solution:
         while q:
             
             q_len = len(q)
-            for i in range(len(q)):
+            for i in range(q_len):
                 cur_node = q.popleft()
 
                 if i < q_len - 1:
