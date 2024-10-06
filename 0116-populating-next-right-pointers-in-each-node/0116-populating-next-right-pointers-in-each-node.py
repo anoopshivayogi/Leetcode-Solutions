@@ -12,6 +12,7 @@ class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
         
         # Solution 1 - BFS going level by level to connect the nodes 
+        # https://www.youtube.com/watch?v=U4hFQCa1Cq0
         # Time - O(n)
         # Space - O(n)
 
