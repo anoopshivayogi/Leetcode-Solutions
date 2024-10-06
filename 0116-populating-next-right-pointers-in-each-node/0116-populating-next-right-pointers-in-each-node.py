@@ -41,9 +41,9 @@ class Solution:
 
         # NOTE: Followup will come that you have to do this with O(1) space excluding recursion stack
 
-        # Solution 2 - 
-        # Time -
-        # Space -
+        # Solution 2 - Brilliant solution; Must do !!
+        # Time - O(n)
+        # Space - O(1)
 
         cur, nxt = root, root.left if root else None
 
