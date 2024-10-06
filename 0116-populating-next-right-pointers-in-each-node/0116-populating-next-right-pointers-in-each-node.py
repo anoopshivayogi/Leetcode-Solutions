@@ -29,7 +29,6 @@ class Solution:
 
                 if i < q_len - 1:
                     cur_node.next = q[0]
-                    # count -= 1
                 
                 if cur_node.left:
                     q.append(cur_node.left)
