@@ -2,8 +2,8 @@ class Solution:
     def myAtoi(self, s: str) -> int:
         
         # Solution 1 - Scanning characters from left to right
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         # Build the solution by asking a lot of questions to the interviewer 
         # Will there always be a sign and will there only be one sign ? Can there be more than one sign ?
