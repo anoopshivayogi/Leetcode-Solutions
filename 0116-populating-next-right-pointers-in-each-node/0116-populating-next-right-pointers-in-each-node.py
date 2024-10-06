@@ -60,3 +60,15 @@ class Solution:
                 nxt = cur.left
 
         return root
+
+
+        # Dry-run 
+        # root = 1
+        #                   1
+
+        #           2                3   
+        #                   ->
+        #      4         5       6       7
+        #           ->      ->       ->
+        # cur = 4
+        # nxt = None.  Exited while loop
