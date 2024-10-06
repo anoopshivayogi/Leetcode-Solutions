@@ -23,13 +23,13 @@ class Solution:
 
         while q:
             
-            count = len(q)
-            for _ in range(len(q)):
+            q_len = len(q)
+            for i in range(len(q)):
                 cur_node = q.popleft()
 
-                if count > 1:
+                if i < q_len - 1:
                     cur_node.next = q[0]
-                    count -= 1
+                    # count -= 1
                 
                 if cur_node.left:
                     q.append(cur_node.left)
