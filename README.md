@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
+| [0386-lexicographical-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -61,4 +62,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
+## Trie
+|  |
+| ------- |
+| [0386-lexicographical-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0386-lexicographical-numbers) |
 <!---LeetCode Topics End-->
