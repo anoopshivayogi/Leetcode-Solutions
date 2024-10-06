@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0163-missing-ranges](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0163-missing-ranges) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
