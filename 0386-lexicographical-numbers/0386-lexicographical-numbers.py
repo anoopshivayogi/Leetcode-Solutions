@@ -24,9 +24,9 @@ class Solution:
         # return res
 
 
-        # Solution 2 - 
-        # Time - 
-        # Space - 
+        # Solution 2 - Without using recursion
+        # Time - O(n)
+        # Space - O(1)
 
         cur = 1
         res = []
