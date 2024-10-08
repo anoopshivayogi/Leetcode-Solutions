@@ -4,6 +4,7 @@ class Solution:
         # Solution 1 - Using DFS and recursion; Kind of brute force
         # Time - O(N)
         # Space - O(log(N)) - Depends on the maximum value; for 50,000, the maximum number of digits is 5 => O(log(n)) with base 10. As 10^5 is approximately 50,000 ; We can argue that the space is constant given maximum
+        # https://www.youtube.com/watch?v=QihtII-FvLo
 
         # res = []
 
