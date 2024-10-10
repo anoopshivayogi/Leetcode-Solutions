@@ -7,8 +7,8 @@ class Solution:
     def sortList(self, head: Optional[ListNode]) -> Optional[ListNode]:
         
         # Solution 1 - Using log(n) extra space
-        # Time - 
-        # Space - 
+        # Time - O(n*logn)
+        # Space - O(logn)
 
 
         if not head or not head.next:
