@@ -8,8 +8,8 @@ class Solution:
     def searchBST(self, root: Optional[TreeNode], val: int) -> Optional[TreeNode]:
 
         # Solution 1 - Using recursion
-        # Time - O(n) - O(LogN) or height of the tree in average case and O(N) in worst case - skewed
-        # Space - O(n) - same with the space
+        # Time - O(N) - O(LogN) or height of the tree in average case and O(N) in worst case - skewed
+        # Space - O(N) - same with the space
         
         # if not root:
         #     return None
