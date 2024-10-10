@@ -27,8 +27,8 @@ class Solution:
 
 
         # Solution 2 - Using iteration
-        # Time - 
-        # Space - 
+        # Time - O(N)
+        # Space - O(1)
 
         while root:
             if root.val == val:
