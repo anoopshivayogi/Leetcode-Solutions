@@ -31,7 +31,7 @@ class Solution:
         # Solution 2 - Optimised using patterns
         # N is the number of words and m is the number of characters in the word
         # Time - O(n * m^2)
-        # Space - O(n * m)
+        # Space - O(n * m^2)
 
         # NOTE: Edge case
 
@@ -42,7 +42,7 @@ class Solution:
 
         wordList.append(beginWord)
 
-        for word in wordList:  # Time: n * m^2; space: 
+        for word in wordList:  # Time: n * m^2; space: same as time
             for i in range(len(word)):
                 pattern = word[:i] + "*" + word[i+1:]
                 adj_lst[pattern].append(word)
@@ -50,7 +50,7 @@ class Solution:
         visit = set([beginWord])
         q = collections.deque([(beginWord, 1)])
 
-        while q:   # Time: n * m ^ 2
+        while q:   # Time: n * m ^ 2 ; Space : same as time
             cur_word, length = q.popleft()
 
             if cur_word == endWord:
