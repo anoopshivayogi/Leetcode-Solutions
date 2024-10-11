@@ -35,7 +35,7 @@ class Solution:
 
         # NOTE: Edge case
 
-        if endWord not in wordList:
+        if endWord == beginWord or not wordList or endWord not in wordList:
             return 0
 
         adj_lst = collections.defaultdict(list)
