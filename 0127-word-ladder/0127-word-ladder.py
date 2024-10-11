@@ -39,7 +39,6 @@ class Solution:
             return 0
 
         adj_lst = collections.defaultdict(list)
-
         wordList.append(beginWord)
 
         for word in wordList:  # Time: n * m^2; space: same as time
@@ -62,5 +61,31 @@ class Solution:
                     if neigh not in visit:
                         visit.add(neigh)
                         q.append((neigh, length + 1))
-
         return 0
+
+
+        # Solution 3 - Changed question : 
+        # use isEnglishWord() method to determine the neighbor instead of the wordList.
+
+        # Time - O(n * m^2 * 26)
+        # Space - O(n * m^2 * 26)
+
+        # visit = set([beginWord])
+        # q = collections.deque()
+        # q.append((beginWord, 1)) # word, path_length
+
+        # while q:
+        #     cur_word, path_len = q.popleft()
+
+        #     if cur_word == endWord:
+        #         return path_len
+
+        #     for i in range(len(cur_word)):   
+        #         for j in range(26):
+        #             word = cur_word[:i] + chr(ord('a') + j) + cur_word[i+1: ]
+        #             if word.isEnglishWord():
+        #                 if word not in visit:
+        #                     visit.add(word)
+        #                     q.append((word, path_len + 1))
+
+        # return 0
