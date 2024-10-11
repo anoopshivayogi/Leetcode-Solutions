@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - Kinda brute force using BFS 
-        # Time - 
-        # Space - 
+        # Time - O(n * m^2 * 26)
+        # Space - O(n * m^2 * 26)
 
         # seen = set(wordList)
         # visit = set([beginWord])
@@ -17,7 +17,7 @@ class Solution:
         #     if cur_word == endWord:
         #         return path_len
 
-        #     for i in range(len(cur_word)):
+        #     for i in range(len(cur_word)):   
         #         for j in range(26):
         #             word = cur_word[:i] + chr(ord('a') + j) + cur_word[i+1: ]
         #             if word in seen:
