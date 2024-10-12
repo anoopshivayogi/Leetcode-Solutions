@@ -108,7 +108,7 @@ class Solution:
         for r in range(rows):
             for c in range(cols):
                 if ((r, c) not in visit) and (grid[r][c] == 1):
-                    res = max(dfs(r, c), res)
+                    res = max(bfs(r, c), res)
 
         return res
 
