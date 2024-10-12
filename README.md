@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0148-sort-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0148-sort-list) |
+| [0237-delete-node-in-a-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 ## Trie
 |  |
