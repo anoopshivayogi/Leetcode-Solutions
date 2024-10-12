@@ -5,10 +5,9 @@ class Solution:
         """
         
 
-
         # Solution 1 - Using backtracking 
         # Time - (9!)^9 -> 9! is coming from each row and there are 9 rows
-        # Space - O(1)
+        # Space - O(9 * 9) = O(81)
 
         rows = collections.defaultdict(set)
         cols = collections.defaultdict(set)
