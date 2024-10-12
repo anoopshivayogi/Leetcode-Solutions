@@ -39,7 +39,7 @@ class Solution:
             if nums[r] == 0:
                 count += 1
 
-            if count > k:
+            if l <= r and count > k:
                 if nums[l] == 0:
                     count -= 1
                 l += 1
