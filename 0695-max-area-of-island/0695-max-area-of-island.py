@@ -66,22 +66,20 @@ class Solution:
         # rows, cols = len(grid), len(grid[0])
 
 
-        # def dfs(r, c):
-        #     if rows <= r or r < 0 or cols <= c or c < 0 or (grid[r][c] == 0) or ((r, c) in visit):
-        #         return 0
+        def dfs(r, c):
+            if rows <= r or r < 0 or cols <= c or c < 0 or (grid[r][c] == 0) or ((r, c) in visit):
+                return 0
 
-        #     visit.add((r, c))
+            visit.add((r, c))
 
-        #     return 1 + dfs(r+1, c) + dfs(r-1, c) + dfs(r, c+1) + dfs(r, c-1)
+            return 1 + dfs(r+1, c) + dfs(r-1, c) + dfs(r, c+1) + dfs(r, c-1)
 
         
         visit = set()
         res = 0
         rows, cols = len(grid), len(grid[0])
 
-
         from collections import deque
-
 
         def bfs(r, c):
             q = deque()
@@ -110,7 +108,7 @@ class Solution:
         for r in range(rows):
             for c in range(cols):
                 if ((r, c) not in visit) and (grid[r][c] == 1):
-                    res = max(bfs(r, c), res)
+                    res = max(dfs(r, c), res)
 
         return res
 
