@@ -11,9 +11,9 @@ class Solution:
         :rtype: void Do not return anything, modify node in-place instead.
         """
 
-        # Solution 1 - 
-        # Time - 
-        # Space -
+        # Solution 1 - replace every node and remove last node
+        # Time - O(n)
+        # Space - O(1)
 
         while node.next.next:
             node.val = node.next.val
