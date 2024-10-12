@@ -29,17 +29,16 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space -
+        # Time - O(n)
+        # Space - O(1)
 
         res = l = count = 0
         
-
         for r in range(len(nums)):
             if nums[r] == 0:
                 count += 1
 
-            if l <= r and count > k:
+            if l <= r and count > k: # NOTE: l <= r and not l < r ; example : nums = [0,0,0,0] and k = 0
                 if nums[l] == 0:
                     count -= 1
                 l += 1
