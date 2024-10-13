@@ -10,6 +10,7 @@ class Solution:
     def leftMostColumnWithOne(self, binaryMatrix: 'BinaryMatrix') -> int:
         
         # Solution 1 - Using Binary Search 
+        # https://www.youtube.com/watch?v=z_z2gx1-6dQ
         # Time - O(row * log(col))
         # Space - O(1)
 
