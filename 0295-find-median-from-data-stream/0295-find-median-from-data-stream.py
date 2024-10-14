@@ -1,4 +1,7 @@
 class MedianFinder:
+    # Solution 1 - Using two heaps. Max heap for small and Min Heap for large
+    # Time - 
+    # Space - 
 
     def __init__(self):
         self.small = []
