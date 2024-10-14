@@ -11,6 +11,8 @@ class MedianFinder:
         if self.small and self.large and -self.small[0] > self.large[0]:
             heapq.heappush(self.large, -heapq.heappop(self.small))
 
+        # After the adjustments check if the size difference is correct; if not correct it
+
         if len(self.small) > 1 + len(self.large):
             val = -heapq.heappop(self.small)
             heapq.heappush(self.large, val)
