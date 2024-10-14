@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - Using heapq
-        # Time - 
-        # Space - 
+        # Time - O(klog(n+k))
+        # Space - O(n + k)
 
         res = 0
 
