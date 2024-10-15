@@ -6,7 +6,7 @@ class Solution:
         
 
         # Solution 1 - Using two pointers
-        # Time - O(n)
+        # Time - O(2n)
         # Space - O(1)
 
         # l = 0  # White position
@@ -31,8 +31,8 @@ class Solution:
         # 1 -> black
 
         # Solution 2 - Using only single pointer
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         blacks = 0
         res = 0
