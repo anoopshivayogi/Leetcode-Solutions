@@ -9,8 +9,8 @@ class Solution:
         l = 0
         res = 0
 
-        while l < len(s) and s[l] == 0:
-            l += 1
+        # while l < len(s) and s[l] == 0:
+        #     l += 1
 
         for r in range(l, len(s)):
             if s[r] == "0":
