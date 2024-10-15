@@ -6,11 +6,8 @@ class Solution:
         # Time - O(n)
         # Space - O(1)
 
-        l = 0
+        l = 0  # White position
         res = 0
-
-        # while l < len(s) and s[l] == 0:
-        #     l += 1
 
         for r in range(l, len(s)):
             if s[r] == "0":
