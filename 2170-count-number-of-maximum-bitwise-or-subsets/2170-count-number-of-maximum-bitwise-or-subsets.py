@@ -9,13 +9,10 @@ class Solution:
 
         for n in nums:
             max_or = max_or | n
-
-        res = [0]
         
         def backtrack(i, cur_or):
 
             if i >= len(nums) and cur_or == max_or:
-                # res[0] += 1
                 return 1
 
             if i >= len(nums):
