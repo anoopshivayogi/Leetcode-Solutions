@@ -10,6 +10,7 @@ class Solution:
         for n in nums:
             max_or = max_or | n
         
+        @cache
         def backtrack(i, cur_or):
 
             if i >= len(nums) and cur_or == max_or:
