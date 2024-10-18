@@ -1,12 +1,14 @@
 class Solution:
     def countMaxOrSubsets(self, nums: List[int]) -> int:
+
+        # Solution 1 - Using backtracking - trying out all solutions
+        # Time - O(2^n)
+        # Space - O(n)
         
         max_or = 0
 
         for n in nums:
             max_or = max_or | n
-
-        print(max_or)
 
         res = [0]
         
