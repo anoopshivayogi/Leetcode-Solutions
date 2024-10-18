@@ -12,20 +12,20 @@ class Solution:
 
         res = [0]
         
-
         def backtrack(i, cur_or):
 
             if i >= len(nums) and cur_or == max_or:
-                res[0] += 1
-                return
+                # res[0] += 1
+                return 1
 
             if i >= len(nums):
-                return 
+                return 0
+            
+            res = 0
 
-            backtrack(i+1, cur_or | nums[i])
-            backtrack(i+1, cur_or)
+            res += backtrack(i+1, cur_or | nums[i])
+            res += backtrack(i+1, cur_or)
+
+            return res
                 
-        backtrack(0, 0)
-
-
-        return res[0]
+        return backtrack(0, 0)
