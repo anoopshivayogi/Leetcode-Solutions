@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
+| [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 ## Depth-First Search
 |  |
@@ -140,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
@@ -147,6 +149,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
+| [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 ## Design
