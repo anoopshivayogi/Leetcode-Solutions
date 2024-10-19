@@ -12,8 +12,8 @@ class Solution:
         
 
         # Solution 1 - Using recursion
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(H) in worst case skewed tree it will become O(N)
 
         if not root:
             return None
