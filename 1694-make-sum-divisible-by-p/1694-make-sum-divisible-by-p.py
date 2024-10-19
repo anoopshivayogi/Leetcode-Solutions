@@ -30,6 +30,22 @@ class Solution:
         # Time - 
         # Space - 
 
+        # Intuition 
+
+        # To find the sum between two different points, Prefix sum is always used
+        # For Example : 
+        #           0. 1. 2. 3. 4
+        # arr =    [1, 2, 3, 4, 5]
+        # prefix = [1, 3, 6, 10, 15]
+
+        # sum(i, j) = sum(j) - sum(i-1)
+        # sum(2, 3) = sum(3) - sum(1) = 10 - 3 = 7
+
+        # Extending the above, We need to store the modulo of all the subarray sum we have seen so far.
+        # If the modulo of sum seen before is what we need to remove(target = sum(nums) % p) then we found a subarray that we can remove to make the rest of the array divisible by p.
+        # We can take the minimum of such lengths by replacing the newest index which we can remove.
+        # At the end we will have our minimum.
+
         
         seen = {0: -1}
         target = sum(nums) % p
@@ -51,5 +67,4 @@ class Solution:
 
             seen[cur_sum] = idx  # Replace it with the current found irrespectively to find the minimum len
 
-        
         return -1 if min_len == len(nums) else min_len
