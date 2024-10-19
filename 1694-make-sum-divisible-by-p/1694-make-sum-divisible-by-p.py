@@ -27,8 +27,8 @@ class Solution:
 
 
         # Solution 1 - hashmap
-        # Time - 
-        # Space - 
+        # Time - O(2n)
+        # Space - O(n)
 
         # Intuition 
 
