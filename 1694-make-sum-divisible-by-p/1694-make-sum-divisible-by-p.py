@@ -34,8 +34,7 @@ class Solution:
         total_sum = 0
 
         # Step 1: Calculate total sum and target remainder
-        for num in nums:
-            total_sum = (total_sum + num) % p
+        total_sum = sum(nums) % p
 
         target = total_sum % p
         if target == 0:
