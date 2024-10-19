@@ -30,5 +30,3 @@ class Solution:
             root.left = None
 
         return right_tail if right_tail else left_tail
-
-
