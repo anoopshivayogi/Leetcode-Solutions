@@ -30,25 +30,26 @@ class Solution:
         # Time - 
         # Space - 
 
-        n = len(nums)
-        total_sum = 0
-
+        
+        seen = {0: -1}
         target = sum(nums) % p
 
-        if target == 0:
-            return 0
+        if target == 0:  # NOTE: Edge condition
+            return 0 
 
-        mod_map = {0: -1}
-        current_sum = 0
-        min_len = n
+        cur_sum = 0
+        min_len = len(nums)
 
-        for i in range(n):
-            current_sum = (current_sum + nums[i]) % p
-            needed = (current_sum - target + p) % p
+        for idx, num in enumerate(nums):
 
-            if needed in mod_map:
-                min_len = min(min_len, i - mod_map[needed])
+            cur_sum = (cur_sum + num) % p
 
-            mod_map[current_sum] = i
+            needed = (cur_sum - target + p) % p  # NOTE: Add p to adjust for negative values 
 
-        return -1 if min_len == n else min_len
+            if needed in seen:
+                min_len = min(min_len, idx - seen[needed])
+
+            seen[cur_sum] = idx  # Replace it with the current found irrespectively to find the minimum len
+
+        
+        return -1 if min_len == len(nums) else min_len
