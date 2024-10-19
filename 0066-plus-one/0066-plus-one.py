@@ -1,5 +1,9 @@
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
+
+        # Solution 1 - Using carry variable
+        # Time - O(n)
+        # Space - O(1) if we do not count the resultant array
         
         res = []
         carry = 0
