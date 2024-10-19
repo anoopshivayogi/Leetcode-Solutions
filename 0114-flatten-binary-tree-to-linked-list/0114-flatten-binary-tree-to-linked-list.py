@@ -29,4 +29,4 @@ class Solution:
             root.right = root.left
             root.left = None
 
-        return right_tail if right_tail else left_tail
+        return right_tail or left_tail
