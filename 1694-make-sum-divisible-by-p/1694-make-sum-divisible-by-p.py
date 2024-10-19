@@ -33,9 +33,8 @@ class Solution:
         n = len(nums)
         total_sum = 0
 
-        total_sum = sum(nums) % p
+        target = sum(nums) % p
 
-        target = total_sum % p
         if target == 0:
             return 0
 
@@ -45,7 +44,6 @@ class Solution:
 
         for i in range(n):
             current_sum = (current_sum + nums[i]) % p
-
             needed = (current_sum - target + p) % p
 
             if needed in mod_map:
