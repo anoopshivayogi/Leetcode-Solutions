@@ -8,8 +8,9 @@ class Solution:
 
 
         # Solution 1 - Using heap
-        # Time - 
-        # Space - 
+        # let x be the min(k, n)
+        # Time - O(x) + k * O(log(x)) =  at the worst case k == n ; O(n^2 log(x))
+        # Space - O(x) -> Heap occupoed by 'x' elements ; O(n^2) if its the last element
         #      0.  1.  2
         # 0  [[1,  5,  9],
         # 1   [10, 11, 13],
@@ -33,5 +34,10 @@ class Solution:
 
             k -= 1
 
-
         return min_heap[0][0]
+
+
+        # Solution 2 - Using binary search
+        # Time - 
+        # Space - 
+
