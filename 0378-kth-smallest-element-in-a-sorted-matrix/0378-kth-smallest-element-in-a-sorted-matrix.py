@@ -38,10 +38,10 @@ class Solution:
 
 
         # Solution 2 - Using binary search
-        # Time - 
-        # Space - 
+        # Time - O(log(max-min) * O(N))
+        # Space - O(1)
 
-        def get_less_than_equal(mid):
+        def get_less_than_equal(mid): # O(N)
             count = 0
 
             n = len(matrix)
@@ -64,7 +64,7 @@ class Solution:
         n = len(matrix)
         low, high = matrix[0][0], matrix[n-1][n-1]
 
-        while low < high:
+        while low < high: # O(log(max - min))
             
             mid = (low + high) // 2
             count, smaller, larger = get_less_than_equal(mid)
