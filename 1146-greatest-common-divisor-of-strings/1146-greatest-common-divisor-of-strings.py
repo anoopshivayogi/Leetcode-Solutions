@@ -1,5 +1,18 @@
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
+
+
+        # Solution 2 - 
+        # Time - 
+        # Space - 
+
+        def gcd(a, b):
+
+            while b > 0:
+                a, b = b, a % b
+
+            return a
+
         
         if str1 + str2 != str2 + str1:
             return ""
