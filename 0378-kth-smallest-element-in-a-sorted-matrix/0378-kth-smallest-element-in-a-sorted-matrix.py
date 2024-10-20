@@ -46,7 +46,7 @@ class Solution:
 
             n = len(matrix)
             smaller, larger = matrix[0][0], matrix[n-1][n-1]
-            row, col = n-1, 0
+            row, col = n-1, 0 # Start from bottom left
 
             while row >= 0 and col < n:
 
@@ -82,3 +82,11 @@ class Solution:
     #       0  1
     # 0   [[1, 2],
     # 1    [1, 3]]
+
+    # k = 1
+
+    # low = 1, high = 1
+    # mid = 1
+    # count = 2; smaller = 1; larger = 1
+
+    # [1, 1, 2, 3]
