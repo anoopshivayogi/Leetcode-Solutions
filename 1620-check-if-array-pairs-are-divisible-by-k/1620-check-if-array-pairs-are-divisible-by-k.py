@@ -20,23 +20,23 @@ class Solution:
         # You need to mod it again after converting from negative to positive.
 
 
-        # remainder = collections.defaultdict(int)
+        remainder = collections.defaultdict(int)
 
-        # for num in arr:
-        #     remainder[(num % k + k) % k] += 1
+        for num in arr:
+            remainder[(num % k + k) % k] += 1
 
-        # for num in arr:
+        for num in arr:
             
-        #     cur_rem = (num % k + k) % k
+            cur_rem = (num % k + k) % k
 
-        #     if cur_rem == 0:
-        #         if remainder[cur_rem] % 2:  # If the reminder 0 has odd occurences then it is False
-        #             return False
+            if cur_rem == 0:
+                if remainder[cur_rem] % 2:  # If the reminder 0 has odd occurences then it is False
+                    return False
 
-        #     elif remainder[k - cur_rem] != remainder[cur_rem]:
-        #         return False
+            elif remainder[k - cur_rem] != remainder[cur_rem]:
+                return False
 
-        # return True
+        return True
 
 
         # Solution 2 - Sorting and Two pointers 
@@ -45,27 +45,27 @@ class Solution:
         # Space can be constant if we don't account for the sorting space.
 
 
-        arr = sorted(arr, key=lambda num: (num % k + k) % k)
+        # arr = sorted(arr, key=lambda num: (num % k + k) % k)
 
-        left, right = 0, len(arr) - 1
+        # left, right = 0, len(arr) - 1
 
-        while left < right:     # Skip all the numbers with zero remainders
+        # while left < right:     # Skip all the numbers with zero remainders
 
-            if arr[left] % k != 0:
-                break
+        #     if arr[left] % k != 0:
+        #         break
 
-            if arr[left + 1] % k != 0:
-                return False
+        #     if arr[left + 1] % k != 0:
+        #         return False
 
-            left += 2
+        #     left += 2
 
         
-        while left < right:
+        # while left < right:
 
-            if (arr[left] + arr[right]) % k != 0:
-                return False
+        #     if (arr[left] + arr[right]) % k != 0:
+        #         return False
 
-            left += 1
-            right -= 1
+        #     left += 1
+        #     right -= 1
 
-        return True
+        # return True
