@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - Using Hashmap
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(k) -> Only k remainders is possible that will be keys and a single number as value
 
         # Intuition - 
 
