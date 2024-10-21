@@ -1,24 +1,23 @@
 class Solution:
     def removeSubfolders(self, folder: List[str]) -> List[str]:
         
-        # Solution 1 - Using set to see if you've seen a parent folder before
+        # Solution 1 - Using sorting and seen 
         # Time - 
         # Space - 
 
         folder.sort()
 
-        seen = set()
-        res = []
+        res = [folder[0]]
 
-        for f in folder:
+        for f in folder[1: ]:
             exist = False
             for idx, ch in enumerate(f):
                 if ch == "/":
-                    if f[:idx] in seen:
+                    if f[:idx] == res[-1]:
                         exist = True
                         break
 
             if not exist:
-                seen.add(f)
+                res.append(f)
 
-        return list(seen)
+        return res
