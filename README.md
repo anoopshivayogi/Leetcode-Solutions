@@ -40,6 +40,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1046-max-consecutive-ones-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 ## Depth-First Search
 |  |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
 | [0386-lexicographical-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -101,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0386-lexicographical-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0386-lexicographical-numbers) |
+| [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 ## Two Pointers
 |  |
 | ------- |
