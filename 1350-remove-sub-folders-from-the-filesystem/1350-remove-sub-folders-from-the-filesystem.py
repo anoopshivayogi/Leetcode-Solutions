@@ -54,7 +54,7 @@ class Solution:
                 folders = folder_path.split("/")
 
                 for folder in folders:
-                    if folder in cur.children:
+                    if folder in cur.children:  # The common line can be seperated out but who cares
                         cur = cur.children[folder]
                     else:
                         cur.children[folder] = TrieNode()
