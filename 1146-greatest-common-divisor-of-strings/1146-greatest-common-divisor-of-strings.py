@@ -1,9 +1,10 @@
 class Solution:
     def gcdOfStrings(self, str1: str, str2: str) -> str:
 
-        # Solution 1 - 
-        # Time - 
-        # Space - 
+        # Solution 1 - Using 
+        # Time - O(min(m, n) * (m+n))
+        # Space - O(1)
+        # https://www.youtube.com/watch?v=i5I_wrbUdzM
 
         len1, len2 = len(str1), len(str2)
 
@@ -13,10 +14,8 @@ class Solution:
 
             f1, f2 = len1 // l, len2 // l
 
-            return str1[:l] * f1 == str1 and str1[:l] * f2 == str2
+            return str1[:l] * f1 == str1 and str1[:l] * f2 == str2 # NOTE: make sure both are str1
             
-
-        
         for idx in range(min(len(str1), len(str2)), 0, -1):
             if is_valid(idx):
                 return str1[:idx]
