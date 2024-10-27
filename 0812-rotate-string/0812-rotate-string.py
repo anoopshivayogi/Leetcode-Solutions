@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 0 - Brute force
-        # Time - 
-        # Space - 
+        # Time - O(N^2)
+        # Space - O(1)
 
         if len(s) != len(goal):
             return False
