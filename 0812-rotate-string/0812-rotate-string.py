@@ -17,7 +17,7 @@ class Solution:
 
 
         # Solution 1 - 
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         return len(s) == len(goal) and goal in s + s
