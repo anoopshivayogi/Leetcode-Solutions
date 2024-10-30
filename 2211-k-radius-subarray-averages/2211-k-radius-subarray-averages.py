@@ -16,7 +16,6 @@ class Solution:
             win_count += nums[r]
 
             if r >= (k * 2):
-                print(r)
                 res[l+k] = int(win_count / ((k*2) + 1))
                 win_count -= nums[l]
                 l += 1
