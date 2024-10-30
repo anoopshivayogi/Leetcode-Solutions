@@ -12,7 +12,7 @@ class Solution:
         res = [-1] * len(nums)
         window_size = (k*2) + 1
 
-        if window_size > len(nums):
+        if window_size > len(nums): # NOTE: Edge codition for the interview 
             return res
 
         for r in range(len(nums)):
