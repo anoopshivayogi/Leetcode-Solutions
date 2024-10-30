@@ -7,20 +7,23 @@ class Solution:
         # Space - O()
 
 
-        # win_count = 0
-        # l, r = 0, len(nums) - 1
-        # res = [-1] * len(nums)
+        win_count = 0
+        l, r = 0, len(nums) - 1
+        res = [-1] * len(nums)
+        window_size = (k*2) + 1
 
+        if window_size > len(nums):
+            return res
 
-        # for r in range(len(nums)):
-        #     win_count += nums[r]
+        for r in range(len(nums)):
+            win_count += nums[r]
 
-        #     if r >= (k * 2):
-        #         res[l+k] = int(win_count / ((k*2) + 1))
-        #         win_count -= nums[l]
-        #         l += 1
+            if r >= (k * 2):
+                res[l+k] = int(win_count / window_size)
+                win_count -= nums[l]
+                l += 1
 
-        # return res
+        return res
 
 
         # Solution 2 - Single pointer solution for fixed window
@@ -28,16 +31,16 @@ class Solution:
         # Space - O(1)
 
 
-        win_count = 0
-        r = len(nums) - 1
-        res = [-1] * len(nums)
+        # win_count = 0
+        # r = len(nums) - 1
+        # res = [-1] * len(nums)
 
-        for r in range(len(nums)):
-            win_count += nums[r]
+        # for r in range(len(nums)):
+        #     win_count += nums[r]
 
-            if r >= (k * 2):
-                l = r - (k * 2)
-                res[l+k] = int(win_count / ((k*2) + 1))
-                win_count -= nums[l]
+        #     if r >= (k * 2):
+        #         l = r - (k * 2)
+        #         res[l+k] = int(win_count / ((k*2) + 1))
+        #         win_count -= nums[l]
 
-        return res
+        # return res
