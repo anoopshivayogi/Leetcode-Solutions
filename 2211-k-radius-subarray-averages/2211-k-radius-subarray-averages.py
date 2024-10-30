@@ -3,7 +3,7 @@ class Solution:
         
 
         # Solution 1 - Using sliding window
-        # Time - O(n)
+        # Time - O(2n)
         # Space - O()
 
 
