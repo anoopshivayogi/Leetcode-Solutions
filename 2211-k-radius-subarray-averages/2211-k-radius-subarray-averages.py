@@ -23,12 +23,14 @@ class Solution:
         # return res
 
 
+        # Solution 2 - Single pointer solution for fixed window
+        # Time - O(n)
+        # Space - O(1)
 
 
         win_count = 0
         r = len(nums) - 1
         res = [-1] * len(nums)
-
 
         for r in range(len(nums)):
             win_count += nums[r]
