@@ -14,16 +14,16 @@ class Solution:
         # Time - O(n)
         # Space - O(n)
 
-        st = []
+        # st = []
 
-        for idx, char in enumerate(s):
+        # for idx, char in enumerate(s):
             
-            if st and idx + 1 < len(s) and st[-1] == char == s[idx + 1]:
-                continue
+        #     if st and idx + 1 < len(s) and st[-1] == char == s[idx + 1]:
+        #         continue
 
-            st.append(char)
+        #     st.append(char)
 
-        return "".join(st)
+        # return "".join(st)
 
 
         # Solution 2 - Using just a variable to keep track of the previous char
