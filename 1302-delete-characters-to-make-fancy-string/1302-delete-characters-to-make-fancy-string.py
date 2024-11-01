@@ -30,7 +30,7 @@ class Solution:
         # Time - O(n)
         # Space - O(1)
 
-        if len(s) < 3:
+        if len(s) < 3:  # NOTE: Very good edge condition
             return s
 
         prev = ''
