@@ -27,11 +27,11 @@ class Solution:
 
 
         # Solution 2 - Using just a variable to keep track of the previous char
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         prev = ''
-        res = ''
+        res = []
 
         for idx, char in enumerate(s):
 
@@ -39,6 +39,6 @@ class Solution:
                 continue
 
             prev = char
-            res += char
+            res.append(char)
 
-        return res
+        return "".join(res)
