@@ -30,6 +30,9 @@ class Solution:
         # Time - O(n)
         # Space - O(1)
 
+        if len(s) < 3:
+            return s
+
         prev = ''
         res = []
 
