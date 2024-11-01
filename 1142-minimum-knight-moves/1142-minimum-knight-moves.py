@@ -6,15 +6,15 @@ class Solution:
         # Time - O(n)
         # Space - O(n)
 
-        directions = [(1, 2), (2, 1), (2, -1), (1, -2),
-                   (-1, -2), (-2, -1), (-2, 1), (-1, 2)]
+        # directions = [(1, 2), (2, 1), (2, -1), (1, -2),
+        #            (-1, -2), (-2, -1), (-2, 1), (-1, 2)]
+
+        directions = [(1, 2), (2, 1), (-1, -2), (-2, -1), (2, -1), (1, -2), (-2, 1), (-1, 2)]
 
         q = collections.deque()
         visit = set()
         q.append((0, 0, 0))  # x, y, moves
         visit.add((0, 0))
-
-
 
         while q:
             cur_x, cur_y, cur_mov = q.popleft()
