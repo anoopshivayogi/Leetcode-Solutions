@@ -28,7 +28,7 @@ class Solution:
 
         # Solution 2 - Using just a variable to keep track of the previous char
         # Time - O(n)
-        # Space - O(1)
+        # Space - O(1) without considering the output res array
 
         if len(s) < 3:  # NOTE: Very good edge condition
             return s
