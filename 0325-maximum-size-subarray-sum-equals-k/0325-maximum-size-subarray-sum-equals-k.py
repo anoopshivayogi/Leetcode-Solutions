@@ -12,7 +12,7 @@ class Solution:
 
         # Solution 1 - Prefix sum with hashmap
         # Time - O(n)
-        # Space - O(n)
+        # Space - O(n) - our hashmap can potentially hold as many key-value pairs as there are in nums
 
         seen = {0: -1}
         cur_sum = 0
