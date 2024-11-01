@@ -11,8 +11,8 @@ class Solution:
 
 
         # Solution 1 - Prefix sum with hashmap
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(n)
 
         seen = {0: -1}
         cur_sum = 0
