@@ -11,9 +11,8 @@ class Solution:
         # st = [a, a, b, a, a]
         
         # Solution 1 - Using stack
-        # Time - 
-        # Space - 
-
+        # Time - O(n)
+        # Space - O(n)
 
         st = []
 
@@ -25,3 +24,21 @@ class Solution:
             st.append(char)
 
         return "".join(st)
+
+
+        # Solution 2 - Using just a variable to keep track of the previous char
+        # Time - 
+        # Space - 
+
+        prev = ''
+        res = ''
+
+        for idx, char in enumerate(s):
+
+            if prev and idx + 1 < len(s) and prev == char == s[idx + 1]:
+                continue
+
+            prev = char
+            res += char
+
+        return res
