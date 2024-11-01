@@ -28,8 +28,8 @@ class Solution:
             for inc_x, inc_y in directions:
                 new_r, new_c = cur_x + inc_x, cur_y + inc_y
 
-                if (new_r, new_c) not in visit and -2 <= new_r < x + 2 and -2 <= new_c < y + 2:
+                if (new_r, new_c) not in visit and -2 <= new_r < x + 2 and -2 <= new_c < y + 2:  # NOTE: Restricting the boundary is very important 
                     q.append((new_r, new_c, cur_mov + 1))
                     visit.add((new_r, new_c))
 
-        return -1
+        return -1  # NOTE: Not Necessary
