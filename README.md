@@ -92,6 +92,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [1142-minimum-knight-moves](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1142-minimum-knight-moves) |
 ## Graph
 |  |
 | ------- |
