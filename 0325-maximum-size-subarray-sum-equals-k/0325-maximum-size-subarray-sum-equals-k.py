@@ -24,7 +24,7 @@ class Solution:
             if (cur_sum - k) in seen:
                 res = max(idx - seen[(cur_sum - k)], res)
             
-            if cur_sum not in seen:
+            if cur_sum not in seen:  # Since we want the longest; Don't update it everytime.
                 seen[cur_sum] = idx
 
         return res
