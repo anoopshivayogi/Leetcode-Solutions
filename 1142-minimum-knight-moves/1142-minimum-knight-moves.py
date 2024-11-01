@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - Using BFS 
-        # Time - O(n)
-        # Space - O(n)
+        # Time - O(max(x, y)^2)
+        # Space - O(max(x, y)^2) -> Since you'll be storing all the elements in the set in worst case
 
         # directions = [(1, 2), (2, 1), (2, -1), (1, -2),
         #            (-1, -2), (-2, -1), (-2, 1), (-1, 2)]
