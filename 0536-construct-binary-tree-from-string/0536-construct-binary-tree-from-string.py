@@ -8,8 +8,9 @@ class Solution:
     def str2tree(self, s: str) -> Optional[TreeNode]:
 
         # Solution 1 - Using stack
-        # Time - 
-        # Space - 
+        # https://www.youtube.com/watch?v=AY7ZO0Q1s0k
+        # Time - O(N)
+        # Space - O(N)
         
         if not s:  # NOTE: Clarify what to return in this case with the interviewer
             return None
@@ -47,7 +48,6 @@ class Solution:
 
                     if not st[-1].left:
                         st[-1].left = top
-
                     else:
                         st[-1].right = top
 
