@@ -3,17 +3,15 @@ class Solution:
         
 
         # Solution 1 - Using BFS 
-        # Time - O(max(x, y)) - Approximated by the area of a square
-        # Space - O(max(x, y)) -> Since you'll be storing all the elements in the set in worst case
+        # Time - O(x * y)
+        # Space - O(x * y) -> Since you'll be storing all the elements in the set in worst case
         # https://www.youtube.com/watch?v=OgPUNRLSp_c
 
-        # directions = [(1, 2), (2, 1), (2, -1), (1, -2),
-        #            (-1, -2), (-2, -1), (-2, 1), (-1, 2)]
 
         directions = [(1, 2), (2, 1), (-1, -2), (-2, -1), (2, -1), (1, -2), (-2, 1), (-1, 2)]
 
-        x = abs(x)
-        y = abs(y)
+        x = abs(x) # NOTE: Shifting to the first quadrant 
+        y = abs(y) # NOTE: Shifting to the first quadrant
 
         q = collections.deque()
         visit = set()
