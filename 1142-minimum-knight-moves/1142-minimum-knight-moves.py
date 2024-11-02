@@ -35,9 +35,9 @@ class Solution:
         # return -1  # NOTE: Not Necessary
 
 
-        # Solution 2 - Using DFS
-        # Time - 
-        # Space - 
+        # Solution 2 - Using DFS with memoization
+        # Time - O(x.y)
+        # Space - O(x.y)
 
         seen = {(0, 0): 0, (1, 1): 2, (0, 2): 2, (2, 0): 2, (0, 1): 3, (1, 0): 3}
 
