@@ -3,9 +3,10 @@ class Solution:
         
 
         # Solution 1 - Using BFS 
-        # Time - O(x * y)
-        # Space - O(x * y) -> Since you'll be storing all the elements in the set in worst case
+        # Time - O(max(x^2, y^2)) -> Area of circle is pi*r^2/4 because of first quadrant. 
+        # Space - O(max(x^2, y^2)) -> Since you'll be storing all the elements in the set in worst case
         # https://www.youtube.com/watch?v=OgPUNRLSp_c
+        # https://medium.com/nerd-for-tech/minimum-knight-moves-daily-challenge-may-4499e5217df5
 
 
         directions = [(1, 2), (2, 1), (-1, -2), (-2, -1), (2, -1), (1, -2), (-2, 1), (-1, 2)]
@@ -32,3 +33,8 @@ class Solution:
                     visit.add((new_r, new_c))
 
         return -1  # NOTE: Not Necessary
+
+
+        # Solution 2 - Using DFS
+        # Time - 
+        # Space - 
