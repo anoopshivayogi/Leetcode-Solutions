@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
+| [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2384-root-equals-sum-of-children) |
@@ -27,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
+| [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [2384-root-equals-sum-of-children](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2384-root-equals-sum-of-children) |
@@ -68,6 +70,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
+| [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0812-rotate-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0812-rotate-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1146-greatest-common-divisor-of-strings) |
@@ -82,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
 | [0386-lexicographical-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0386-lexicographical-numbers) |
+| [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
@@ -209,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 ## Counting
 |  |
 | ------- |
