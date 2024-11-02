@@ -20,8 +20,8 @@ class Solution:
 
 
         # Solution 2 - Space optimised approach without splitting
-        # Time - 
-        # Space -  
+        # Time - O(n)
+        # Space - O(1)
 
 
         for idx in range(len(sentence)):
