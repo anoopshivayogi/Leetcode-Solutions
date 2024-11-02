@@ -57,8 +57,8 @@ class Solution:
 
 
         # Solution 2 - Using recursion
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(n)
 
 
 
