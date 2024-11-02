@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - Using BFS 
-        # Time - O(max(x, y)^2) - Approximated by the area of a square
-        # Space - O(max(x, y)^2) -> Since you'll be storing all the elements in the set in worst case
+        # Time - O(max(x, y)) - Approximated by the area of a square
+        # Space - O(max(x, y)) -> Since you'll be storing all the elements in the set in worst case
         # https://www.youtube.com/watch?v=OgPUNRLSp_c
 
         # directions = [(1, 2), (2, 1), (2, -1), (1, -2),
