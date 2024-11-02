@@ -41,13 +41,24 @@ class Solution:
 
         seen = {(0, 0): 0, (1, 1): 2, (0, 2): 2, (2, 0): 2, (0, 1): 3, (1, 0): 3}
 
+        # Can also be thought as 
+
+        # Immediate neighbors with x+y == 2 takes exactly 2 moves to reach the origin
+        #  x + y == 1 takes exactly 3 moves to reach the origin ; but this can be deducted from the above condition by taking one more move. |x-1| + |y-2| = 2.
+
         from functools import cache
 
         @cache
         def dfs(x, y):
 
-            if (x, y) in seen:
-                return seen[(x, y)]
+            # if (x, y) in seen:
+            #     return seen[(x, y)]
+
+            if x+y == 2:
+                return 2
+
+            if x+y == 0:
+                return 0
 
             return 1 + min(dfs(abs(x-2), abs(y-1)), dfs(abs(x-1), abs(y-2)))
 
