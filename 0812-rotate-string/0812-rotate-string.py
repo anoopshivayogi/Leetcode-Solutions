@@ -21,3 +21,13 @@ class Solution:
         # Space - O(1)
 
         return len(s) == len(goal) and goal in s + s
+
+
+        # Solution 2 - KMP string matching algorithm
+        # Time - 
+        # Space - 
+
+        # NOTE: TODO
+
+        # https://www.youtube.com/watch?v=-bBOKwD3tT4
+
