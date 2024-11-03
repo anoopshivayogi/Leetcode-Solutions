@@ -16,7 +16,7 @@ class Solution:
 
         left, i = 0, 0
 
-        while i < len(s):
+        while i < len(s):  # O(n)
 
             if s[i] != " ":
                 left = i
@@ -33,5 +33,5 @@ class Solution:
 
             i += 1
 
-        return " ".join(string_builder)
+        return " ".join(string_builder)  # O(n)
                 
