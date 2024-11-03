@@ -27,7 +27,7 @@ class Solution:
                 while i < len(s) and s[i] != " ":
                     i += 1
 
-                string_builder.appendleft(s[left: i])
+                string_builder.appendleft(s[left: i])  # NOTE: appendleft() does the magic for us.
 
                 i -= 1
 
