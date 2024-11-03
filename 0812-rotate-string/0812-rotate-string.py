@@ -16,8 +16,8 @@ class Solution:
         # return False
 
 
-        # Solution 1 - 
-        # Time - O(n)
+        # Solution 1 - Using cleaver technqiue
+        # Time - O(m * n) for each character in goal you need to check if it matches every character in s+s
         # Space - O(1)
 
         return len(s) == len(goal) and goal in s + s
