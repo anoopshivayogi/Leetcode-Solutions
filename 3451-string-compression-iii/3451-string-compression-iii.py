@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - Using single pointer
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(n)
 
         cur_char = word[0]
         count = 1
