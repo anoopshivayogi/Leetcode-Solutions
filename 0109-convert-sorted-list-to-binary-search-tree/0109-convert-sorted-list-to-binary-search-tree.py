@@ -11,6 +11,10 @@
 #         self.right = right
 class Solution:
     def sortedListToBST(self, head: Optional[ListNode]) -> Optional[TreeNode]:
+
+        # Solution 1 - Divide and conquer style 
+        # Time - O(nlogn) - Not sure how; We compute middle element for half of the linkedlist again and again
+        # Space - O(logn) - In this case there is no skewing and no O(n)
         
         if not head:
             return None
