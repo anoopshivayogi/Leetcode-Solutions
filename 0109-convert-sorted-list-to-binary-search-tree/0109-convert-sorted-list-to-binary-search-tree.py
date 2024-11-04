@@ -16,7 +16,7 @@ class Solution:
             return None
 
         if not head.next:
-            return TreeNode(head.val)
+            return TreeNode(head.val)  # NOTE: Mistake made in this place !! be careful
 
         slow, fast = head, head
         prev = None
