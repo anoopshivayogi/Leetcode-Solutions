@@ -1,14 +1,14 @@
 class Solution:
     def minChanges(self, s: str) -> int:
         
-        # Solution 1 - 
+        # Solution 1 - Sliding window approach
         # Time - 
         # Space - 
 
+        
 
 
-
-        # Solution 2 - Greedy - Realising that we only need to do pairwise comparasion
+        # Solution 2 - Greedy - Single pointer - Realising that we only need to do pairwise comparasion
         # Time - O(n)
         # Space - O(1) 
 
