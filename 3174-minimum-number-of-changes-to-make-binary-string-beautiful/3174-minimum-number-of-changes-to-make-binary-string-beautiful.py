@@ -6,6 +6,12 @@ class Solution:
         # Space - 
 
 
+
+
+        # Solution 2 - Greedy - Realising that we only need to do pairwise comparasion
+        # Time - O(n)
+        # Space - O(1) 
+
         res = 0
 
         for i in range(1, len(s), 2):
