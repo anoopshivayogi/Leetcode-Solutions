@@ -14,7 +14,7 @@ class Solution:
 
         directions = [(0, 1), (1, 0), (-1, 0), (0, -1)]
 
-        while q:
+        while q:  # O(m.n)
             r, c = q.popleft()
 
             if r == destination[0] and c == destination[1]:
@@ -24,7 +24,7 @@ class Solution:
                 
                 new_r, new_c = r + inc_r, c + inc_c
 
-                while 0 <= new_r < ROWS and 0 <= new_c < COLS and maze[new_r][new_c] == 0:
+                while 0 <= new_r < ROWS and 0 <= new_c < COLS and maze[new_r][new_c] == 0: # O(m + n) including all 4 directions
                     new_r += inc_r
                     new_c += inc_c
 
