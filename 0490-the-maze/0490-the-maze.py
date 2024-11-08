@@ -22,7 +22,7 @@ class Solution:
             
             for inc_r, inc_c in directions:
                 
-                new_r, new_c = r, c
+                new_r, new_c = r + inc_r, c + inc_c
 
                 while 0 <= new_r < ROWS and 0 <= new_c < COLS and maze[new_r][new_c] == 0:
                     new_r += inc_r
