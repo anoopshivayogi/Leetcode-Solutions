@@ -3,7 +3,7 @@ class Solution:
 
         # Solution 1 - Using BFS
         # Time - O(m.n.(m + n))
-        # Space - O(n.n.(m + n))
+        # Space - O(n.n.(m + n)) - Since visit set will have all the elements that is iterated
 
         ROWS, COLS = len(maze), len(maze[0])
 
