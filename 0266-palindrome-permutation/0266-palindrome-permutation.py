@@ -1,7 +1,11 @@
 class Solution:
     def canPermutePalindrome(self, s: str) -> bool:
-        
 
+
+        # Solution 1 - Using frequency and making sure only one odd frequency item is present
+        # Time - O(n)
+        # Space - O(n)
+        
         seen_odd = False
         freq = collections.Counter(s)
 
@@ -13,5 +17,4 @@ class Solution:
                 else:
                     return False
 
-            
         return True
