@@ -62,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
+| [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0065-valid-number](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0065-valid-number) |
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0151-reverse-words-in-a-string) |
+| [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0812-rotate-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0812-rotate-string) |
@@ -211,6 +213,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Enumeration
 |  |
