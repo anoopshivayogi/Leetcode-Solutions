@@ -25,12 +25,31 @@ class Solution:
         # Time - O(n)
         # Space - O(26)
         
-        seen = set()
+        # seen = set()
+
+        # for c in s:
+        #     if c not in seen:
+        #         seen.add(c)
+        #     else:
+        #         seen.remove(c)
+
+        # return len(seen) <= 1
+
+
+        # Solution 3 - Using hashmap with single pass
+        # Time - 
+        # Space - 
+
+        freq = collections.defaultdict(int)
+        count = 0
+
 
         for c in s:
-            if c not in seen:
-                seen.add(c)
-            else:
-                seen.remove(c)
+            freq[c] += 1
 
-        return len(seen) <= 1
+            if (freq[c] % 2) != 0:
+                count += 1
+            else:
+                count -= 1
+
+        return count <= 1
