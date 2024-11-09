@@ -60,6 +60,8 @@ class Solution:
         # return False
 
 
+        # Compress at the beginning itself.
+        # NOTE: One of the best solution out there.
 
         l, r = 0, len(nums) - 1
 
