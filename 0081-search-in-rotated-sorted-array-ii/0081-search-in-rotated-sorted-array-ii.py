@@ -17,16 +17,19 @@ class Solution:
                 return True
                 
             elif nums[l] < nums[mid]:
-                if nums[l] <= target <= nums[mid]:
+                if nums[l] <= target < nums[mid]:
                     r = mid - 1
                 else:
                     l = mid + 1
-            elif nums[l] > nums[mid]:
-                if nums[mid] <= target <= nums[r]:
+            elif nums[mid] < nums[r]:
+                if nums[mid] < target <= nums[r]:
                     l = mid + 1
                 else:
                     r = mid - 1
             else:
-                l += 1
+                if nums[mid] == nums[l]:
+                    l += 1
+                else:
+                    r -= 1
             
         return False
