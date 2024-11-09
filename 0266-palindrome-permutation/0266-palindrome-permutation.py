@@ -4,7 +4,7 @@ class Solution:
 
         # Solution 1 - Using frequency and making sure only one odd frequency item is present
         # Time - O(n)
-        # Space - O(n)
+        # Space - O(26) -- Since there are only 26 lowercase characters
         
         seen_odd = False
         freq = collections.Counter(s)
