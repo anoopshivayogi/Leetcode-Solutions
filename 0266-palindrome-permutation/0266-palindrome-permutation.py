@@ -37,12 +37,11 @@ class Solution:
 
 
         # Solution 3 - Using hashmap with single pass
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         freq = collections.defaultdict(int)
         count = 0
-
 
         for c in s:
             freq[c] += 1
