@@ -3,8 +3,36 @@ class Solution:
         
 
         # Solution - Using binary search 
-        # Time - 
-        # Space - 
+        # Time - O(n) at worst and O(logn) at best
+        # Space - O(1)
+
+
+        # l, r = 0, len(nums) - 1
+
+        # while l <= r:
+
+        #     mid = l + (r - l) // 2
+
+        #     if nums[mid] == target:
+        #         return True
+                
+        #     elif nums[l] < nums[mid]:
+        #         if nums[l] <= target < nums[mid]:
+        #             r = mid - 1
+        #         else:
+        #             l = mid + 1
+        #     elif nums[mid] < nums[r]:
+        #         if nums[mid] < target <= nums[r]:
+        #             l = mid + 1
+        #         else:
+        #             r = mid - 1
+        #     else:
+        #         if nums[mid] == nums[l]:   #NOTE: Extra case not needed
+        #             l += 1
+        #         else:
+        #             r -= 1
+            
+        # return False
 
 
         l, r = 0, len(nums) - 1
@@ -21,15 +49,12 @@ class Solution:
                     r = mid - 1
                 else:
                     l = mid + 1
-            elif nums[mid] < nums[r]:
+            elif nums[l] > nums[mid]:
                 if nums[mid] < target <= nums[r]:
                     l = mid + 1
                 else:
                     r = mid - 1
             else:
-                if nums[mid] == nums[l]:
-                    l += 1
-                else:
-                    r -= 1
+                l += 1
             
         return False
