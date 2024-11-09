@@ -47,7 +47,7 @@ class Solution:
                 else:
                     l = mid + 1
 
-            elif nums[r] >= nums[mid]: # belongs to the right side
+            elif nums[l] > nums[mid]: # belongs to the right side
                 if nums[mid] <= target <= nums[r]:
                     l = mid + 1
                 else:
