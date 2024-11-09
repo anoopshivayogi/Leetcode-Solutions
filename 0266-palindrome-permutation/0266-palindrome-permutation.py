@@ -25,30 +25,30 @@ class Solution:
         # Time - O(n)
         # Space - O(26)
         
-        # seen = set()
+        seen = set()
 
-        # for c in s:
-        #     if c not in seen:
-        #         seen.add(c)
-        #     else:
-        #         seen.remove(c)
+        for c in s:
+            if c not in seen:
+                seen.add(c)
+            else:
+                seen.remove(c)
 
-        # return len(seen) <= 1
+        return len(seen) <= 1
 
 
         # Solution 3 - Using hashmap with single pass
         # Time - O(n)
         # Space - O(1)
 
-        freq = collections.defaultdict(int)
-        count = 0
+        # freq = collections.defaultdict(int)
+        # count = 0
 
-        for c in s:
-            freq[c] += 1
+        # for c in s:
+        #     freq[c] += 1
 
-            if (freq[c] % 2) != 0:
-                count += 1
-            else:
-                count -= 1
+        #     if (freq[c] % 2) != 0:
+        #         count += 1
+        #     else:
+        #         count -= 1
 
-        return count <= 1
+        # return count <= 1
