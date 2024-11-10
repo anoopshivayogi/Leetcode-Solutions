@@ -42,8 +42,8 @@ class Solution:
 
         # Solution 2 - BFS using queue
         # https://www.youtube.com/watch?v=lla6QlAF4HQ&t=184s
-        # Time - 
-        # Space - 
+        # Time - O(m*n)
+        # Space - O(m*n)
 
         if not board:
             return board
