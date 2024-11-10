@@ -27,6 +27,6 @@ class Solution:
             return root.val or left or right
 
 
-        # dfs(root)
+        dfs(root)
 
         return root if dfs(root) else None
