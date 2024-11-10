@@ -7,6 +7,9 @@
 class Solution:
     def pruneTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         
+        # Solution 1 - Using DFS
+        # Time - O(n)
+        # Space - O(n)
 
 
         def dfs(root):
@@ -22,7 +25,6 @@ class Solution:
 
             if not right:
                 root.right = None
-
 
             return root.val or left or right
 
