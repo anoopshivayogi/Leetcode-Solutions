@@ -12,6 +12,8 @@ class Solution:
         if res > (mask >> 1): # mask >> 1(31 bits is the highest number we can store in 32 bits)
             return ~(res ^ mask)
 
+            
+
         return res
 
 
