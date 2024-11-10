@@ -5,7 +5,7 @@ class Solution:
         # Time - O(1) - because each integer contains 32 bits.
         # Space - O(1) - because we don't use any additional data structures.
 
-        mask = 0xffff
+        mask = 0xfffff
         carry = True
 
         while carry:
@@ -14,12 +14,12 @@ class Solution:
             a, b = res & mask, carry & mask
         
         # A 32-bit signed integer is positive if the 32nd bit is a 0 and is negative if the 32nd bit is a 1. If we divide our mask (0xffffffff) by 2, we will get the binary number 0b0111111111111111111111111111111, which has 31 1's. This number is the greatest value we can have before the 32nd bit becomes a 1. Therefore, if our answer a > mask // 2(mask >> 1), it is negative. Otherwise, it is positive and we can just return a itself. 
-        if res > (mask >> 1): # mask >> 1(31 bits is the highest number we can store in 32 bits)
-            return ~(res ^ mask)
+        # if res > (mask >> 1): # mask >> 1(31 bits is the highest number we can store in 32 bits)
+        #     return ~(res ^ mask)
 
-        max_int = 0x7FFFFFFF
+        max_int = 0x7ffff
         if res > max_int:
-            return ~(res & mask)
+            return ~(res ^ mask)
 
         return res
 
