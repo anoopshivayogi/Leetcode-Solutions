@@ -15,6 +15,7 @@ class Solution:
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
 
         # Solution 1 - Using recursive DFS
+        # https://www.youtube.com/watch?v=lla6QlAF4HQ&t=184s
         # Time - O(m * n)
         # Space - O(m * n)
 
