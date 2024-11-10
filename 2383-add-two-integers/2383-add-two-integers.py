@@ -12,7 +12,7 @@ class Solution:
         # Time - O(log(n)) -- My guess with time complexity
         # Space - O(1)
         
-        mask = 0xffff
+        mask = 0xfff
 
         while num2:
             carry = num1 & num2
