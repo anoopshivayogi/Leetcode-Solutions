@@ -14,13 +14,9 @@ class Solution:
 
     def updateBoard(self, board: List[List[str]], click: List[int]) -> List[List[str]]:
 
-        #       0   1.  2.  3.  4
-        # 0  [["E","E","E","E","E"], 
-        # 1   ["E","E","M","E","E"],
-        # 2   ["E","E","E","E","E"],
-        # 3   ["E","E","E","E","E"]]
-            
-        #.   click = [3,0]
+        # Solution 1 - Using recursive DFS
+        # Time - O(m * n)
+        # Space - O(m * n)
 
         x, y = click
 
