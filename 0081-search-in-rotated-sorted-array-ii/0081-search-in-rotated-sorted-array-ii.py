@@ -5,6 +5,7 @@ class Solution:
         # Solution - Using binary search 
         # Time - O(n) at worst and O(logn) at best
         # Space - O(1)
+        # https://www.youtube.com/watch?v=oUnF7o88_Xc
 
 
         # l, r = 0, len(nums) - 1
