@@ -9,8 +9,7 @@ class Solution:
         
         # Solution 1 - Using DFS
         # Time - O(n)
-        # Space - O(n)
-
+        # Space - O(n); in the worst case; O(N) = O(H); skewed tree
 
         def dfs(root):
 
