@@ -5,7 +5,7 @@ class Solution:
         # Time - O(1) - because each integer contains 32 bits.
         # Space - O(1) - because we don't use any additional data structures.
 
-        mask = 0xffff
+        mask = 0xfff
         carry = True
 
         while carry:
@@ -17,7 +17,7 @@ class Solution:
         # if res > (mask >> 1): # mask >> 1(31 bits is the highest number we can store in 32 bits)
         #     return ~(res ^ mask)
 
-        max_int = 0x7fff
+        max_int = 0x7ff
         if res > max_int:
             return ~(res ^ mask)
 
