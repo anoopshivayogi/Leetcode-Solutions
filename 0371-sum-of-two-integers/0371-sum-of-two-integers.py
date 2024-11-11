@@ -47,10 +47,10 @@ class Solution:
 
         x, y = abs(a), abs(b)
 
-        if x < y:
+        if x < y:   # Ensure a > b
             return self.getSum(b, a)
 
-        sign = 1 if a >= b else -1
+        sign = 1 if a >= b else -1  # NOTE: Ensure a >= b in this check
 
 
         if a * b >= 0:  # Do addition operation
