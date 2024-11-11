@@ -3,8 +3,10 @@ class Solution:
         
 
         # Solution 1 - Using a marker list 
-        # Time - 
-        # Space - 
+        # let n be the length of the string and m be the length of the words and k be the average length of the word
+
+        # Time - O(n * m * k)
+        # Space - O(n)
         # https://www.youtube.com/watch?v=4JPKLcpggCE
 
         n = len(s)
@@ -12,9 +14,9 @@ class Solution:
         flags = [False] * n
         cur_end = 0
 
-        for i in range(n):
-            for word in words:
-                if s.startswith(word, i):  # NOTE: Learn this usage correctly.
+        for i in range(n):   # O(n)
+            for word in words:  # O(m)
+                if s.startswith(word, i):  # NOTE: Learn this usage correctly.  # O(k)
                     cur_end = max(cur_end, i + len(word))
 
             if i < cur_end:
