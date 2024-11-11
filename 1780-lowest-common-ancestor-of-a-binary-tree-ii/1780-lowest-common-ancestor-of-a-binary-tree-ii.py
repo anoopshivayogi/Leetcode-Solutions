@@ -63,6 +63,7 @@ class Solution:
         # Solution 2 - More easier is to have a check for p_found and q_found seperately
         # Time - O(n)
         # Space - O(n)
+        # https://www.youtube.com/watch?v=7csj-Elpmmo
 
         p_found, q_found = False, False
 
