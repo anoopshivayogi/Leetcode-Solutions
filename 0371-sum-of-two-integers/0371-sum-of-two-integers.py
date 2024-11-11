@@ -5,23 +5,23 @@ class Solution:
         # Time - O(1) - because each integer contains 32 bits.
         # Space - O(1) - because we don't use any additional data structures.
 
-        mask = 0xfff
-        carry = True
+        # mask = 0xfff
+        # carry = True
 
-        while carry:
-            res = a ^ b
-            carry = (a & b) << 1
-            a, b = res & mask, carry & mask
+        # while carry:
+        #     res = a ^ b
+        #     carry = (a & b) << 1
+        #     a, b = res & mask, carry & mask
         
-        # A 32-bit signed integer is positive if the 32nd bit is a 0 and is negative if the 32nd bit is a 1. If we divide our mask (0xffffffff) by 2, we will get the binary number 0b0111111111111111111111111111111, which has 31 1's. This number is the greatest value we can have before the 32nd bit becomes a 1. Therefore, if our answer a > mask // 2(mask >> 1), it is negative. Otherwise, it is positive and we can just return a itself. 
-        # if res > (mask >> 1): # mask >> 1(31 bits is the highest number we can store in 32 bits)
+        # # A 32-bit signed integer is positive if the 32nd bit is a 0 and is negative if the 32nd bit is a 1. If we divide our mask (0xffffffff) by 2, we will get the binary number 0b0111111111111111111111111111111, which has 31 1's. This number is the greatest value we can have before the 32nd bit becomes a 1. Therefore, if our answer a > mask // 2(mask >> 1), it is negative. Otherwise, it is positive and we can just return a itself. 
+        # # if res > (mask >> 1): # mask >> 1(31 bits is the highest number we can store in 32 bits)
+        # #     return ~(res ^ mask)
+
+        # max_int = 0x7ff
+        # if res > max_int:
         #     return ~(res ^ mask)
 
-        max_int = 0x7ff
-        if res > max_int:
-            return ~(res ^ mask)
-
-        return res
+        # return res
 
         # NOTE: Basically for the above problem; The overflow is bound to happen for negative numbers because in 2's complement the sign bit is set. 
         # Expansion Beyond 32 Bits: When bitwise operations (like carry << 1) are applied to simulate addition, Python doesn’t automatically restrict this to 32 bits, so if a negative number is encountered, operations like shifting or adding can cause it to grow beyond 32 bits.
@@ -42,8 +42,30 @@ class Solution:
 
 
         # Solution 2 - Calculating the borrow for the negative numbers addition
-        # Time - 
-        # Space - 
+        # Time - O(1)
+        # Space - O(1)
 
+        x, y = abs(a), abs(b)
+
+        if x < y:
+            return self.getSum(b, a)
+
+        sign = 1 if a >= b else -1
+
+
+        if a * b >= 0:  # Do addition operation
+
+            while y:
+                res = x ^ y
+                carry = (x & y) << 1
+                x, y = res, carry
+
+        else:  # Do subtraction operation
+
+            while y:
+                res = x ^ y
+                borrow = ((~x) & y) << 1
+                x, y = res, borrow
         
-        
+
+        return x * sign
