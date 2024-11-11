@@ -35,3 +35,8 @@ class Solution:
                 res.append("</b>")
 
         return "".join(res)
+
+
+        # At the worst case; k can be n*(n-k) = O(n^2*n*k)
+        # If you have all the s combinations in the words; then it can go n^2 time complexity
+        # s = [aaa]; words = ["a", "aa", "aaa"]
