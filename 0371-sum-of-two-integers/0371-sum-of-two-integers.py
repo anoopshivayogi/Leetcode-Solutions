@@ -66,6 +66,28 @@ class Solution:
                 res = x ^ y
                 borrow = ((~x) & y) << 1
                 x, y = res, borrow
-        
 
+            # Why does the borrowing work here:-
+            # Bitwise NOT, AND, and Left Shift (((~x) & y) << 1):
+
+            # To compute the borrow, we use (~x) & y, which identifies bits where y has 1 and x has 0. 
+            # This is because a "borrow" is needed when x lacks a 1 to subtract a 1 in y.
+            # Shifting left by one bit (<< 1) aligns the borrow with the correct position for the next significant bit.
+        
         return x * sign
+
+        # How the ~ Operator Works?
+
+        # When ~ is applied to an integer:
+
+        # It inverts all bits in the integer's binary representation.
+        # This results in the one’s complement of the number.
+        # For any integer n, ~n is mathematically equivalent to -(n + 1).
+
+        # Why It’s Equivalent to -(n + 1)
+        # In binary, the one’s complement flips all bits. For example:
+
+        # The binary representation of 5 (assuming 32-bit) is 00000000 00000000 00000000 00000101.
+        # Applying ~5 flips all bits to 11111111 11111111 11111111 11111010.
+        # This binary result (11111111 11111111 11111111 11111010) represents -6 in two’s complement form.
+        # So, ~5 gives -6, which matches the formula -(5 + 1).
