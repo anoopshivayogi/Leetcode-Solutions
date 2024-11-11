@@ -14,14 +14,11 @@ class Solution:
 
         for i in range(n):
             for word in words:
-                if s.startswith(word, i):
+                if s.startswith(word, i):  # NOTE: Learn this usage correctly.
                     cur_end = max(cur_end, i + len(word))
 
             if i < cur_end:
                 flags[i] = True
-
-        
-        print(flags)
 
         res = []
 
