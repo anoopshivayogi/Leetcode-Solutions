@@ -9,9 +9,9 @@ class Solution:
 
 
         res = 0
-        max_ele = min(nums)
+        min_ele = min(nums)
 
         for n in nums:
-            res += (n - max_ele)
+            res += (n - min_ele)
 
         return res
