@@ -7,6 +7,14 @@
 
 class Solution:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+
+        # Solution - 0 - Brute force
+
+        # You can run dfs twice, one for finding the the LCA
+        # Another for finding if p and q exist in the tree.
+        # Time - O(2n)
+        # Space - O(n)
+
         
         # Solution 1 - DFS solution ; modified version of the primary LCA question
         # Time - O(n)
@@ -49,7 +57,7 @@ class Solution:
 
         # In the code for finding the lowest common ancestor (LCA) of two nodes in a binary tree, there’s a subtle reason why directly returning dfs(root) if nodes_found else None does not work as intended.
 
-# The issue lies in the evaluation of nodes_found in return dfs(root) if nodes_found else None. When this line is executed, nodes_found may not yet be True, even if the DFS (depth-first search) function dfs has identified the LCA. This is because dfs only marks nodes_found = True during the recursive exploration when the LCA node is identified. However, nodes_found may still be False at the time dfs(root) finishes, depending on the traversal order and whether the function was able to set nodes_found early in the traversal.
+        # The issue lies in the evaluation of nodes_found in return dfs(root) if nodes_found else None. When this line is executed, nodes_found may not yet be True, even if the DFS (depth-first search) function dfs has identified the LCA. This is because dfs only marks nodes_found = True during the recursive exploration when the LCA node is identified. However, nodes_found may still be False at the time dfs(root) finishes, depending on the traversal order and whether the function was able to set nodes_found early in the traversal.
 
 
         # Solution 2 - More easier is to have a check for p_found and q_found seperately
