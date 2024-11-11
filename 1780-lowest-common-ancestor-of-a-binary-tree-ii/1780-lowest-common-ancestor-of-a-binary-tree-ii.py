@@ -42,7 +42,7 @@ class Solution:
 
             return left or right
 
-        ans = dfs(root)  # NOTE: Apparently this is very important; You cannot directly return dfs() if <condition>
+        ans = dfs(root)  # NOTE: Apparently this is very important; You cannot directly return dfs() if <condition> mainly because the nodes_found will be evaluated before the dfs() returns anything.
 
         return ans if nodes_found else None
 
