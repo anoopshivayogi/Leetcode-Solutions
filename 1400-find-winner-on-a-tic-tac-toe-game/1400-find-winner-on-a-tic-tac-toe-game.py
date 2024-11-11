@@ -3,8 +3,9 @@ class Solution:
         
 
         # Solution 1 - Using counter for each row, col and diagnoals
-        # Time - 
-        # Space - 
+        # let n be the size of the board and m be the number of moves
+        # Time - O(m)
+        # Space - O(2n)
 
         n = 3
 
