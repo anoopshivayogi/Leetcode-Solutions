@@ -7,17 +7,29 @@ class Solution:
         # Time - O(nlogn)
         # Space - O(n) -- in timsort of pythong sort() implementation
 
-        nums.sort()
-        res = 0
+        # nums.sort()
+        # res = 0
 
-        for i in range(len(nums) - 1, -1, -1):
-            res += nums[i] - nums[0]
+        # for i in range(len(nums) - 1, -1, -1):
+        #     res += nums[i] - nums[0]
 
-        return res
+        # return res
+
+        # Solution 2 - 
+        # Time - 
+        # Space - 
+
+        moves = 0
+        minimum = float("inf")
+
+        for i in range(len(nums)):
+            moves += nums[i]
+            minimum = min(nums[i], minimum)
+
+        return moves - minimum * len(nums)
 
 
-
-        # Solution 1 - Using the intuition that incrementing (n-1) elements is same as decrementing 1 element
+        # Solution 3 - Using the intuition that incrementing (n-1) elements is same as decrementing 1 element
         # Time - O(n)
         # Space - O(1)
         
@@ -31,4 +43,4 @@ class Solution:
 
         # return res
 
-
+        # Solution 3 - 
