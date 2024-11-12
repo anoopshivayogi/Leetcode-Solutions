@@ -39,7 +39,7 @@ class Solution:
 
 
         # Solution 2 - using binary search. 
-        # Time - log(m + n)
+        # Time - log(min(m, n))
         # Space - O(1)
         # https://www.youtube.com/watch?v=q6IEA26hvXc
 
