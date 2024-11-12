@@ -7,27 +7,27 @@ class Solution:
         # Time - O(nlogn)
         # Space - O(n) -- in timsort of pythong sort() implementation
 
-        # nums.sort()
-        # res = 0
+        nums.sort()
+        res = 0
 
-        # for i in range(len(nums) - 1, -1, -1):
-        #     res += nums[i] - nums[0]
+        for i in range(len(nums) - 1, -1, -1):
+            res += nums[i] - nums[0]
 
-        # return res
+        return res
 
         # Solution 2 - I have no idea why this works
         # Time - O(n)
         # Space - O(1)
         # NOTE: will not work well with very large number -- Overflowing issue
 
-        moves = 0
-        minimum = float("inf")
+        # moves = 0
+        # minimum = float("inf")
 
-        for i in range(len(nums)):
-            moves += nums[i]
-            minimum = min(nums[i], minimum)
+        # for i in range(len(nums)):
+        #     moves += nums[i]
+        #     minimum = min(nums[i], minimum)
 
-        return moves - minimum * len(nums)
+        # return moves - minimum * len(nums)
 
 
         # Solution 3 - Using the intuition that incrementing (n-1) elements is same as decrementing 1 element
