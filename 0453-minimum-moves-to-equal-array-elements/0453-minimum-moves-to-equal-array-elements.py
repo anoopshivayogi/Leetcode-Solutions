@@ -15,9 +15,10 @@ class Solution:
 
         # return res
 
-        # Solution 2 - 
-        # Time - 
-        # Space - 
+        # Solution 2 - I have no idea why this works
+        # Time - O(n)
+        # Space - O(1)
+        # NOTE: will not work well with very large number -- Overflowing issue
 
         moves = 0
         minimum = float("inf")
