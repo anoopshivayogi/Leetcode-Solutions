@@ -3,7 +3,7 @@ class Solution:
         
         from functools import cache
 
-        # @cache
+        @cache
         def dfs(i, j):
             if j >= len(p) and i < len(s):
                 return False
