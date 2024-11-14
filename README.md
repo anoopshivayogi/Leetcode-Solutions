@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0008-string-to-integer-atoi) |
+| [0010-regular-expression-matching](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0010-regular-expression-matching) |
 | [0065-valid-number](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0065-valid-number) |
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
 | [0151-reverse-words-in-a-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0151-reverse-words-in-a-string) |
@@ -274,4 +275,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0010-regular-expression-matching](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0010-regular-expression-matching) |
+## Recursion
+|  |
+| ------- |
+| [0010-regular-expression-matching](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0010-regular-expression-matching) |
 <!---LeetCode Topics End-->
