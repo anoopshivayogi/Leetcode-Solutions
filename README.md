@@ -146,6 +146,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0025-reverse-nodes-in-k-group](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
@@ -288,6 +289,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0010-regular-expression-matching](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0010-regular-expression-matching) |
+| [0025-reverse-nodes-in-k-group](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
 ## Queue
 |  |
 | ------- |
