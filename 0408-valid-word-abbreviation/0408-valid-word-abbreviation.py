@@ -35,8 +35,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(m + n)
+        # Space - O(1)
 
         word_ptr, abbr_ptr = 0, 0
 
