@@ -106,8 +106,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(N)
+        # Space - O(N)
 
         if not root:
             return []
