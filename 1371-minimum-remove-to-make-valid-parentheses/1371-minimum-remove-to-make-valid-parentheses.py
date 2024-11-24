@@ -14,7 +14,7 @@ class Solution:
 
 
         # Solution 1 - using stack
-        # Time - O(2N)
+        # Time - O(3N)
         # Space - O(N)
 
         # res = []
@@ -41,10 +41,10 @@ class Solution:
         # return "".join(filtered[::-1])
 
 
+        # Slightly modified version
+
         res = []
-
         count = 0
-
 
         for c in s:
 
@@ -69,6 +69,7 @@ class Solution:
 
         return "".join(filtered[::-1])
 
+        
 
 
 
