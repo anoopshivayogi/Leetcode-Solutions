@@ -92,4 +92,27 @@ class Solution:
 
 
 
-        # Solve this without using a stack.
+        # Solve this using a stack.
+        # Time - O(N)
+        # Space - O(N)
+
+
+        st = []
+        to_delete = set()
+
+        for idx, c in enumerate(s):
+            if c == "(":
+                st.append(c)
+            elif st and c == ")":
+                st.pop()
+            else:
+                to_delete.add(idx)
+
+        res = []
+
+        for i, c in enumerate(s):
+            if i not in t_delete:
+                res.append(c)
+
+        return "".join(res)
+
