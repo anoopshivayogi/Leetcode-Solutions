@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [2384-root-equals-sum-of-children](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2384-root-equals-sum-of-children) |
@@ -41,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
 | [2384-root-equals-sum-of-children](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2384-root-equals-sum-of-children) |
@@ -83,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
@@ -123,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
@@ -135,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0490-the-maze](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0490-the-maze) |
 | [0529-minesweeper](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0529-minesweeper) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1142-minimum-knight-moves](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1142-minimum-knight-moves) |
 ## Graph
 |  |
@@ -180,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0148-sort-list) |
 | [0295-find-median-from-data-stream](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 ## Merge Sort
 |  |
