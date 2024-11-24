@@ -51,7 +51,6 @@ class Solution:
                     skip_val = skip_val * 10 + int(abbr[abbr_ptr])
                     abbr_ptr += 1
 
-                # abbr_ptr -= 1   # Bring back one extra move
 
                 word_ptr += skip_val
 
