@@ -93,14 +93,13 @@ class Solution:
 
 
         # Solve this using a stack.
-        # Time - O(N)
+        # Time - O(3N)
         # Space - O(N)
-
 
         st = []
         to_delete = set()
 
-        for idx, c in enumerate(s):
+        for idx, c in enumerate(s):  # O(N)
             if c == "(":
                 st.append(c)
             elif st and c == ")":
@@ -110,9 +109,8 @@ class Solution:
 
         res = []
 
-        for i, c in enumerate(s):
+        for i, c in enumerate(s):  # O(N)
             if i not in t_delete:
                 res.append(c)
 
-        return "".join(res)
-
+        return "".join(res)  # O(N)
