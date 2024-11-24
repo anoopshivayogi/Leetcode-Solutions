@@ -107,8 +107,6 @@ class Solution:
                     st.pop()
                 else:
                     to_delete.add(idx)
-            # else:
-            #     to_delete.add(idx)
 
         res = []
 
