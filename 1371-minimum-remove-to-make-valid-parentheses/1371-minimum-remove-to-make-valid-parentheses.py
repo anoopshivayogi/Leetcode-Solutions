@@ -43,31 +43,31 @@ class Solution:
 
         # Slightly modified version
 
-        res = []
-        count = 0
+        # res = []
+        # count = 0
 
-        for c in s:
+        # for c in s:
 
-            if c == "(":
-                count += 1
-                res.append(c)
-            elif c == ")":
-                if count > 0:
-                    count -=1
-                    res.append(c)
-            else:
-                res.append(c)
+        #     if c == "(":
+        #         count += 1
+        #         res.append(c)
+        #     elif c == ")":
+        #         if count > 0:
+        #             count -=1
+        #             res.append(c)
+        #     else:
+        #         res.append(c)
 
-        filtered = []
+        # filtered = []
 
-        for c in res[::-1]:
-            if c == "(" and count > 0:
-                count -= 1
-                continue
-            else:
-                filtered.append(c)
+        # for c in res[::-1]:
+        #     if c == "(" and count > 0:
+        #         count -= 1
+        #         continue
+        #     else:
+        #         filtered.append(c)
 
-        return "".join(filtered[::-1])
+        # return "".join(filtered[::-1])
 
         
 
@@ -101,16 +101,21 @@ class Solution:
 
         for idx, c in enumerate(s):  # O(N)
             if c == "(":
-                st.append(c)
-            elif st and c == ")":
-                st.pop()
-            else:
-                to_delete.add(idx)
+                st.append(idx)
+            elif c == ")":
+                if st:
+                    st.pop()
+                else:
+                    to_delete.add(idx)
+            # else:
+            #     to_delete.add(idx)
 
         res = []
 
+        to_delete = to_delete.union(st)
+
         for i, c in enumerate(s):  # O(N)
-            if i not in t_delete:
+            if i not in to_delete:
                 res.append(c)
 
         return "".join(res)  # O(N)
