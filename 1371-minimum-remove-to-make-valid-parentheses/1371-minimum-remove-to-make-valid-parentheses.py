@@ -72,19 +72,21 @@ class Solution:
         
 
 
-
+        # Extra closing case easy
         # s = "l e e ( t ( c ) o ) d e ) "
         #                                i
         # count = 0
         # res = [l, e, e, (, t, (, c, ), o, ), d, e]
 
 
+        # Extra closing case
         # s = "a ) b ( c ) d"
         #                  i
         # count = 0
         # res = [a, b, (, c, ), d]
 
 
+        # Extra opening case
         # s = ") ) ( ("
         #            i
         # count = 0
