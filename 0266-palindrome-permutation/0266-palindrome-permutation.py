@@ -25,15 +25,15 @@ class Solution:
         # Time - O(n)
         # Space - O(26)
         
-        seen = set()
+        # seen = set()
 
-        for c in s:
-            if c not in seen:
-                seen.add(c)
-            else:
-                seen.remove(c)
+        # for c in s:
+        #     if c not in seen:
+        #         seen.add(c)
+        #     else:
+        #         seen.remove(c)
 
-        return len(seen) <= 1
+        # return len(seen) <= 1
 
 
         # Solution 3 - Using hashmap with single pass
@@ -52,3 +52,20 @@ class Solution:
         #         count -= 1
 
         # return count <= 1
+
+
+
+
+        # Re-do for the interview
+
+
+        seen = set()
+
+        for c in s:
+
+            if c in seen:
+                seen.remove(c)
+            else:
+                seen.add(c)
+
+        return len(seen) <= 1
