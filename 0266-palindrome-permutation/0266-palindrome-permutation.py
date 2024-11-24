@@ -59,13 +59,24 @@ class Solution:
         # Re-do for the interview
 
 
-        seen = set()
+        # seen = set()
 
-        for c in s:
+        # for c in s:
 
-            if c in seen:
-                seen.remove(c)
-            else:
-                seen.add(c)
+        #     if c in seen:
+        #         seen.remove(c)
+        #     else:
+        #         seen.add(c)
 
-        return len(seen) <= 1
+        # return len(seen) <= 1
+
+
+        freq = collections.Counter(s)
+        count = 0
+
+        for k, v in freq.items():
+
+            if v % 2 != 0:
+                count += 1
+            
+        return count <= 1
