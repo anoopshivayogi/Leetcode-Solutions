@@ -118,6 +118,10 @@ class Solution:
         # res = 5
 
 
+        # Re-do for the interview
+        # Time - O(n)
+        # Space - O(1)
+
         prev, cur, res = 0, 0, 0
         cur_op = "+"
         i = 0
