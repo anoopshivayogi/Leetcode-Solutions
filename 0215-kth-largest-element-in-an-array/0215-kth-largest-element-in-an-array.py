@@ -79,6 +79,9 @@ class Solution:
         # return minHeap[0]
 
 
+        # NOTE: first edge condition to check
+        # Will the k value be less than than the length of the nums ?
+        # if it is not; what value should i be returning ? does -1 work ?
 
         for idx in range(len(nums)):
             nums[idx] *= -1
