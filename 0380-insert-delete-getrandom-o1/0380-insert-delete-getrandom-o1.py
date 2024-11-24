@@ -52,7 +52,7 @@ class RandomizedSet:
 
         if val in self.random_index:
             idx = self.random_index[val]
-            last_val = self.random_list[-1]
+            last_val = self.random_list[-1]  # NOTE: Don't pop it right away; because you might need to append below
             self.random_list[idx] = last_val
             self.random_list.pop()
 
