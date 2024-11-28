@@ -168,7 +168,6 @@ class Solution:
             while l <= r:
 
                 mid = (l + r) // 2
-
                 if arr[mid] < target:
                     l = mid + 1
                 else:
