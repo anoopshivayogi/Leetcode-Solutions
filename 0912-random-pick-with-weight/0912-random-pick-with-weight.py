@@ -156,8 +156,9 @@ class Solution:
 
 
         # Re-do for the interview - 2nd Time
-        # Time - 
-        # Space - 
+        # Let N be the total after adding all the numbers in the array
+        # Time - O(logN) - pickIndex has logarithimic but __init__ has O(N)
+        # Space - O(1) - pickIndex() has constant time but __init__ has O(N)
 
         import bisect
         import random
