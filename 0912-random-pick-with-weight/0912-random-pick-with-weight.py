@@ -162,12 +162,27 @@ class Solution:
         # Space - O(1) - pickIndex() has constant time but __init__ has O(N)
 
 
+        def left_bisect(arr, target):
+            l, r = 0, len(arr) - 1
+
+            while l <= r:
+
+                mid = (l + r) // 2
+
+                if arr[mid] < target:
+                    l = mid + 1
+                else:
+                    r = mid - 1
+
+            return l
+        
+
         import bisect
         import random
 
         index = random.choice(range(1, self.total + 1))
 
-        return bisect.bisect_left(self.prefix, index)
+        return left_bisect(self.prefix, index)
 
 
 
