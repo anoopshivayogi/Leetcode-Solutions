@@ -150,3 +150,4 @@ class Solution:
 
 
         
+        # NOTE: Class variable is not thread safe; The above answer is better !!
