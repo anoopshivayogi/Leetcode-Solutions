@@ -73,12 +73,10 @@ class Solution:
         # res = 27
 
 
-        # Re-do for the interview
-        # Time - 
-        # Space - 
-
-
-        print(nestedList)
+        # Re-do for the interview - Using stack iterative method
+        # if N is the depth of the nestedList then;
+        # Time - O(n) - Each depth will be nestedList and will be visited once and so are all of its elements
+        # Space - O(n) - At one point the stack will have the depth number of items
 
 
         st = [(item, 1) for item in nestedList]
