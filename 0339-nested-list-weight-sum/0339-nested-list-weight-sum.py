@@ -104,8 +104,8 @@ class Solution:
         res = 0
 
         while q:
-            for _ in range(len(q)):
 
+            for _ in range(len(q)):
                 cur = q.popleft()
 
                 if cur.isInteger():
