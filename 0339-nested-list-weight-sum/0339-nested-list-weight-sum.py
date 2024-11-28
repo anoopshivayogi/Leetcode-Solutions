@@ -99,7 +99,6 @@ class Solution:
         # Time - O(N)
         # Space - O(N)
 
-
         q = collections.deque(nestedList)
         depth = 1
         res = 0
