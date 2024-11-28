@@ -85,8 +85,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(n) or height of the tree
 
 
         # res = 0
@@ -109,8 +109,9 @@ class Solution:
         # return dfs(root)
 
 
-
-
+        # Re-do for the interview - Using BST properties
+        # Time - 
+        # Space - 
 
 
         def dfs(node):
