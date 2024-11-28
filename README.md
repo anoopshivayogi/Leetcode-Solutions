@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
+| [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
 | [1046-max-consecutive-ones-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -72,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0529-minesweeper](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0529-minesweeper) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1046-max-consecutive-ones-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
@@ -225,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [1046-max-consecutive-ones-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1694-make-sum-divisible-by-p](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -297,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0371-sum-of-two-integers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1146-greatest-common-divisor-of-strings) |
 | [2383-add-two-integers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2383-add-two-integers) |
 ## Stack
@@ -341,6 +345,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 ## Quickselect
 |  |
 | ------- |
