@@ -114,23 +114,39 @@ class Solution:
         # Space - 
 
 
+        # def dfs(node):
+
+        #     if not node:
+        #         return
+
+        #     if low <= node.val <= high:
+        #         self.res += node.val
+        #         dfs(node.left)
+        #         dfs(node.right)
+        #     else:
+        #         if node.val <= low:
+        #             dfs(node.right)
+        #         elif node.val >= high:
+        #             dfs(node.left)
+
+        # dfs(root)
+        # return self.res
+
+
         def dfs(node):
 
             if not node:
-                return
+                return 0
 
-            if low <= node.val <= high:
-                self.res += node.val
-                dfs(node.left)
-                dfs(node.right)
-            else:
-                if node.val <= low:
-                    dfs(node.right)
-                elif node.val >= high:
-                    dfs(node.left)
+            if node.val < low:
+                return dfs(node.right)
 
-        dfs(root)
-        return self.res
+            elif node.val > high:
+                return dfs(node.left)
+
+            return node.val + dfs(node.left) + dfs(node.right)
+
+        return dfs(root)
 
 
         
