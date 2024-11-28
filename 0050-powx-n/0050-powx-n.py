@@ -62,9 +62,13 @@ class Solution:
         #     return 1 / recursive(abs(n))
 
 
-# [recursive(10), recursive(5), recursive(2), recursive(1)]
+# [recursive(10), recursive(5), recursive(2), recursive(1), recursive(0)]
 #  res = 2 * 2 * (4 * 2) * 2 == 32 * 32 finally will be equal to 1024
 
+
+        # Re-do for the interview
+        # Time - O(logn)
+        # Space - O(logn)
 
         def recursive(n):
 
