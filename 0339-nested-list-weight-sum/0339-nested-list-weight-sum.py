@@ -96,8 +96,9 @@ class Solution:
 
 
         # Re-Do BFS style
-        # Time - O(N)
-        # Space - O(N)
+        # Time - O(N) - Each nestedList is put into queue and removed from the queue exactly once
+        # Space - O(N) - Flat layer - worst case scenario where most of the elements is in single layer then we put all these elements into the queue at the same time
+        # for example: q = [1, 2, 3, 4, 5]
 
         q = collections.deque(nestedList)
         depth = 1
