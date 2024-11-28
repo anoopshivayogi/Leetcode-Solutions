@@ -172,7 +172,7 @@ class Solution:
                 if arr[mid] < target:
                     l = mid + 1
                 else:
-                    r = mid - 1
+                    r = mid - 1  # Last move will be r; so we will select the l instead as our correct answer
 
             return l
         
