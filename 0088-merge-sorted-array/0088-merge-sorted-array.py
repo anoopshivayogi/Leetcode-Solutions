@@ -123,14 +123,15 @@ class Solution:
 
 
         # Re-do Interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
 
-        # nums1 = [1,2,2,3,5,6] ; m = 3
-            #      i
-        # nums2 = [2,5,6] ; n = 3
-            #      j
+        # nums1 = [1, 2, 2, 3, 5, 6] ; m = 3
+            #   i               
+            #   k
+        # nums2 = [2, 5, 6] ; n = 3
+            #   j
 
 
         i, j, k = m - 1, n - 1, (m + n - 1)
@@ -158,11 +159,6 @@ class Solution:
                     nums1[k] = nums2[j]
                     j -= 1
                     k -= 1
-
-            
-
-
-        
 
         
 
