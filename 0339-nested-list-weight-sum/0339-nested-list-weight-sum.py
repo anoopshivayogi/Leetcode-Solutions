@@ -79,17 +79,40 @@ class Solution:
         # Space - O(n) - At one point the stack will have the depth number of items
 
 
-        st = [(item, 1) for item in nestedList]
+        # st = [(item, 1) for item in nestedList]
+        # res = 0
+
+        # while st:
+
+        #     cur, depth = st.pop()
+
+        #     if cur.isInteger():
+        #         res += cur.getInteger() * depth
+        #     else:
+        #         for item in cur.getList():
+        #             st.append((item, depth + 1))
+
+        # return res
+
+
+        # BFS style
+        # Time - 
+        # Space - 
+
+
+        q = collections.deque(nestedList)
+        depth = 1
         res = 0
 
-        while st:
+        while q:
+            for _ in range(len(q)):
 
-            cur, depth = st.pop()
+                cur = q.popleft()
 
-            if cur.isInteger():
-                res += cur.getInteger() * depth
-            else:
-                for item in cur.getList():
-                    st.append((item, depth + 1))
+                if cur.isInteger():
+                    res += (cur.getInteger() * depth)
+                else:
+                    q.extend(cur.getList())
+            depth += 1
 
         return res
