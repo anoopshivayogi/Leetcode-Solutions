@@ -27,6 +27,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0162-find-peak-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0162-find-peak-element) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
@@ -61,6 +62,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0066-plus-one) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
+| [0162-find-peak-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0163-missing-ranges) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
