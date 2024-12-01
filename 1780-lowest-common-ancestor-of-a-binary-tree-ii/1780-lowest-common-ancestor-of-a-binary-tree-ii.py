@@ -65,7 +65,45 @@ class Solution:
         # Space - O(n)
         # https://www.youtube.com/watch?v=7csj-Elpmmo
 
+        # p_found, q_found = False, False
+
+        # def dfs(node):
+        #     nonlocal p_found
+        #     nonlocal q_found
+
+        #     if not node:
+        #         return None
+
+        #     left = dfs(node.left)
+        #     right = dfs(node.right)
+
+        #     if node.val in (p.val, q.val):
+        #         if node.val == p.val:
+        #             p_found = True
+                
+        #         if node.val == q.val:
+        #             q_found = True
+
+        #         return node
+
+        #     if left and right:
+        #         return node
+        #     else:
+        #         return left or right
+
+        # ans = dfs(root)
+        # return ans if p_found and q_found else None
+
+
+
+
+
+        # Re-do for the interview 
+        # Time - 
+        # Space - 
+
         p_found, q_found = False, False
+
 
         def dfs(node):
             nonlocal p_found
@@ -74,16 +112,16 @@ class Solution:
             if not node:
                 return None
 
+            if node.val == p.val:
+                p_found = True
+
+            if node.val == q.val:
+                q_found = True
+
             left = dfs(node.left)
             right = dfs(node.right)
 
-            if node.val in (p.val, q.val):
-                if node.val == p.val:
-                    p_found = True
-                
-                if node.val == q.val:
-                    q_found = True
-
+            if node.val == p.val or node.val == q.val:
                 return node
 
             if left and right:
@@ -91,5 +129,9 @@ class Solution:
             else:
                 return left or right
 
+
         ans = dfs(root)
+
         return ans if p_found and q_found else None
+
+            
