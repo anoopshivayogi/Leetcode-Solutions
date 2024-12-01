@@ -59,10 +59,10 @@ class Solution:
 
 
         # Re-do again for the interview
-        # Time - 
-        # Space -
+        # Time - O(N) - You'll traverse all the nodes of the tree
+        # Space - O(N) - If one of the layer contains most of the elements in the tree
 
-        if not root:
+        if not root:  # NOTE: Very important base condition for [Breadth first search methods]
             return []
 
         q = collections.deque()
