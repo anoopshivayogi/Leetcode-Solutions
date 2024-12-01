@@ -62,6 +62,8 @@ class Solution:
         # Time - O(N) - You'll traverse all the nodes of the tree
         # Space - O(N) - If one of the layer contains most of the elements in the tree
 
+        # NOTE: Space complexity -- O(D) to keep the queues, where D is a tree diameter. Let's use the last level to estimate the queue size. This level could contain up to N/2 tree nodes in the case of complete binary tree.
+
         if not root:  # NOTE: Very important base condition for [Breadth first search methods]
             return []
 
