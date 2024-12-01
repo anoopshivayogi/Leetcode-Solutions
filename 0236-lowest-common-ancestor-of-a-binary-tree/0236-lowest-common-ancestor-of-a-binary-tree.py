@@ -87,19 +87,21 @@ class Solution:
 
 
 
-        def dfs(root):
-            if not root:
-                return 0
+        def dfs(node):
 
-            if root.val == p.val or root.val == q.val:
-                return root
+            if not node:
+                return None
 
-            left = dfs(root.left)
-            right = dfs(root.right)
+            if node.val == p.val or node.val == q.val:
+                return node
+
+            left = dfs(node.left)
+            right = dfs(node.right)
 
             if left and right:
-                return root
-
-            return left or right
+                return node
+            else:
+                return left or right
 
         return dfs(root)
+            
