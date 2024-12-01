@@ -99,8 +99,8 @@ class Solution:
 
 
         # Re-do for the interview 
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(n)
 
         p_found, q_found = False, False
 
@@ -121,6 +121,7 @@ class Solution:
             left = dfs(node.left)
             right = dfs(node.right)
 
+            # NOTE: Make sure this final return is after all the explorations above
             if node.val == p.val or node.val == q.val:
                 return node
 
