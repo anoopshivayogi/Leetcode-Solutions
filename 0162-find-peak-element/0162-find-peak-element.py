@@ -82,4 +82,26 @@ class Solution:
             else:
                 return mid
 
+        # Tracing 
+        # Case 1 : Peak is in the middle case ; peak = 5
+        #   0. 1. 2. 3  4  5. 6
+        #  [1, 2, 1, 3, 5, 6, 4]
+        #               l 
+        #                     r
+        #                  m
         
+
+        # Case 2: Peak is at the end ; peak = 4
+        #   0  1. 2. 3. 4
+        #  [5, 1, 2, 3, 4]
+        #               l          
+        #               r
+        #               m
+
+        
+        # Case 3: Peak is at the beginning; peak = 5
+        #   0  1. 2. 3. 4
+        #  [5, 3, 2, 1, 4]
+        #   l
+        #      r
+        #   m
