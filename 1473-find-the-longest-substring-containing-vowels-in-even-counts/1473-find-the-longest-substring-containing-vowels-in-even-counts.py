@@ -55,8 +55,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(n)
 
 
         vowel_dict = {"a": 1, "e": 2, "i": 4, "o": 8, "u": 16}
