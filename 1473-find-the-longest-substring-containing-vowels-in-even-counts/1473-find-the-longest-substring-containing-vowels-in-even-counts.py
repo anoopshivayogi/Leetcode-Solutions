@@ -34,24 +34,47 @@ class Solution:
         # Space - O(1)
 
 
+        # vowel_dict = {"a": 1, "e": 2, "i": 4, "o": 8, "u": 16}
+        # mapping = collections.defaultdict(int, vowel_dict)
+        # mask_to_idx = [-2] * 32   # Maximum 32 possible states
+
+        # mask_to_idx[0] = -1  # Because the math works out this way
+        # mask = 0
+        # res = 0
+
+        # for idx, ch in enumerate(s):
+            
+        #     mask ^= mapping[ch]
+
+        #     if mask_to_idx[mask] != -2:
+        #         res = max(res, idx - mask_to_idx[mask])
+        #     else:
+        #         mask_to_idx[mask] = idx
+
+        # return res
+
+
+        # Re-do for the interview
+        # Time - 
+        # Space - 
+
+
         vowel_dict = {"a": 1, "e": 2, "i": 4, "o": 8, "u": 16}
         mapping = collections.defaultdict(int, vowel_dict)
-        mask_to_idx = [-2] * 32   # Maximum 32 possible states
-
-        mask_to_idx[0] = -1  # Because the math works out this way
         mask = 0
+        mask_to_idx = {0: -1} # Zero can be seen below 0th index; below zero index is -1
         res = 0
 
         for idx, ch in enumerate(s):
-            
             mask ^= mapping[ch]
 
-            if mask_to_idx[mask] != -2:
+            if mask in mask_to_idx:
                 res = max(res, idx - mask_to_idx[mask])
             else:
                 mask_to_idx[mask] = idx
 
         return res
+            
 
 
         # NOTE: Similar problem : 
