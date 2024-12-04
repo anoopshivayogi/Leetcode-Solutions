@@ -5,32 +5,47 @@ class Solution:
         # Time - O(n)
         # Space - O(n)
 
-        st = [] 
+        # NOTE: edge conditions: What about the value 0 for the asteriods ?
+        #       Will it be considered positive or negative ?
 
-        for a in asteroids:
-            st.append(a)
+        # st = [] 
 
-            while len(st) >= 2 and st[-1] < 0 and st[-2] >= 0:
-                a1 = st.pop()
-                a2 = st.pop()
+        # for a in asteroids:
+        #     st.append(a)
 
-                if abs(a1) == a2:
-                    continue
-                else:
-                    if abs(a1) > a2:
-                        st.append(a1)
-                    else:
-                        st.append(a2)
-        return st
+        #     while len(st) >= 2 and st[-1] < 0 and st[-2] >= 0:
+        #         a1 = st.pop()
+        #         a2 = st.pop()
+
+        #         if abs(a1) == a2:
+        #             continue
+        #         else:
+        #             if abs(a1) > a2:
+        #                 st.append(a1)
+        #             else:
+        #                 st.append(a2)
+        # return st
 
 
         # Re-do for the interview
         # Time - 
         # Space -
 
-        # st = []
+        st = []
 
-        # for num in asteroids:
-        #     st.append(num)
+        for num in asteroids:
+            st.append(num)
 
-        #     while len(st) >= 2 and (num[-1] <= 0  
+            while len(st) >= 2 and st[-2] >= 0 and st[-1] < 0:
+                a1 = st.pop()
+                a2 = st.pop()
+
+                if abs(a1) == abs(a2):
+                    continue
+                else:
+                    if abs(a1) > a2:
+                        st.append(a1)
+                    else:
+                        st.append(a2)
+
+        return st
