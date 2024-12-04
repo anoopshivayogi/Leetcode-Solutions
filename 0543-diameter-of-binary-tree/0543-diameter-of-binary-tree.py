@@ -114,7 +114,7 @@ class Solution:
 
         # Re-do for the interview 
         # Time - O(n)
-        # Space - O(1)
+        # Space - O(logn) in beest case and O(n) - In case of skewed worst case
 
         res = 0
 
