@@ -14,33 +14,62 @@ class Solution:
         # Time - O(N)
         # Space - O(N)
 
-        from collections import defaultdict
+        # from collections import defaultdict
 
-        res = 0
-        prefixes = defaultdict(int)
+        # res = 0
+        # prefixes = defaultdict(int)
+        # prefixes[0] = 1
+
+        # def dfs(root, total):
+        #     nonlocal res
+        #     if not root:
+        #         return
+
+        #     total += root.val
+
+        #     if total - targetSum in prefixes:
+        #         res += prefixes[total - targetSum]
+
+        #     prefixes[total] += 1
+
+        #     dfs(root.left, total)
+        #     dfs(root.right, total)
+
+        #     prefixes[total] -= 1  # NOTE: THIS IS VERY VERY IMPORTANT
+
+        # dfs(root, 0)
+
+        # return res
+
+
+        # Re-do for the interview
+        # Time - 
+        # Space - 
+        
+        prefixes = collections.defaultdict(int)
         prefixes[0] = 1
+        res = 0
 
-        def dfs(root, total):
+        def dfs(node, total):
             nonlocal res
-            if not root:
-                return
+            if not node:
+                return None
 
-            total += root.val
+            total += node.val
 
             if total - targetSum in prefixes:
                 res += prefixes[total - targetSum]
 
             prefixes[total] += 1
 
-            dfs(root.left, total)
-            dfs(root.right, total)
+            dfs(node.left, total)
+            dfs(node.right, total)
 
-            prefixes[total] -= 1  # NOTE: THIS IS VERY VERY IMPORTANT
+            prefixes[total] -= 1
 
         dfs(root, 0)
 
         return res
-
 
         # NOTE: Similar problem : 
 
