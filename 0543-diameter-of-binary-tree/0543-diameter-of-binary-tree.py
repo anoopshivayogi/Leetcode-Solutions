@@ -116,21 +116,54 @@ class Solution:
         # Time - O(n)
         # Space - O(logn) in beest case and O(n) - In case of skewed worst case
 
+        # res = 0
+
+        # def dfs(node):
+        #     nonlocal res
+
+        #     if not node:
+        #         return 0
+
+        #     left = dfs(node.left)
+        #     right = dfs(node.right)
+
+        #     res = max(res, left + right)
+
+        #     return 1 + max(left, right)
+
+        # dfs(root)
+
+        # return res
+
+
+        # Follow-up: print the path of the diameter?
+        # Time - 
+        # Space - 
+
+
         res = 0
+        res_path = []
 
         def dfs(node):
-            nonlocal res
+            nonlocal res, res_path
 
             if not node:
-                return 0
+                return 0, []
 
-            left = dfs(node.left)
-            right = dfs(node.right)
+            left, left_path = dfs(node.left)
+            right, right_path = dfs(node.right)
 
-            res = max(res, left + right)
+            if left + right > res:
+                res = left + right
+                res_path = left_path + [node.val] + right_path
 
-            return 1 + max(left, right)
+            if left > right:
+                return (1 + left, left_path + [node.val])
+            else:
+                return (1 + right, right_path + [node.val])
 
         dfs(root)
+
+        print(res_path)
 
         return res
