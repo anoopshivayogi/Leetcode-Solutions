@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
+| [0543-diameter-of-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
@@ -48,6 +49,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
+| [0543-diameter-of-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
@@ -145,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0490-the-maze](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0490-the-maze) |
 | [0529-minesweeper](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0529-minesweeper) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
+| [0543-diameter-of-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
