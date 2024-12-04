@@ -9,6 +9,7 @@ class Solution:
         
 
         # Solution 1 - Split at only one point which should be the max point
+        # https://www.youtube.com/watch?v=Hr5cWUld4vU
         # Time - O(n)
         # Space - O(n)
 
