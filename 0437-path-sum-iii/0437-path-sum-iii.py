@@ -43,8 +43,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(n)
         
         prefixes = collections.defaultdict(int)
         prefixes[0] = 1
