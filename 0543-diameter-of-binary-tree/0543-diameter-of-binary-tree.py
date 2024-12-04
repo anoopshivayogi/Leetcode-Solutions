@@ -163,7 +163,16 @@ class Solution:
                 return (1 + right, right_path + [node.val])
 
         dfs(root)
-
         print(res_path)
-
         return res
+
+        # NOTE: Follow up hard question - https://leetcode.com/problems/binary-tree-maximum-path-sum/
+
+
+        # Tracing
+
+        # [dfs(1), dfs(2), dfs(5)]
+        # left return - 1
+        # right return - 1
+        # function return - 2
+        # res = 2
