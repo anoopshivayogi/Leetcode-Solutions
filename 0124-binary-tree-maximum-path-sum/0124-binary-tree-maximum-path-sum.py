@@ -8,9 +8,9 @@ class Solution:
     def maxPathSum(self, root: Optional[TreeNode]) -> int:
         
 
-        # Solution 1 - 
-        # Time - 
-        # Space - 
+        # Solution 1 - Split at only one point which should be the max point
+        # Time - O(n)
+        # Space - O(n)
 
         res = root.val
 
