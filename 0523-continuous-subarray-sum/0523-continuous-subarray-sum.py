@@ -29,8 +29,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(n)
 
         seen = {0: -1}
         cur_total = 0
