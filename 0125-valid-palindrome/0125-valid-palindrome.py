@@ -115,8 +115,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         l, r = 0, len(s) - 1
 
