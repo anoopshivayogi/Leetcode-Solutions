@@ -13,6 +13,9 @@ class Solution:
         # Time - O(n)
         # Space - O(n)
 
+        # NOTE: this problem is similar to kadane's algorithm
+        # https://leetcode.com/problems/maximum-subarray/description/
+
         res = root.val
 
         # Without split
