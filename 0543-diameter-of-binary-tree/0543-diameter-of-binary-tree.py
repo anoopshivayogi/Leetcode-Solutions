@@ -113,8 +113,8 @@ class Solution:
 
 
         # Re-do for the interview 
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         res = 0
 
