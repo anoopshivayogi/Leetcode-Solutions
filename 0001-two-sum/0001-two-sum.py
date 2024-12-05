@@ -169,35 +169,35 @@ class Solution:
         # Time - O(n)
         # Space - O(n)
 
-        # seen = {}
+        seen = {}
 
-        # for idx, num in enumerate(nums):
+        for idx, num in enumerate(nums):
 
-        #     if target - num in seen:
-        #         return [idx, seen[target - num]]
+            if target - num in seen:
+                return [idx, seen[target - num]]
 
-        #     seen[num] = idx
+            seen[num] = idx
 
-        # return [-1, -1]
+        return [-1, -1]
 
         # Solution 2 - sorting and looking it up
         # Time - O(logn)
         # Space - O(1)
 
-        for idx in range(len(nums)):
-            nums[idx] = (nums[idx], idx)
+        # for idx in range(len(nums)):
+        #     nums[idx] = (nums[idx], idx)
 
-        nums.sort()
-        l, r = 0, len(nums) - 1
+        # nums.sort()
+        # l, r = 0, len(nums) - 1
 
-        while l < r:
+        # while l < r:
 
-            if nums[l][0] + nums[r][0] == target:
-                return [nums[l][1], nums[r][1]]
+        #     if nums[l][0] + nums[r][0] == target:
+        #         return [nums[l][1], nums[r][1]]
 
-            if nums[l][0] + nums[r][0] < target:
-                l += 1
-            else:
-                r -= 1
+        #     if nums[l][0] + nums[r][0] < target:
+        #         l += 1
+        #     else:
+        #         r -= 1
 
-        return [-1, -1]
+        # return [-1, -1]
