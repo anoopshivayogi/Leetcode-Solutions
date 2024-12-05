@@ -188,10 +188,7 @@ class SparseVector:
             while l <= r:
                 mid = (l + r) // 2
 
-                print(mid)
-
                 if idx == vec.nums[mid][0]:
-                    print("hi", idx, vec.nums[mid])
                     res += vec.nums[mid][1] * num
                     break
                 elif idx < vec.nums[mid][0]:
