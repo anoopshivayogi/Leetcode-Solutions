@@ -18,6 +18,7 @@ class SparseVector:
         #         self.nums1[idx] = n
 
 
+        # NOTE: Follow-up : What if the hashing isn't efficient and I want to use array instead
         # Solution 3 - Using index-value pairs
         # Time - O(n) + O(L1 + L2) = O(n)
         # Space - O(L1 + L2)
@@ -36,6 +37,9 @@ class SparseVector:
         # to find if the particular index exists or not. 
 
         # Re-do for the interview
+        # Solution 1 - using hashmap to store non zero elements
+        # Time - O(L1 + L2) where L1 and L2 are non-zero elements in the num1 and nums2
+        # Space - O(L1 + L2)
         self.nums = {}
 
         for idx, num in enumerate(nums):
