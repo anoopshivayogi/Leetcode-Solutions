@@ -77,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0523-continuous-subarray-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
@@ -234,6 +236,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0148-sort-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0148-sort-list) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
 | ------- |
@@ -242,6 +245,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0295-find-median-from-data-stream](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -303,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0215-kth-largest-element-in-an-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0239-sliding-window-maximum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -354,6 +359,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 ## String Matching
 |  |
@@ -393,6 +399,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
+| [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -401,4 +408,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0146-lru-cache) |
+## Bucket Sort
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
