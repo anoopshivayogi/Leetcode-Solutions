@@ -54,8 +54,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n) ; n is the character count in s
+        # Space - O(26) = O(1) if we do not count the space for the resultant variable
 
 
         s_freq = collections.Counter(s)
@@ -70,3 +70,16 @@ class Solution:
             res += k * v
 
         return res
+
+
+        # For example:
+
+        # order: "ab"
+        # s: "acbbadbba"
+        # Output: "aaabbbbcd"
+
+        # Tracing : 
+
+        # s_freq = {a: 3, c: 1, b: 4, d: 1}
+        # res = aaabbbbcd
+
