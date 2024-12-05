@@ -108,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0037-sudoku-solver](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
+| [0146-lru-cache](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0146-lru-cache) |
 | [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0325-maximum-size-subarray-sum-equals-k) |
@@ -203,6 +204,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0116-populating-next-right-pointers-in-each-node](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0116-populating-next-right-pointers-in-each-node) |
+| [0146-lru-cache](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0148-sort-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
@@ -308,6 +310,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0146-lru-cache) |
 | [0295-find-median-from-data-stream](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -394,4 +397,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1909-buildings-with-an-ocean-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1909-buildings-with-an-ocean-view) |
+## Doubly-Linked List
+|  |
+| ------- |
+| [0146-lru-cache](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0146-lru-cache) |
 <!---LeetCode Topics End-->
