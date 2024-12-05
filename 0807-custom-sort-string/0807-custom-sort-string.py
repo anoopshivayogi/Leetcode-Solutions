@@ -83,13 +83,10 @@ class Solution:
 
         res = ''
 
-        print(s_freq)
-
         for c in order:
             if s_freq[ord(c) - ord('a')] >= 0:
                 res += c * s_freq[ord(c) - ord('a') ]
             s_freq[ord(c) - ord('a')] = 0
-
 
 
         for i in range(len(s_freq)):
