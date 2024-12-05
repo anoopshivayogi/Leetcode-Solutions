@@ -40,20 +40,22 @@ class SparseVector:
         # Solution 1 - using hashmap to store non zero elements
         # Time - O(L1 + L2) where L1 and L2 are non-zero elements in the num1 and nums2
         # Space - O(L1 + L2)
-        # self.nums = {}
 
-        # for idx, num in enumerate(nums):
-        #     self.nums[idx] = num
+        self.nums = {}
+
+        for idx, num in enumerate(nums):
+            if num != 0:
+                self.nums[idx] = num
 
         # Solution 2 - Using index-value pair
         # Time - O(L1 + L2)
         # Space - O(L1 + L2)
 
-        self.nums = []
+        # self.nums = []
 
-        for idx, num in enumerate(nums):
-            if num != 0:
-                self.nums.append((idx, num))
+        # for idx, num in enumerate(nums):
+        #     if num != 0:
+        #         self.nums.append((idx, num))
 
         # Solution 3 - Followup what if one of the vector is sparse
         # Time - O(l1 + log(l2))
@@ -133,40 +135,40 @@ class SparseVector:
         # Time - O(L1 + L2)
         # Space - O(L1 + L2)
 
-        # res = 0
+        res = 0
 
-        # # Always self.nums will be the smallest
-        # if len(self.nums) > len(vec.nums):
-        #     self.nums, vec.nums = vec.nums, self.nums
+        # Always self.nums will be the smallest
+        if len(self.nums) > len(vec.nums):
+            self.nums, vec.nums = vec.nums, self.nums
 
-        # for k, v in self.nums.items():
-        #     if k in vec.nums:
-        #         res += (v * vec.nums[k])
-        
-        # return res
+        for k, v in self.nums.items():
+            if k in vec.nums:
+                res += (v * vec.nums[k])
+
+        return res
 
 
         # Solution 2 - using (index, num) pair
         # Time - same 
         # Space - same
 
-        i, j = 0, 0
-        res = 0
+        # i, j = 0, 0
+        # res = 0
 
-        while i < len(self.nums) and j < len(vec.nums):
-            i_idx, i_num = self.nums[i]
-            j_idx, j_num = vec.nums[j]
+        # while i < len(self.nums) and j < len(vec.nums):
+        #     i_idx, i_num = self.nums[i]
+        #     j_idx, j_num = vec.nums[j]
 
-            if i_idx == j_idx:
-                res += i_num * j_num
-                i += 1
-                j += 1
-            elif i_idx > j_idx:
-                j += 1
-            else:
-                i += 1
+        #     if i_idx == j_idx:
+        #         res += i_num * j_num
+        #         i += 1
+        #         j += 1
+        #     elif i_idx > j_idx:
+        #         j += 1
+        #     else:
+        #         i += 1
 
-        return res
+        # return res
 
         # Solution 3 - Followup what if one of the vector is sparse
         # Time - O(l1 + log(l2))
