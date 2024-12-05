@@ -33,8 +33,8 @@ class Solution:
 
         # NOTE: Followup : you can only iterate from the left
         # Solution 2 - Using monotonic stack
-        # Time - 
-        # Space -  
+        # Time - O(n)
+        # Space - O(1) if we don't count the output else O(n)
 
         # st = [4, 3, 1]
 
