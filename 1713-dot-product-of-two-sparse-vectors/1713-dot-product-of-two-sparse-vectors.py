@@ -177,10 +177,6 @@ class SparseVector:
 
         res = 0
 
-        print(self.nums)
-        print(vec.nums)
-
-
         for item in self.nums:
             l, r = 0, len(vec.nums) - 1
             idx, num = item
