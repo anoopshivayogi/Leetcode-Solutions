@@ -95,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
+| [1909-buildings-with-an-ocean-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1909-buildings-with-an-ocean-view) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2211-k-radius-subarray-averages](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2211-k-radius-subarray-averages) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -340,6 +341,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0735-asteroid-collision](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0735-asteroid-collision) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1909-buildings-with-an-ocean-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1909-buildings-with-an-ocean-view) |
 ## Counting
 |  |
 | ------- |
@@ -382,4 +384,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1909-buildings-with-an-ocean-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1909-buildings-with-an-ocean-view) |
 <!---LeetCode Topics End-->
