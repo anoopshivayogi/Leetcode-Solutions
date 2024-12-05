@@ -52,7 +52,8 @@ class SparseVector:
         self.nums = []
 
         for idx, num in enumerate(nums):
-            self.nums.append((idx, num))
+            if num != 0:
+                self.nums.append((idx, num))
 
         # Solution 3 - Followup what if one of the vector is sparse
         # Time - O(l1 + log(l2))
