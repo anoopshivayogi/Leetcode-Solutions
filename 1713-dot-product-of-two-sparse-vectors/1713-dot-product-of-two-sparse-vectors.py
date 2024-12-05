@@ -49,11 +49,20 @@ class SparseVector:
         # Time - O(L1 + L2)
         # Space - O(L1 + L2)
 
+        # self.nums = []
+
+        # for idx, num in enumerate(nums):
+        #     self.nums.append((idx, num))
+
+        # Solution 3 - Followup what if one of the vector is sparse
+        # Time - O(l1 + log(l2))
+        # Space - O(l1 + l2)
+
         self.nums = []
 
         for idx, num in enumerate(nums):
-            self.nums.append((idx, num))
-
+            if num != 0:
+                self.nums.append((idx, num))
 
 
     # Return the dotProduct of two sparse vectors
@@ -136,28 +145,61 @@ class SparseVector:
         # return res
 
 
-        # Solution 2 
-        # Time - 
-        # Space - 
+        # Solution 2 - using (index, num) pair
+        # Time - same 
+        # Space - same
 
-        i, j = 0, 0
+        # i, j = 0, 0
+        # res = 0
+
+        # while i < len(self.nums) and j < len(vec.nums):
+        #     i_idx, i_num = self.nums[i]
+        #     j_idx, j_num = vec.nums[j]
+
+        #     if i_idx == j_idx:
+        #         res += i_num * j_num
+        #         i += 1
+        #         j += 1
+        #     elif i_idx > j_idx:
+        #         j += 1
+        #     else:
+        #         i += 1
+
+        # return res
+
+        # Solution 3 - Followup what if one of the vector is sparse
+        # Time - O(l1 + log(l2))
+        # Space - O(l1 + l2)
+
+        # Always self.nums will be the smallest
+        if len(self.nums) > len(vec.nums):
+            self.nums, vec.nums = vec.nums, self.nums
+
         res = 0
 
-        while i < len(self.nums) and j < len(vec.nums):
-            i_idx, i_num = self.nums[i]
-            j_idx, j_num = vec.nums[j]
+        print(self.nums)
+        print(vec.nums)
 
-            if i_idx == j_idx:
-                res += i_num * j_num
-                i += 1
-                j += 1
-            elif i_idx > j_idx:
-                j += 1
-            else:
-                i += 1
+
+        for item in self.nums:
+            l, r = 0, len(vec.nums) - 1
+            idx, num = item
+
+            while l <= r:
+                mid = (l + r) // 2
+
+                print(mid)
+
+                if idx == vec.nums[mid][0]:
+                    print("hi", idx, vec.nums[mid])
+                    res += vec.nums[mid][1] * num
+                    break
+                elif idx < vec.nums[mid][0]:
+                    r = mid - 1
+                else:
+                    l = mid + 1
 
         return res
-
 
 # Your SparseVector object will be instantiated and called as such:
 # v1 = SparseVector(nums1)
