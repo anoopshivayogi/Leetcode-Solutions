@@ -44,7 +44,7 @@ class Solution:
         # Time - O(n)
         # Space - O(logn) or height of the tree in case of balanced or O(n) in skewed worst case
 
-        if not root:
+        if not root:  # NOTE: Very important
             return None
 
         self.first, self.last = None, None
