@@ -36,8 +36,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(m*n)
+        # Space - O(m*n)
 
      
 
