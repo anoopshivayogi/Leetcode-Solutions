@@ -49,7 +49,9 @@ class Solution:
 
         q = collections.deque()
         q.append((0, 0, 1)) # row, col, path
-        grid[0][0] = 1
+        visit = set()
+        # grid[0][0] = 1
+        visit.add((0, 0))
 
         def bfs():
 
@@ -62,8 +64,9 @@ class Solution:
                 for inc_r, inc_c in directions:
                     new_r, new_c = cur_r + inc_r, cur_c + inc_c
 
-                    if 0 <= new_r < ROWS and 0 <= new_c < COLS and grid[new_r][new_c] == 0:
-                        grid[new_r][new_c] = 1
+                    if (new_r, new_c) not in visit and 0 <= new_r < ROWS and 0 <= new_c < COLS and grid[new_r][new_c] == 0:
+                        # grid[new_r][new_c] = 1
+                        visit.add((new_r, new_c))
                         q.append((new_r, new_c, path + 1))
 
             return -1 # NOTE: IMPP!!!
