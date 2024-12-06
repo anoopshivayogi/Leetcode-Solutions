@@ -122,14 +122,14 @@ class Solution:
         # Time - O(n)
         # Space - O(1)
 
-        prev, cur, res = 0, 0, 0
+        prev, res = 0, 0
         cur_op = "+"
         i = 0
 
         while i < len(s):
 
             if s[i].isdigit():
-
+                cur = 0
                 while i < len(s) and s[i].isdigit():
                     cur = cur * 10 + int(s[i])
                     i += 1
@@ -158,6 +158,5 @@ class Solution:
                 cur_op = s[i]
 
             i += 1
-            cur = 0
     
         return res
