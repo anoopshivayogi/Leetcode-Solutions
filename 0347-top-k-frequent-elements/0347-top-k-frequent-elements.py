@@ -232,21 +232,53 @@ class Solution:
         # return []
 
 
-        
-        res = []
-        buckets = [[] for _ in range(len(nums) + 1)]
+
+        # res = []
+        # buckets = [[] for _ in range(len(nums) + 1)]
+
+        # freq = collections.Counter(nums)
+
+        # for key, val in freq.items():
+        #     buckets[val].append(key)
+
+        # for i in range(len(buckets) - 1, -1, -1):
+        #     for ele in buckets[i]:
+        #         res.append(ele)
+
+        #         if len(res) == k:
+        #             return res
+        # return []
+
+        # Solution 3 - Quick Select solution
+        # Time - O(n^2) at worst and O(n) on average reduced from  O(n log n)[Quick Sort]
+        # Space - O(logn)
+
+        def partition(arr, l, r):
+            i = l
+            pivot = arr[r][1]
+
+            for j in range(l, r):
+                if arr[j][1] <= pivot:
+                    arr[i], arr[j] = arr[j], arr[i]
+                    i += 1
+
+            arr[i], arr[r] = arr[r], arr[i]
+            return i # Return pivot's index
+
+
+        def quick_select(arr, l, r, k):
+            pivot_idx = partition(arr, l, r)
+
+            if pivot_idx == k:
+                return arr[k:]
+            elif pivot_idx > k:
+                return quick_select(arr, l, pivot_idx - 1, k)
+            else:
+                return quick_select(arr, pivot_idx + 1, r, k)
+
 
         freq = collections.Counter(nums)
-
-
-        for key, val in freq.items():
-            buckets[val].append(key)
-
-        for i in range(len(buckets) - 1, -1, -1):
-            for ele in buckets[i]:
-                res.append(ele)
-
-                if len(res) == k:
-                    return res
-
-        return []
+        arr = list(freq.items())
+        res = quick_select(arr, 0, len(arr) - 1, len(arr) - k)
+        res = [x[0] for x in res]
+        return res
