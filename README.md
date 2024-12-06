@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0543-diameter-of-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
@@ -34,6 +35,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0162-find-peak-element) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0543-diameter-of-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0543-diameter-of-binary-tree) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0783-search-in-a-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0783-search-in-a-binary-search-tree) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
@@ -175,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0543-diameter-of-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -214,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0146-lru-cache](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0146-lru-cache) |
 | [0148-sort-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0148-sort-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0237-delete-node-in-a-linked-list) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 ## Trie
 |  |
@@ -361,6 +366,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0227-basic-calculator-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0735-asteroid-collision](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0735-asteroid-collision) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1909-buildings-with-an-ocean-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1909-buildings-with-an-ocean-view) |
 ## Counting
@@ -415,6 +421,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0146-lru-cache) |
+| [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 ## Bucket Sort
 |  |
 | ------- |
