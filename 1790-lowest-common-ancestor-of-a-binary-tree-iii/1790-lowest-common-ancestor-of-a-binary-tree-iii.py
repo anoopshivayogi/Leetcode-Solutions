@@ -61,7 +61,7 @@ class Solution:
         # Space - O(1) space 
 
 
-        def distance_from_top(node):
+        def distance_from_top(node): # O(Height)
             count = 0
 
             while node:
@@ -70,8 +70,8 @@ class Solution:
             
             return count
 
-        p_distance = distance_from_top(p)
-        q_distance = distance_from_top(q)
+        p_distance = distance_from_top(p) # O(Height)
+        q_distance = distance_from_top(q) # O(Height)
 
         while p_distance > q_distance:
             p = p.parent
