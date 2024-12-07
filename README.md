@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0270-closest-binary-search-tree-value](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0437-path-sum-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
@@ -35,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0162-find-peak-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0162-find-peak-element) |
+| [0270-closest-binary-search-tree-value](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0270-closest-binary-search-tree-value) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
@@ -54,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0199-binary-tree-right-side-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
+| [0270-closest-binary-search-tree-value](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0437-path-sum-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0437-path-sum-iii) |
 | [0450-delete-node-in-a-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0450-delete-node-in-a-bst) |
@@ -177,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0199-binary-tree-right-side-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0199-binary-tree-right-side-view) |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0236-lowest-common-ancestor-of-a-binary-tree) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
+| [0270-closest-binary-search-tree-value](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0270-closest-binary-search-tree-value) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0339-nested-list-weight-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0339-nested-list-weight-sum) |
 | [0386-lexicographical-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0386-lexicographical-numbers) |
