@@ -58,7 +58,7 @@ class Solution:
 
         # Solution optional - If the explanation for the above is very difficult then you can do this
         # Time - O(n)
-        # Space - O(logn) in best case and O(n) in skewed worst case
+        # Space - O(1) space 
 
 
         def distance_from_top(node):
