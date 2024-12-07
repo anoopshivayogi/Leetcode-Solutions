@@ -62,10 +62,13 @@ class Solution:
 
 
         def distance_from_top(node):
-            if not node:
-                return 0
+            count = 0
 
-            return 1 + distance_from_top(node.parent)
+            while node:
+                count += 1
+                node = node.parent
+            
+            return count
 
         p_distance = distance_from_top(p)
         q_distance = distance_from_top(q)
