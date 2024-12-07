@@ -47,8 +47,8 @@ class Solution:
 
         # return res
 
-        intervals.sort()
 
+        intervals.sort()
         res = [intervals[0]]
 
         for i in range(1, len(intervals)):
