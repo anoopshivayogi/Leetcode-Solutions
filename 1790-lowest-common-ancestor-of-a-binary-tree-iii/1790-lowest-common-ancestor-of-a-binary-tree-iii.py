@@ -47,10 +47,40 @@ class Solution:
         # Time - 
         # Space - 
 
-        p_copy, q_copy = p, q
+        # p_copy, q_copy = p, q
 
-        while p_copy != q_copy:
-            p_copy = p_copy.parent if p_copy else p
-            q_copy = q_copy.parent if q_copy else q
+        # while p_copy != q_copy:
+        #     p_copy = p_copy.parent if p_copy else p
+        #     q_copy = q_copy.parent if q_copy else q
 
-        return p_copy
+        # return p_copy
+
+
+        # Solution optional
+        # Time - 
+        # Space - 
+
+
+        def distance_from_top(node):
+            if not node:
+                return 0
+
+            return 1 + distance_from_top(node.parent)
+
+        
+        p_distance = distance_from_top(p)
+        q_distance = distance_from_top(q)
+
+        while p_distance > q_distance:
+            p = p.parent
+            p_distance -= 1
+
+        while q_distance > p_distance:
+            q = q.parent
+            q_distance -= 1
+
+        while p != q:
+            p = p.parent
+            q = q.parent
+
+        return p
