@@ -56,9 +56,9 @@ class Solution:
         # return p_copy
 
 
-        # Solution optional
-        # Time - 
-        # Space - 
+        # Solution optional - If the explanation for the above is very difficult then you can do this
+        # Time - O(n)
+        # Space - O(n)
 
 
         def distance_from_top(node):
@@ -67,7 +67,6 @@ class Solution:
 
             return 1 + distance_from_top(node.parent)
 
-        
         p_distance = distance_from_top(p)
         q_distance = distance_from_top(q)
 
