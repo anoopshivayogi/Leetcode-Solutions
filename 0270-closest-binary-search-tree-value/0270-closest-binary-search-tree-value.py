@@ -53,7 +53,7 @@ class Solution:
             if cur_diff <= closest:
 
                 if cur_diff == closest:
-                    res = min(res, root.val)
+                    res = min(res, root.val)  # If there are multiple answers; print the smallest.
                 else:
                     res = root.val
                     closest = cur_diff
