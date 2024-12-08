@@ -43,7 +43,7 @@ class Solution:
             mid = (left + right) // 2
             missing_numbers = (arr[mid] - mid - 1)
 
-            if missing_numbers < k:  # Similar to left shift
+            if missing_numbers < k:  # Similar to right bisect because the left will be one over the boundary in the last step.
                 left = mid + 1
             else:
                 right = mid - 1
@@ -51,8 +51,23 @@ class Solution:
         return left + k
 
 
+
+    #  Why left + k?
+
+    # At the end of the binary search:
+    # The array arr contributes left elements (as left is the index just beyond the considered range).
+
+    # This means there are left non-missing numbers contributed by arr up to this point.
+    # The remaining k-th missing number will be located after accounting for these left non-missing numbers.
+
+
         # Tracing :
-
+        #        0. 1. 2. 3. 4.
         # arr = [2, 3, 4, 7, 11], k = 5
+        #                     l           
+        #                     m
+        #                     r
+        # 
+        # missing_numbers = 1
+        
 
-        #       [1, 1, 1, 3, 6]
