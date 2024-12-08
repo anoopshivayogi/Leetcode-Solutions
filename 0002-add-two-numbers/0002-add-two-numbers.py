@@ -107,6 +107,10 @@ class Solution:
         # return res.next
 
 
+        # Re-do for the interview
+        # Time - O(n)
+        # Space - O(1) if we do not count the resultant ll
+
         carry = 0
         res = ListNode(-1)
         curr = res
