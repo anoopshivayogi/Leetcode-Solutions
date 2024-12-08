@@ -26,6 +26,11 @@ class MovingAverage:
         return self.window_sum / len(self.last_n)
 
 
+        # Circular queue
+        # Tail = (head + 1) % size
+        # when ever you increment head or tail you've to mod it by size to stay within the limit
+
+
 # Your MovingAverage object will be instantiated and called as such:
 # obj = MovingAverage(size)
 # param_1 = obj.next(val)
