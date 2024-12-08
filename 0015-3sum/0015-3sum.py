@@ -77,29 +77,57 @@ class Solution:
         # return res
 
 
+        # res = []
+        # nums.sort()
+
+        # for i in range(len(nums)):
+        #     left, right = i + 1, len(nums) - 1
+
+        #     if i - 1 >= 0 and nums[i - 1] == nums[i]:
+        #         continue
+
+        #     while left < right:
+        #         total = nums[left] + nums[right] + nums[i]
+
+        #         if left - 1 > i and left < right and nums[left - 1] == nums[left]: # NOTE: Be mindful and use only if loop here.
+        #             left += 1
+        #             continue
+
+        #         if total == 0:
+        #             res.append([nums[left], nums[right], nums[i]])
+        #             left += 1
+        #         elif total > 0:
+        #             right -= 1
+        #         else:
+        #             left += 1
+
+        # return res
+
         res = []
         nums.sort()
 
         for i in range(len(nums)):
-            left, right = i + 1, len(nums) - 1
 
-            if i - 1 >= 0 and nums[i - 1] == nums[i]:
+            l, r = i + 1, len(nums) - 1
+
+            if i > 0 and nums[i - 1] == nums[i]:
                 continue
 
-            while left < right:
-                total = nums[left] + nums[right] + nums[i]
+            while l < r:
 
-                if left - 1 > i and left < right and nums[left - 1] == nums[left]: # NOTE: Be mindful and use only if loop here.
-                    left += 1
-                    continue
+                total = nums[i] + nums[l] + nums[r]
 
                 if total == 0:
-                    res.append([nums[left], nums[right], nums[i]])
-                    left += 1
+                    res.append([nums[i], nums[l], nums[r]])
+                    l += 1
+
+                    while l < r and nums[l - 1] == nums[l]:
+                        l += 1
+                        continue
+                    
                 elif total > 0:
-                    right -= 1
+                    r -= 1
                 else:
-                    left += 1
+                    l += 1
 
         return res
-
