@@ -5,21 +5,31 @@ class Solution:
         # Time - O(n)
         # Space - O(1)
 
-        # if k <= arr[0] - 1:
-        #     return k
+        # If the k is less than the first element of the array.
 
-        # k -= arr[0] - 1
-        # for i in range(len(arr) - 1):
+        if k <= arr[0] - 1:
+            return k
 
-        #     cur_missing = arr[i + 1] - arr[i] - 1
+        k -= arr[0] - 1
+        
+        for i in range(len(arr) - 1):
 
-        #     if k <= cur_missing:
-        #         return arr[i] + k
+            cur_missing = arr[i + 1] - arr[i] - 1
 
-        #     k -= cur_missing
+            if k <= cur_missing:
+                return arr[i] + k
 
-        # return arr[-1] + k
+            k -= cur_missing
 
+        return arr[-1] + k
+
+
+        # Intuition 
+        #           0. 1. 2. 3. 4. 
+        # Orignal: [1, 2, 3, 4, 5]; k = 2
+
+        #.        0. 1. 2. 
+        # Given: [1, 4, 5] ;   4 - 1 = 3 Numbers missing but since 0th index reduce one more = 2 number missing.
 
         # Solution 2 - Binary Search
         # Time - O(logn)
