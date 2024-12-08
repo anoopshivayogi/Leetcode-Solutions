@@ -109,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0777-toeplitz-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0777-toeplitz-matrix) |
 | [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
+| [1028-interval-list-intersections](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1028-interval-list-intersections) |
 | [1046-max-consecutive-ones-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
@@ -263,6 +264,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0408-valid-word-abbreviation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0408-valid-word-abbreviation) |
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
+| [1028-interval-list-intersections](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1028-interval-list-intersections) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
