@@ -163,7 +163,7 @@ class Solution:
         # Space - O(1)
 
 
-        if not head:
+        if not head:  # NOTE: Very important move!!. Always make sure to handle empty inputs
             return None
 
 
