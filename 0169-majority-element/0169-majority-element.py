@@ -104,3 +104,18 @@ class Solution:
                     count = 1
 
         return majority_ele
+
+        # Tracing
+
+        # nums = [3, 2, 3]
+        #               i
+
+        # count = 1
+        # majority_ele = 3
+
+
+        # nums = [2, 2, 1, 1, 1, 2, 2]
+        #                           i
+
+        # majority_ele = 2
+        # count = 0
