@@ -69,5 +69,11 @@ class Solution:
         #                     r
         # 
         # missing_numbers = 1
+
+
+
+
+
+        # https://www.youtube.com/watch?v=NObPmjZIh8Y - Not completely helpful but good
         
 
