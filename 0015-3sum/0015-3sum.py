@@ -119,7 +119,7 @@ class Solution:
 
                 if total == 0:
                     res.append([nums[i], nums[l], nums[r]])
-                    l += 1  #NOTE: Increment 'i' in good case
+                    l += 1  #NOTE: Increment 'l' in good case; hence you'll also check for duplicate with l and not r
 
                     while l < r and nums[l - 1] == nums[l]:
                         l += 1
