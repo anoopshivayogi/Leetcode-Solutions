@@ -110,7 +110,7 @@ class Solution:
 
             l, r = i + 1, len(nums) - 1
 
-            if i > 0 and nums[i - 1] == nums[i]:
+            if i > 0 and nums[i - 1] == nums[i]:  # Don't change this to while cz the 'i' is controlled by for loop
                 continue
 
             while l < r:
