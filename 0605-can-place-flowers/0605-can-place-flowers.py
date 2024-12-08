@@ -26,8 +26,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         # NOTE: edge case
         if n == 0:
