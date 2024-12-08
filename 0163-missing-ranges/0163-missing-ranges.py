@@ -23,7 +23,7 @@ class Solution:
         # return res
 
 
-        if not nums:
+        if not nums:  # NOTE: VERY VERY important edge case
             return [[lower, upper]]
 
         res = []
