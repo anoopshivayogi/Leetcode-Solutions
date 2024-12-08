@@ -7,21 +7,21 @@ class Solution:
 
         # If the k is less than the first element of the array.
 
-        if k <= arr[0] - 1:
-            return k
+        # if k <= arr[0] - 1:
+        #     return k
+        # else:
+        #     k -= arr[0] - 1
 
-        k -= arr[0] - 1
-        
-        for i in range(len(arr) - 1):
+        # for i in range(len(arr) - 1):
 
-            cur_missing = arr[i + 1] - arr[i] - 1
+        #     cur_missing = arr[i + 1] - arr[i] - 1
 
-            if k <= cur_missing:
-                return arr[i] + k
+        #     if k <= cur_missing:
+        #         return arr[i] + k
 
-            k -= cur_missing
+        #     k -= cur_missing
 
-        return arr[-1] + k
+        # return arr[-1] + k
 
 
         # Intuition 
