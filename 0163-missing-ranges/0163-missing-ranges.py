@@ -23,6 +23,10 @@ class Solution:
         # return res
 
 
+        # Re-do for the interview
+        # Time - O(n)
+        # Space - O(1)
+
         if not nums:  # NOTE: VERY VERY important edge case
             return [[lower, upper]]
 
