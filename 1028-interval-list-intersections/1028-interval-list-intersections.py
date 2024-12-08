@@ -31,6 +31,11 @@ class Solution:
         # return res
 
 
+        # NOTE: edge conditions doubts
+        # What if [1, 2] [2, 5] => should we have [2, 2] in results ? answer will be yes
+        # What if there are not intersections ? Should I just return empty list ? answer will be yes
+
+
         p_ptr, q_ptr = 0, 0
         res = []
 
