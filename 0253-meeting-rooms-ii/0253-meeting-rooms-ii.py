@@ -116,7 +116,8 @@ class Solution:
         # return res
 
 
-
+        # NOTE: clarify whether the end time is included in the meeting
+        # [1, 13) [13, 14)  -> here the answer should be only 1
 
         starts = sorted([interval[0] for interval in intervals])
         ends = sorted([interval[1] for interval in intervals])
