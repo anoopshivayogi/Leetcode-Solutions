@@ -226,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0002-add-two-numbers) |
 | [0025-reverse-nodes-in-k-group](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
@@ -370,6 +371,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0002-add-two-numbers) |
 | [0050-powx-n](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0066-plus-one) |
 | [0227-basic-calculator-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0227-basic-calculator-ii) |
@@ -415,6 +417,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Recursion
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0010-regular-expression-matching) |
 | [0025-reverse-nodes-in-k-group](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0025-reverse-nodes-in-k-group) |
 | [0050-powx-n](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0050-powx-n) |
