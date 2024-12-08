@@ -44,21 +44,44 @@ class Solution:
         # Time - O(H) = O(logn) minimum or O(N) maximum
         # Space - O(1)
     
-        closest = float('inf')
+        # closest = float('inf')
+        # res = 0
+
+        # while root:
+        #     cur_diff = abs(root.val - target)
+
+        #     if cur_diff <= closest:
+
+        #         if cur_diff == closest:
+        #             res = min(res, root.val)  # If there are multiple answers; print the smallest.
+        #         else:
+        #             res = root.val
+        #             closest = cur_diff
+
+        #     if root.val <= target:
+        #         root = root.right
+        #     else:
+        #         root = root.left
+
+        # return res
+
+
+        closest_diff = float("inf")
         res = 0
 
         while root:
+
             cur_diff = abs(root.val - target)
 
-            if cur_diff <= closest:
-
-                if cur_diff == closest:
-                    res = min(res, root.val)  # If there are multiple answers; print the smallest.
-                else:
+            if cur_diff <= closest_diff:
+                
+                if cur_diff < closest_diff:
                     res = root.val
-                    closest = cur_diff
-
-            if root.val <= target:
+                    closest_diff = cur_diff
+                else:
+                    res = min(res, root.val)
+            
+            if target > root.val:
                 root = root.right
             else:
                 root = root.left
