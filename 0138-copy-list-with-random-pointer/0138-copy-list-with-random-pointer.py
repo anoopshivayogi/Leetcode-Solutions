@@ -167,23 +167,23 @@ class Solution:
             return None
 
 
-        curr = head
+        ptr = head
 
         # Inserting new cloned node in between the linked list
         # A -> A' -> B -> B' -> C -> C'
-        while curr:
-            new_node = Node(curr.val)
-            new_node.next = curr.next
-            curr.next = new_node
+        while ptr:
+            new_node = Node(ptr.val)
+            new_node.next = ptr.next
+            ptr.next = new_node
 
-            curr = new_node.next
+            ptr = new_node.next
 
-        curr = head
+        ptr = head
 
         # Link the random pointers for the cloned nodes
-        while curr:
-            curr.next.random = curr.random.next if curr.random else None # Handle the case where random node could be None
-            curr = curr.next.next
+        while ptr:
+            ptr.next.random = ptr.random.next if ptr.random else None # Handle the case where random node could be None
+            ptr = ptr.next.next
 
 
         # Seperate out the old nodes link from the cloned ones
