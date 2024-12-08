@@ -13,6 +13,7 @@ class Solution:
             self.indices[num].append(idx)
 
         # Solution 2 - Random sampling
+        # https://www.youtube.com/watch?v=HXRN8ZfAQOI
         # Time - O(n)
         # Space - O(1)
         # self.nums = nums
@@ -24,6 +25,7 @@ class Solution:
         # Solution 2 - random sampling - TLE out
         # Time - O(n*m); where m is the number of times pick is called and N is the number of array
         # Space - O(1)
+        # https://www.youtube.com/watch?v=HXRN8ZfAQOI
 
         # count = 0
         # pick_idx = None
