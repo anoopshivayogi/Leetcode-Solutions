@@ -46,7 +46,6 @@ class Solution:
                     return False
 
             return True
-                
 
         
         l, r = 0, len(s) - 1
@@ -63,5 +62,5 @@ class Solution:
                     return False
 
         return True
-            
-            
+
+
