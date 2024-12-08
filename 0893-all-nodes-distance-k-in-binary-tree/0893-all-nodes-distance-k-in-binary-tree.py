@@ -83,7 +83,7 @@ class Solution:
         dfs(root)
 
         q = collections.deque()
-        q.append((target, 0))
+        q.append((target, 0))  # Node, distance
         visit = set()
         visit.add(target)
 
