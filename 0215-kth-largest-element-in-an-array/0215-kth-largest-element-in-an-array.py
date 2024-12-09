@@ -79,16 +79,72 @@ class Solution:
         # return minHeap[0]
 
 
+        # Re-do for the interview
+
+
         # NOTE: first edge condition to check
         # Will the k value be less than than the length of the nums ?
         # if it is not; what value should i be returning ? does -1 work ?
+
+        # Time - O(k * logn)
+        # Space - O(n)
 
         for idx in range(len(nums)):
             nums[idx] *= -1
 
         heapq.heapify(nums)
 
-        for _ in range(k-1):
-            heapq.heappop(nums)
+        k -= 1
 
-        return heapq.heappop(nums) * -1
+        while k:
+            heapq.heappop(nums)
+            k -= 1
+
+        return -heapq.heappop(nums)
+
+        
+        # Time - O(n * logk)
+        # [1, 2, 3, 4, 5]; k = 2
+        # res = 4
+
+        # min_heap = [5, 4]
+
+        # Re-do for the interview Quick sort solution 
+        # Time - O(n) reduced from O(nlogn) in the best case because n + n/2 + n/4 + n/8 = (2n -1)
+        # worst case it'll be O(n^2) because n + (n-1) + (n-2) = (n^2)
+        # Space - O(logn) in average and O(n) in worst
+
+
+        # def partition(l, r): # O(n)
+        #     pivot = nums[r]
+        #     i = l
+
+        #     for j in range(l, r):
+        #         if nums[j] <= pivot:
+        #             nums[i], nums[j] = nums[j], nums[i]
+        #             i += 1
+            
+        #     nums[r], nums[i] = nums[i], nums[r]
+
+        #     return i
+
+
+        # def quick_sort(l, r, k):  # logn
+
+        #     pivot = partition(l, r)
+
+        #     if pivot == k:
+        #         return nums[pivot]
+
+        #     elif pivot > k:
+        #         return quick_sort(l, pivot - 1, k)
+
+        #     else:
+        #         return quick_sort(pivot + 1, r, k)
+
+        # return quick_sort(0, len(nums) - 1, len(nums) - k)
+
+        # https://stackoverflow.com/questions/56940793/quickselect-time-complexity-explained
+
+
+
