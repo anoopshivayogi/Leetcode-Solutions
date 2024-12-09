@@ -251,7 +251,7 @@ class Solution:
 
         # Solution 3 - Quick Select solution
         # Time - O(n^2) at worst and O(n) on average reduced from  O(n log n)[Quick Sort]
-        # Space - O(logn)
+        # Space - O(logn) at best and O(n) at worst
 
         def partition(arr, l, r):
             i = l
