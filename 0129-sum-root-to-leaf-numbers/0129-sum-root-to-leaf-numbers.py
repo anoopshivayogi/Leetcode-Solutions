@@ -10,22 +10,24 @@ class Solution:
         # Time - O(n)
         # Space - O(H)- worst case O(n) in case of skewed tree
 
-        res = 0
+        self.res = 0
 
-        def dfs(root, path):
-            nonlocal res
-            if not root:
-                return
+        self.dfs(root, 0)
 
-            path += str(root.val)
+        return self.res
 
-            dfs(root.left, path)
-            dfs(root.right, path)
 
-            if not root.left and not root.right:
-                res += int(path)
-                return
 
-        dfs(root, '')
+    def dfs(self, root, path):
 
-        return res
+        if not root:
+            return
+
+        path = path * 10 + root.val
+
+        if not root.left and not root.right:
+            self.res += path
+            return
+
+        self.dfs(root.left, path)
+        self.dfs(root.right, path)
