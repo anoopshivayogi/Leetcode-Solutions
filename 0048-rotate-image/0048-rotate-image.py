@@ -67,8 +67,8 @@ class Solution:
 
         
         # solution using 4 pointers approach
-        # Time - 
-        # Space - 
+        # Time - O(m*n)
+        # Space - O(1)
 
         l, r = 0, len(matrix) - 1 # Col indexes
 
