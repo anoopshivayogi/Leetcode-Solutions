@@ -46,8 +46,8 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
 
         if not head:
