@@ -8,7 +8,7 @@ class Solution:
     def sumNumbers(self, root: Optional[TreeNode]) -> int:
         # Solution 1 - Using dfs
         # Time - O(n)
-        # Space - O(H)- worst case O(n) in case of skewed tree
+        # Space - O(logn)- worst case O(n) in case of skewed tree
 
         self.res = 0
 
