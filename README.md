@@ -93,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0163-missing-ranges) |
 | [0169-majority-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0169-majority-element) |
@@ -143,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0037-sudoku-solver](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
 | [0138-copy-list-with-random-pointer](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0138-copy-list-with-random-pointer) |
+| [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
 | [0146-lru-cache](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
@@ -173,6 +175,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0065-valid-number](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0065-valid-number) |
 | [0125-valid-palindrome](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0127-word-ladder) |
+| [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
 | [0151-reverse-words-in-a-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0151-reverse-words-in-a-string) |
 | [0227-basic-calculator-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
@@ -270,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
+| [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
 | [0386-lexicographical-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0386-lexicographical-numbers) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
@@ -466,6 +470,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0010-regular-expression-matching](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0010-regular-expression-matching) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
 ## Recursion
 |  |
 | ------- |
@@ -510,4 +515,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0398-random-pick-index](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0398-random-pick-index) |
+## Memoization
+|  |
+| ------- |
+| [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
 <!---LeetCode Topics End-->
