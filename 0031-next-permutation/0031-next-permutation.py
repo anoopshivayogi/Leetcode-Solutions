@@ -77,7 +77,7 @@ class Solution:
 
         swap_idx = len(nums) - 1
 
-        while nums[swap_idx] <= nums[pivot_idx]:
+        while nums[swap_idx] <= nums[pivot_idx]:  # NOTE: == is important cz no point in swapping with same number
             swap_idx -= 1
 
         nums[swap_idx], nums[pivot_idx] = nums[pivot_idx], nums[swap_idx]
@@ -85,3 +85,7 @@ class Solution:
 
         return
         
+
+        # [1, 5, 1]
+        #  p       
+        # 
