@@ -24,7 +24,7 @@ class Solution:
 
         # Re-do the interview
         # Time - O(n)
-        # Space - O(1)
+        # Space - O(n)
 
 
         st = []
