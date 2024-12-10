@@ -123,7 +123,7 @@ class Solution:
             for word in wordDict:
                 if cur_str.startswith(word):
                     if dfs(cur_str[len(word): ]):
-                        # cache[cur_str] = True
+                        cache[cur_str] = True
                         return True
 
             cache[cur_str] = False
