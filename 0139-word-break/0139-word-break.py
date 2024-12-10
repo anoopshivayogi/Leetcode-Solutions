@@ -114,7 +114,7 @@ class Solution:
         def dfs(cur_str):
             if cur_str in cache:
                 return cache[cur_str]
-                
+
             if cur_str == "":
                 cache[cur_str] = True
                 return True
@@ -123,7 +123,7 @@ class Solution:
             for word in wordDict:
                 if cur_str.startswith(word):
                     if dfs(cur_str[len(word): ]):
-                        cache[cur_str] = True
+                        # cache[cur_str] = True
                         return True
 
             cache[cur_str] = False
