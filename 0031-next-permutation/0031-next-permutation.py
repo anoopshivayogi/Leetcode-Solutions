@@ -86,6 +86,6 @@ class Solution:
         return
         
 
-        # [1, 5, 1]
-        #  p       
-        # 
+        # [1, 5, 1].   <= instead of < case for swapping
+        #  p  s 
+        # [5, 1, 1]
