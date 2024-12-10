@@ -70,29 +70,23 @@ class Solution:
         # Time - 
         # Space - 
 
-        l, r = 0, len(matrix[0]) - 1 # Column indexes
-        t, b = 0, len(matrix) - 1 # Row indexes 
+        l, r = 0, len(matrix) - 1 # Col indexes
 
         while l < r:
 
+            top, bottom = l, r  # Row indexes
+
             for i in range(r - l):
 
-                # Save top left item 
-                temp = matrix[t][l + i]
+                temp = matrix[top][l + i]
 
-                # Swap bottom-left item to top-left item 
-                matrix[t][l + i] = matrix[b - i][l]
+                matrix[top][l + i] = matrix[bottom - i][l]
 
-                # Swap bottom-right to bottom-left 
-                matrix[b - i][l] = matrix[b][r - i]
+                matrix[bottom - i][l] = matrix[bottom][r - i]
 
-                # Swap top-right to bottom-right
-                matrix[b][r - i] = matrix[t + i][r]
+                matrix[bottom][r - i] = matrix[top + i][r]
 
-                # Swap top-left(temp) to top-right
-                matrix[t + i][r] = temp
+                matrix[top + i][r] = temp
 
-            t += 1
             l += 1
-            b -= 1
             r -= 1
