@@ -23,8 +23,8 @@ class Solution:
 
 
         # Re-do the interview
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
 
         st = []
