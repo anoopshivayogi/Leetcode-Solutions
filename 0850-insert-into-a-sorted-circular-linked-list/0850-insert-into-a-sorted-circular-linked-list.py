@@ -74,8 +74,8 @@ class Solution:
         return head
 
 
-
-        
+        # NOTE: 
         # For something like [3,4,1] and insert 2, our curr reaches 1 and then breaks as curr.next is now 3.
+        # For this case the outside is where you are adding the node
 
 
