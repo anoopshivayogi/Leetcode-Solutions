@@ -186,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0807-custom-sort-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0807-custom-sort-string) |
 | [0812-rotate-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0812-rotate-string) |
+| [0851-goat-latin](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0851-goat-latin) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1128-remove-all-adjacent-duplicates-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1128-remove-all-adjacent-duplicates-in-string) |
