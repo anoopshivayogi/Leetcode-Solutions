@@ -106,7 +106,7 @@ class Solution:
 
 
         # Re-do for the interview
-        # Time - O(m*k*n)
+        # Time - O(n*m*n) = O(n^2*m) reduce it to O(n*m) when memoized
         # Space - (n)
 
         cache = {}
