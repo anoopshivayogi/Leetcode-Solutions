@@ -30,6 +30,9 @@ class Solution:
         # return True
 
 
+        # Re-do for the interview
+        # Time - O(n)
+        # Space - O(n)
 
         q = collections.deque([root])
 
