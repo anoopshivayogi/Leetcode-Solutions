@@ -32,7 +32,7 @@ class Solution:
 
         # Re-do for the interview
         # Time - O(n) ; where is the maximum char in the words
-        # Space - 
+        # Space - O(1)
 
         res = ''
         idx = 0
