@@ -197,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1894-merge-strings-alternately](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1894-merge-strings-alternately) |
 | [2580-circular-sentence](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2580-circular-sentence) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1028-interval-list-intersections](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1028-interval-list-intersections) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
+| [1894-merge-strings-alternately](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1894-merge-strings-alternately) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 ## Divide and Conquer
