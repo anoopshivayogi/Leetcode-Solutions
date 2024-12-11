@@ -14,30 +14,54 @@ class Solution:
         # NOTE : Notice that cases 1 and 2 are similar for overflow and underflow. The only difference is case 3: for overflow, we can append any digit between 0 and 7, but for underflow, we can append any digit between 0 and 8.
 
 
+        # sign = 1
+        # res = 0
+        # i = 0
+        # n = len(s)
+
+        # INT_MAX = 2 ** 31 - 1
+        # INT_MIN = -1 * (2 ** 31)
+
+        # # Skip leading white spaces
+        # while i < n and s[i] == " ":
+        #     i += 1
+        
+        # if i < n and s[i] in "+-":
+        #     if s[i] == "-":
+        #         sign *= -1
+        #     i += 1
+
+        # while i < n and s[i] in "0123456789":
+        #     if (res > INT_MAX // 10) or (res == INT_MAX // 10 and int(s[i]) > INT_MAX % 10):
+        #         return INT_MAX if sign == 1 else INT_MIN
+
+        #     res = res * 10 + int(s[i])
+        #     i += 1
+        
+        # return sign * res
+
 
         sign = 1
         res = 0
         i = 0
-        n = len(s)
+        INT_MAX = (2**31) - 1
+        INT_MIN = -1 * (2**31)
 
-        INT_MAX = 2 ** 31 - 1
-        INT_MIN = -1 * (2 ** 31)
 
-        # Skip leading white spaces
-        while i < n and s[i] == " ":
+        while i < len(s) and s[i] == " ":  # Remove leading whitespace
             i += 1
         
-        if i < n and s[i] in "+-":
+        if i < len(s) and s[i] in "+-":
             if s[i] == "-":
-                sign *= -1
+                sign = -1
             i += 1
 
-        while i < n and s[i] in "0123456789":
+        while i < len(s) and s[i] in "0123456789":
+
             if (res > INT_MAX // 10) or (res == INT_MAX // 10 and int(s[i]) > INT_MAX % 10):
                 return INT_MAX if sign == 1 else INT_MIN
 
             res = res * 10 + int(s[i])
             i += 1
-        
-        
+
         return sign * res
