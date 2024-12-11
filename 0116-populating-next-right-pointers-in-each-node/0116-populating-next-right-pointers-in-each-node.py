@@ -75,6 +75,10 @@ class Solution:
         # nxt = None.  Exited while loop
 
 
+        # Re-do for the interview
+        # Time - O(n)
+        # Space - O(1)
+
         if not root:
             return None
 
