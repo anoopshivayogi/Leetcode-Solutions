@@ -44,9 +44,9 @@ class Solution:
         for i in range(len(num1)):
             for j in range(len(num2)):
                 digit = int(num1[i]) * int(num2[j])
-                res[i+j] += digit
-                res[i+j+1] += (res[i + j] // 10)
-                res[i+j] = res[i+j] % 10
+                res[i+j] += digit  # Add the digit directly
+                res[i+j+1] += (res[i + j] // 10)  # Take the carry
+                res[i+j] = res[i+j] % 10  # Take the value
 
 
 
