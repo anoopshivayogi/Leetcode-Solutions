@@ -129,14 +129,14 @@ class Solution:
 
 
         # Re-do for the interview 
-        # Time - 
-        # Space - 
+        # Time - O(n*2^n)
+        # Space - O(n)
         res = []
-        path = []
+        path = [] # space O(N)
 
         def dfs(idx):
 
-            if idx >= len(nums):
+            if idx >= len(nums): # O(n)
                 res.append(path.copy())
                 return
 
