@@ -46,21 +46,21 @@ class Solution:
         # Time - O(n)
         # Space - O(1)
 
-        cur, nxt = root, root.left if root else None
+        # cur, nxt = root, root.left if root else None
 
-        while cur and nxt:
-            cur.left.next = cur.right
+        # while cur and nxt:
+        #     cur.left.next = cur.right
 
-            if cur.next: # If cur.next is not null only then you have to do this 
-                cur.right.next = cur.next.left
+        #     if cur.next: # If cur.next is not null only then you have to do this 
+        #         cur.right.next = cur.next.left
 
-            cur = cur.next
+        #     cur = cur.next
 
-            if not cur:   # Go to the next level if there is nothing on the right
-                cur = nxt
-                nxt = cur.left
+        #     if not cur:   # Go to the next level if there is nothing on the right
+        #         cur = nxt
+        #         nxt = cur.left
 
-        return root
+        # return root
 
 
         # Dry-run 
@@ -73,3 +73,24 @@ class Solution:
         #           ->      ->       ->
         # cur = 4
         # nxt = None.  Exited while loop
+
+
+        if not root:
+            return None
+
+        cur, nxt = root, root.left
+
+
+        while cur and nxt:
+            cur.left.next = cur.right
+
+            if cur.next:
+                cur.right.next = cur.next.left
+
+            cur = cur.next
+
+            if not cur:
+                cur = nxt
+                nxt = cur.left
+
+        return root
