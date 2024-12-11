@@ -4,6 +4,8 @@ class Solution:
     def singleNumber(self, nums: List[int]) -> int:
 
         # Solution 1 : using xor ^
+        # Time - O(n)
+        # Space - O(1)
 
         res = 0
 
