@@ -83,52 +83,54 @@ class Solution:
         # return mapping[node]
 
 
-        # from collections import deque
+        from collections import deque
 
-        # if not node:
-        #     return node
+        if not node:
+            return node
 
-        # mapping = {}
-        # q = deque()
-        # q.append(node)
-        # mapping[node] = Node(node.val)
+        mapping = {}
+        q = deque()
+        q.append(node)
+        mapping[node] = Node(node.val)
 
-        # while q:
-        #     cur_node = q.popleft()
+        while q:
+            cur_node = q.popleft()
 
-        #     for neigh in cur_node.neighbors:
-        #         if neigh in mapping:
-        #             mapping[cur_node].neighbors.append(mapping[neigh])
-        #         else:
-        #             newNode = Node(neigh.val)
-        #             mapping[neigh] = newNode
-        #             mapping[cur_node].neighbors.append(mapping[neigh])
-        #             q.append(neigh)
+            for neigh in cur_node.neighbors:
+                if neigh in mapping:
+                    mapping[cur_node].neighbors.append(mapping[neigh])
+                else:
+                    newNode = Node(neigh.val)
+                    mapping[neigh] = newNode
+                    mapping[cur_node].neighbors.append(mapping[neigh])
+                    q.append(neigh)
 
-        # return mapping[node]
+        return mapping[node]
 
 
         # Re-do for the interview
         # Time - O(N)
         # Space - O(N)
 
-        if not node:  # NOTE: Think about this edge case
-            return node
+        # if not node:  # NOTE: Think about this edge case
+        #     return node
 
-        mapping = {}
+        # mapping = {}
 
-        def clone(node):
-            if node in mapping:
-                return mapping[node]
+        # def clone(node):
+        #     if node in mapping:
+        #         return mapping[node]
 
-            new_node = Node(node.val)
-            mapping[node] = new_node
+        #     new_node = Node(node.val)
+        #     mapping[node] = new_node
 
-            for neigh in node.neighbors:
-                new_node.neighbors.append(clone(neigh))
+        #     for neigh in node.neighbors:
+        #         new_node.neighbors.append(clone(neigh))
 
-            return new_node
+        #     return new_node
 
-        clone(node)
+        # clone(node)
 
-        return mapping[node]
+        # return mapping[node]
+
+
