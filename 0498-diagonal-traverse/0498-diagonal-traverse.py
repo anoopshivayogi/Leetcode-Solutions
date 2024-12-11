@@ -55,8 +55,8 @@ class Solution:
         if not mat:
             return []
 
-        # if not mat[0]:
-        #     return []
+        if not mat[0]:
+            return []
 
         res = []
 
