@@ -424,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0253-meeting-rooms-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0253-meeting-rooms-ii) |
 | [0605-can-place-flowers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0605-can-place-flowers) |
+| [0670-maximum-swap](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
@@ -486,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0398-random-pick-index](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0398-random-pick-index) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0523-continuous-subarray-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0523-continuous-subarray-sum) |
+| [0670-maximum-swap](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0670-maximum-swap) |
 | [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1146-greatest-common-divisor-of-strings) |
 | [2383-add-two-integers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2383-add-two-integers) |
