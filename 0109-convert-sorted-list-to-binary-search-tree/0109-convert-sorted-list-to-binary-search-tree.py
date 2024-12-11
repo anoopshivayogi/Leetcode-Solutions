@@ -39,3 +39,8 @@ class Solution:
         root.right = self.sortedListToBST(second)
 
         return root
+
+
+        # Solution 2 - 
+        # Time - 
+        # Space - 
