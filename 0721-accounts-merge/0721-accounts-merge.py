@@ -43,7 +43,7 @@ class Solution:
         email_to_idx = {}  # Email -> index in account
 
         for idx, account in enumerate(accounts):
-            for email in account[1:]:  # Exclude the first index
+            for email in account[1:]:  # Exclude the first index because it is the name
                 if email in email_to_idx:
                     uf.union(idx, email_to_idx[email])
                 else:
@@ -62,3 +62,5 @@ class Solution:
             res.append([name] + sorted(emails_lst))
 
         return res
+
+
