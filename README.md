@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [0636-exclusive-time-of-functions](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0636-exclusive-time-of-functions) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0735-asteroid-collision](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0735-asteroid-collision) |
 | [0777-toeplitz-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0777-toeplitz-matrix) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0882-peak-index-in-a-mountain-array) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0523-continuous-subarray-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
+| [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0807-custom-sort-string) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
@@ -185,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
+| [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0807-custom-sort-string) |
 | [0812-rotate-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0812-rotate-string) |
 | [0851-goat-latin](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0851-goat-latin) |
@@ -224,6 +227,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0543-diameter-of-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0543-diameter-of-binary-tree) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
 | [0832-binary-tree-pruning](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0832-binary-tree-pruning) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
@@ -245,6 +249,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0490-the-maze](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0490-the-maze) |
 | [0529-minesweeper](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0529-minesweeper) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0998-check-completeness-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0998-check-completeness-of-a-binary-tree) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -323,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0314-binary-tree-vertical-order-traversal](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0807-custom-sort-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0807-custom-sort-string) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -354,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
+| [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 ## Matrix
 |  |
 | ------- |
