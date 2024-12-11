@@ -9,7 +9,7 @@ class Solution:
 
             mid = (l + r) // 2
 
-            if arr[mid] < arr[mid + 1]:
+            if arr[mid] < arr[mid + 1]: # similar to left bisect
                 l = mid + 1
             else:
                 r = mid - 1
