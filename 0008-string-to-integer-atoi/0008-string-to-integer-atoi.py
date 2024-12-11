@@ -41,6 +41,10 @@ class Solution:
         # return sign * res
 
 
+        # Re-do for the interview
+        # Time - O(N)
+        # Space - O(1)
+
         sign = 1
         res = 0
         i = 0
