@@ -35,7 +35,6 @@ class Solution:
         if "0" in [num1, num2]:
             return "0"
 
-
         res = [0] * (len(num1) + len(num2))
         res_str = ''
 
@@ -44,20 +43,23 @@ class Solution:
 
         for i in range(len(num1)):
             for j in range(len(num2)):
-                mult = int(num1[i]) * int(num2[j])
-                res[i+j] += mult
-                res[i+j+1] += (res[i+j] // 10)
+                digit = int(num1[i]) * int(num2[j])
+                res[i+j] += digit
+                res[i+j+1] += (res[i + j] // 10)
                 res[i+j] = res[i+j] % 10
 
 
-        beg = True
-        for c in res[::-1]:
-            if beg and c == 0:
-                continue
-            beg = False
-            res_str += str(c)
 
-        return res_str
+        # if we multiple 10 * 10 the result will be [0100]; so we need to get rid of the leading zero
+
+        res = res[::-1]  # reverse it back
+        beg = 0 # beginning index
+
+        while beg < len(res) and res[beg] == 0:
+            beg += 1
+
+        res = map(str, res[beg:])
+        return "".join(res)
 
        
     #     1 2 3
