@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0008-string-to-integer-atoi](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0008-string-to-integer-atoi) |
 | [0010-regular-expression-matching](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0010-regular-expression-matching) |
 | [0014-longest-common-prefix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
+| [0043-multiply-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0049-group-anagrams) |
 | [0065-valid-number](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0065-valid-number) |
 | [0125-valid-palindrome](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
@@ -467,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0002-add-two-numbers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0002-add-two-numbers) |
+| [0043-multiply-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0043-multiply-strings) |
 | [0048-rotate-image](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0066-plus-one) |
@@ -507,6 +509,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0043-multiply-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0043-multiply-strings) |
 | [0498-diagonal-traverse](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0498-diagonal-traverse) |
 | [0735-asteroid-collision](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0735-asteroid-collision) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
