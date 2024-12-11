@@ -5,14 +5,14 @@ class Solution:
         l, r = 0, len(arr) - 1
 
 
-        while l <= r:
+        while l < r:
 
             mid = (l + r) // 2
 
             if arr[mid] < arr[mid + 1]: # similar to left bisect
                 l = mid + 1
             else:
-                r = mid - 1
+                r = mid
 
         return l
 
