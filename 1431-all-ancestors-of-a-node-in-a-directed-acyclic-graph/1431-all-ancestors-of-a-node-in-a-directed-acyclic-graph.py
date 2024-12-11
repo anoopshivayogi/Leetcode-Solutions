@@ -7,8 +7,8 @@ class Solution:
         # 3 : [0, 1], 6: [3]
 
         # Solution 1 -
-        # Time - 
-        # Space - 
+        # Time - nlogn
+        # Space - O(n)
 
         res = [set() for _ in range(n)]
 
