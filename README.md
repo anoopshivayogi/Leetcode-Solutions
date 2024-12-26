@@ -122,6 +122,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0490-the-maze](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0490-the-maze) |
+| [0494-target-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [0498-diagonal-traverse](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0498-diagonal-traverse) |
 | [0523-continuous-subarray-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0529-minesweeper](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0529-minesweeper) |
@@ -422,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0037-sudoku-solver](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0037-sudoku-solver) |
 | [0078-subsets](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0078-subsets) |
+| [0494-target-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 ## Interactive
 |  |
@@ -539,6 +541,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
+| [0494-target-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [1178-valid-palindrome-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1178-valid-palindrome-iii) |
 ## Recursion
 |  |
