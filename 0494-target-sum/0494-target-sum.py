@@ -5,30 +5,30 @@ class Solution:
 
         # Solution 1 - DFS with memoization         
 
-        cache = {}
+        # cache = {}
         
-        # @lru_cache(None)
-        def dfs(i, target):
+        # # @lru_cache(None)
+        # def dfs(i, target):
 
-            if (i, target) in cache:
-                return cache[(i, target)]
+        #     if (i, target) in cache:
+        #         return cache[(i, target)]
 
-            if i == len(nums) and target == 0:
-                return 1
+        #     if i == len(nums) and target == 0:
+        #         return 1
             
-            if i >= len(nums):
-                return 0
+        #     if i >= len(nums):
+        #         return 0
 
-            pos = dfs(i+1, target + nums[i])
-            neg = dfs(i+1, target + (-nums[i]))
+        #     pos = dfs(i+1, target + nums[i])
+        #     neg = dfs(i+1, target + (-nums[i]))
 
-            res = pos + neg
+        #     res = pos + neg
 
-            cache[(i, target)] = res
+        #     cache[(i, target)] = res
 
-            return res
+        #     return res
 
-        return dfs(0, target)
+        # return dfs(0, target)
 
 
 
@@ -86,18 +86,18 @@ class Solution:
         # return dp[n][subset]
                 
 
-        
-        # def dfs(i, target):
+        @cache
+        def dfs(i, target):
 
-        #     if target == 0 and i == len(nums):
-        #         return 1
+            if target == 0 and i == len(nums):
+                return 1
             
-        #     if target < 0 or i >= len(nums):
-        #         return 0
+            if i >= len(nums):
+                return 0
 
-        #     pos = dfs(i + 1, target - (-nums[i]))
-        #     neg = dfs(i + 1, target - (nums[i]))
+            pos = dfs(i + 1, target - (-nums[i]))
+            neg = dfs(i + 1, target - (nums[i]))
 
-        #     return pos + neg
+            return pos + neg
 
-        # return dfs(0, target)
+        return dfs(0, target)
