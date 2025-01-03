@@ -22,8 +22,8 @@ class Solution:
 
 
         # Solution 2 - Optimized prefix and suffix sums
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         left_sum, right_sum = 0, sum(nums)
         res = 0
