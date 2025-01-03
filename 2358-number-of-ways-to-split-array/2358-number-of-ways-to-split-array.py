@@ -35,5 +35,4 @@ class Solution:
             if left_sum >= right_sum:
                 res += 1
 
-
         return res
