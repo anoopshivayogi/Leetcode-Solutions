@@ -4,7 +4,7 @@ class Solution:
 
         # Solution 1 - Using Prefix + additional space
         # Time - O(n)
-        # Space - O(1)
+        # Space - O(n)
 
         temp = [0] * len(nums)
         res = 0
