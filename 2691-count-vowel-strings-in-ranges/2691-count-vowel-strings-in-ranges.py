@@ -33,7 +33,7 @@ class Solution:
         for idx in range(len(words) - 1, -1, -1):
             right[idx] += postfix
 
-            if (words[idx][0] in vowels) and (words[idx][-1] in vowels):
+            if words[idx] and (words[idx][0] in vowels) and (words[idx][-1] in vowels):
                 postfix += 1
 
         res = [0] * len(queries)
