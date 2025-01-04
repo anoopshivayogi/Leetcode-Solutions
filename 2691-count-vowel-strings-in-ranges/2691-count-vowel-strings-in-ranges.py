@@ -71,6 +71,6 @@ class Solution:
             if q[0] == 0:
                 res[idx] = prefix[q[1]]
             else:
-                res[idx] = prefix[q[1]] - prefix[q[0] - 1]
+                res[idx] = prefix[q[1]] - prefix[q[0] - 1]  # Deduct how many previous vowels were found. Remember we need to include the current prefix in the answer hence the previous one is what we deduct with.
 
         return res
