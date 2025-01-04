@@ -66,15 +66,11 @@ class Solution:
 
             prefix[idx] = cur_prefix
 
-        print(prefix)
-
         res = [0] * len(queries)
         for idx, q in enumerate(queries):
             if q[0] == 0:
-                print("res")
                 res[idx] = prefix[q[1]]
             else:
-                print(idx, prefix[q[1]], prefix[q[0]])
                 res[idx] = prefix[q[1]] - prefix[q[0] - 1]
 
         return res
