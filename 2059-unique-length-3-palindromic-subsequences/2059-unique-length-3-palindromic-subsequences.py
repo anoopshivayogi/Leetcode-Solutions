@@ -3,7 +3,7 @@ class Solution:
         
         # Solution 1 - Using two pointers + Hashset(to avoid duplicates)
         # Time - O(n*26)
-        # Space - O(26)
+        # Space - O(26^2) = O(1)
 
         left, right = set(), Counter(s)
         res = set() # Space - O(26^2) - Two spots to fill in the three char palindrome : _ _ _
