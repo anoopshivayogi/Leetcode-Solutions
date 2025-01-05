@@ -6,7 +6,7 @@ class Solution:
         # Space - O(26^2) = O(1)
 
         left, right = set(), Counter(s)
-        res = set() # Space - O(26^2) - Two spots to fill in the three char palindrome : _ _ _
+        res = set() # Space - O(26^2) - Two spots to fill in the three char palindrome : 1_ 2_ 1_
 
         for c in s:  # O(n)
             right[c] -= 1
