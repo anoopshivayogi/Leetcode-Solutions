@@ -19,6 +19,5 @@ class Solution:
                     res.add(cur_char + c + cur_char)
                 
             left.add(c)
-
  
         return len(res)
