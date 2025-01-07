@@ -1,13 +1,10 @@
 class Solution:
     def minOperations(self, boxes: str) -> List[int]:
         
+        # Intuition
+        # [0,  0, 1, 0, 1, 1]
+        # [11, 8, 5, 4, 3, 4]
         
-        # [0,  0, 1, 0, 1, 1]
-        # [11, 8, 5, 4, 3, 4]
-
-
-        # [0,  0, 1, 0, 1, 1]
-        # [11, 8, 5, 4, 3, 4]
 
         # Solution 1 - Prefix and suffix sum
         # Time - O(n)
