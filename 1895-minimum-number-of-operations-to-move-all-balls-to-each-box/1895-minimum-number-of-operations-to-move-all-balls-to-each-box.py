@@ -10,8 +10,8 @@ class Solution:
         # [11, 8, 5, 4, 3, 4]
 
         # Solution 1 - Prefix and suffix sum
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1) - the result array is not accounted
 
         res = [0] * len(boxes)
         prefix_sum = 0
