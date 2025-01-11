@@ -188,6 +188,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [1694-make-sum-divisible-by-p](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1694-make-sum-divisible-by-p) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1713-dot-product-of-two-sparse-vectors) |
@@ -228,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
+| [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
 | [1894-merge-strings-alternately](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1894-merge-strings-alternately) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -454,6 +456,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
+| [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
@@ -537,6 +540,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 ## String Matching
 |  |
