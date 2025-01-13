@@ -194,6 +194,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## String
 |  |
 | ------- |
@@ -240,6 +241,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 | [3451-string-compression-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3451-string-compression-iii) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -542,6 +544,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
 | [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
+| [3455-minimum-length-of-string-after-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## String Matching
 |  |
 | ------- |
