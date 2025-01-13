@@ -3,8 +3,8 @@ class Solution:
         
         
         # Solution 1 - using frequence counter
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(26) - O(1)
 
         freq = Counter(s)
         remove = 0
