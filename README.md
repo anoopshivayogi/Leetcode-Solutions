@@ -159,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Hash Table
 |  |
 | ------- |
@@ -194,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1790-lowest-common-ancestor-of-a-binary-tree-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1790-lowest-common-ancestor-of-a-binary-tree-iii) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## String
 |  |
@@ -501,6 +503,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
+| [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## Enumeration
 |  |
 | ------- |
