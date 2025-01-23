@@ -2,8 +2,8 @@ class Solution:
     def countServers(self, grid: List[List[int]]) -> int:
         
         # Solution 1 - Using rows and cols number of variables
-        # Time - 
-        # Space - 
+        # Time - O(2* m * n)
+        # Space - O(m * n)
 
 
         if not grid:
