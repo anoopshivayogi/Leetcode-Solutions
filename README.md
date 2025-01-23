@@ -144,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1374-leftmost-column-with-at-least-a-one) |
+| [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 | [1539-diagonal-traverse-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1539-diagonal-traverse-ii) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -275,6 +276,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
 | [1780-lowest-common-ancestor-of-a-binary-tree-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1780-lowest-common-ancestor-of-a-binary-tree-ii) |
@@ -302,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1142-minimum-knight-moves](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1142-minimum-knight-moves) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1431-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
 ## Graph
 |  |
@@ -424,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0200-number-of-islands) |
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
+| [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 ## Matrix
 |  |
 | ------- |
@@ -439,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0777-toeplitz-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0777-toeplitz-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1374-leftmost-column-with-at-least-a-one) |
+| [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
 ## Backtracking
 |  |
@@ -545,6 +550,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0169-majority-element) |
 | [0347-top-k-frequent-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0347-top-k-frequent-elements) |
+| [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
