@@ -2,7 +2,7 @@ class Solution:
     def countServers(self, grid: List[List[int]]) -> int:
         
         # Solution 1 - Using rows and cols number of variables
-        # Time - O(2* m * n)
+        # Time - O((m * n) + m + n)
         # Space - O(m * n)
 
 
