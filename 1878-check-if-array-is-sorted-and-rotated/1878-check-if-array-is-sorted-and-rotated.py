@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - Single iteration
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
         count = 1
 
