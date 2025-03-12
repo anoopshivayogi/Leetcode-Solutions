@@ -2,8 +2,8 @@ class Solution:
     def maximumCount(self, nums: List[int]) -> int:
         
         # Solution 0 - brute force
-        # Time - 
-        # Space - 
+        # Time - O(N)
+        # Space - O(1)
 
 
         pos, neg = 0, 0
