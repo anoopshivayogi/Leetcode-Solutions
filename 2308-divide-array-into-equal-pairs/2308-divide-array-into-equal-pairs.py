@@ -1,9 +1,8 @@
 class Solution:
     def divideArray(self, nums: List[int]) -> bool:
-        # Solution 0 - Brute force 
-        # Time - 
-        # Space - 
-
+        # Solution 0 - Brute force using hashmap as frequency counter
+        # Time - O(n)
+        # Space - O(n)
 
         freq = Counter(nums)
 
@@ -11,5 +10,7 @@ class Solution:
             if v % 2:
                 return False
 
-
         return True
+
+
+        # Solution 1 - 
