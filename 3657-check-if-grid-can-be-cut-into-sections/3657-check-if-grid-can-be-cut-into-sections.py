@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 0 - Efficiently handling in intervals way by sorting
-        # Time - 
-        # Space - 
+        # Time - O(nlogn)
+        # Space - O(n) for timsort in python
 
         x_points = [(x[0], x[2]) for x in rectangles]
         y_points = [(y[1], y[3]) for y in rectangles]
