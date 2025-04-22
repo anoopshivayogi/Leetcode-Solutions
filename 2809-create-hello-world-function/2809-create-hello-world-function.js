@@ -3,7 +3,7 @@
  */
 var createHelloWorld = function() {
     
-    let f = function hello() {
+    let f = function() {
         return "Hello World";
         
     }
