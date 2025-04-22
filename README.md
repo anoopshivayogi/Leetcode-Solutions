@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0735-asteroid-collision](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0735-asteroid-collision) |
 | [0777-toeplitz-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0777-toeplitz-matrix) |
+| [0797-rabbits-in-forest](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
@@ -189,6 +190,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0560-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
+| [0797-rabbits-in-forest](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0807-custom-sort-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0807-custom-sort-string) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
@@ -474,6 +476,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0605-can-place-flowers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0605-can-place-flowers) |
 | [0670-maximum-swap](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0670-maximum-swap) |
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
+| [0797-rabbits-in-forest](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0957-minimum-add-to-make-parentheses-valid](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0957-minimum-add-to-make-parentheses-valid) |
 | [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
@@ -540,6 +543,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0453-minimum-moves-to-equal-array-elements) |
 | [0523-continuous-subarray-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0670-maximum-swap](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0670-maximum-swap) |
+| [0797-rabbits-in-forest](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1146-greatest-common-divisor-of-strings) |
 | [2383-add-two-integers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2383-add-two-integers) |
