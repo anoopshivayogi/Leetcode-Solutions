@@ -3,11 +3,10 @@
  */
 var createHelloWorld = function() {
     
-    let f = function() {
+    return function() {
         return "Hello World";
         
     }
-    return f;
 };
 
 /**
