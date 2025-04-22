@@ -2,8 +2,8 @@ class Solution:
     def numRabbits(self, answers: List[int]) -> int:
         
         # Solution 1 - using hasmap
-        # Time - 
-        # Space -
+        # Time - O(n)
+        # Space - O(n)
 
         freq = defaultdict(int)
         res = 0
