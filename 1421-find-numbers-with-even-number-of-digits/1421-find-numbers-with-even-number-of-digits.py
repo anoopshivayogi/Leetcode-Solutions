@@ -6,16 +6,30 @@ class Solution:
         # Time - O(m*n) where m is the number of nums and n is the number of digits in each nums
         # Space - O(1)
 
-        res = 0
+        # res = 0
 
-        for n in nums:
-            if len(str(n)) % 2 == 0:
-                res += 1
+        # for n in nums:
+        #     if len(str(n)) % 2 == 0:
+        #         res += 1
         
-        return res
+        # return res
 
 
 
         # Solution 2 - Getting each number and counting the number of digits
-        # Time - 
-        # Space -
+        # Time - O(m*n) where m is the number of nums and n is the number of digits in each nums
+        # Space - O(1)
+
+        res = 0
+
+        for n in nums:
+            count = 0
+
+            while n:
+                n = n // 10
+                count += 1
+
+            if count % 2 == 0:
+                res += 1
+
+        return res
