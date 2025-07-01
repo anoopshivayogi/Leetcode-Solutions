@@ -146,33 +146,59 @@ class Solution:
 
 #         # return res
 
-        
 
-        adj_list = collections.defaultdict(list)
-        in_degree = collections.defaultdict(int)
-        res = []
+        # adj_list = collections.defaultdict(list)
+        # in_degree = collections.defaultdict(int)
+        # res = []
 
-        for p in prerequisites:
-            adj_list[p[1]].append(p[0])
-            in_degree[p[0]] += 1
+        # for p in prerequisites:
+        #     adj_list[p[1]].append(p[0])
+        #     in_degree[p[0]] += 1
 
-        q = collections.deque()
+        # q = collections.deque()
+
+        # for c in range(numCourses):
+        #     if in_degree[c] == 0:
+        #         q.append(c)
+
+        # while q:
+        #     node = q.popleft()
+        #     res.append(node)
+
+        #     for neigh in adj_list[node]:
+        #         in_degree[neigh] -= 1
+        #         if in_degree[neigh] == 0:
+        #             q.append(neigh)
+
+        # if len(res) == numCourses:
+        #     return res
+
+        # return []
+
+
+        prereq = {c: [] for c in range(numCourses)}
+        for crs, pre in prerequisites:
+            prereq[crs].append(pre)
+
+        output = []
+        visit, cycle = set(), set()
+
+        def dfs(crs):
+            if crs in cycle:
+                return False
+            if crs in visit:
+                return True
+
+            cycle.add(crs)
+            for pre in prereq[crs]:
+                if dfs(pre) == False:
+                    return False
+            cycle.remove(crs)
+            visit.add(crs)
+            output.append(crs)
+            return True
 
         for c in range(numCourses):
-            if in_degree[c] == 0:
-                q.append(c)
-
-        while q:
-            node = q.popleft()
-            res.append(node)
-
-            for neigh in adj_list[node]:
-                in_degree[neigh] -= 1
-                if in_degree[neigh] == 0:
-                    q.append(neigh)
-
-        if len(res) == numCourses:
-            return res
-
-        return []
-
+            if dfs(c) == False:
+                return []
+        return output
