@@ -13,10 +13,7 @@ class Solution:
         res = 0
         p, t = 0, 0
 
-        while p < len(players):
-
-            if t >= len(trainers):
-                break
+        while p < len(players) and t < len(trainers):
 
             if players[p] <= trainers[t]:
                 p += 1
