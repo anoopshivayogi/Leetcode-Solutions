@@ -6,11 +6,11 @@
 class Solution:
     def getDecimalValue(self, head: Optional[ListNode]) -> int:
         
-        # Solution 1 - Just looping through and using 2^(nth node)
-        # Time - 
-        # Space - 
+        # Solution 1 - Reverse the linkedlist and using 2^(nth node)
+        # Time - O(2n)
+        # Space - O(1)
 
-
+        # Reverse a linkedlist
         prev = None
         cur = head
 
@@ -22,6 +22,7 @@ class Solution:
 
         cur = prev
 
+        # Traverse and use 2^count
         count = 0
         res = 0
 
