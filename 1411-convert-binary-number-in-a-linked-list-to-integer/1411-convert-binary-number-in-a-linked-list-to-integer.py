@@ -39,10 +39,23 @@ class Solution:
         # Time - O(n)
         # Space - O(1)
 
+        # num = head.val
+
+        # while head.next:
+        #     num = num * 2 + head.next.val
+        #     head = head.next
+
+        # return num
+
+
+        # Solution 3 - Using the logic of how a binary number is built if you read from MSB to LSB (left shift)
+        # Time - O(n)
+        # Space - O(1)
+
         num = head.val
 
         while head.next:
-            num = num * 2 + head.next.val
+            num = num << 1 | head.next.val
             head = head.next
 
         return num
