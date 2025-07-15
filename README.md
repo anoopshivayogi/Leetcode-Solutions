@@ -253,6 +253,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2691-count-vowel-strings-in-ranges](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
+| [3396-valid-word](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3396-valid-word) |
 | [3451-string-compression-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3451-string-compression-iii) |
 | [3455-minimum-length-of-string-after-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 ## Depth-First Search
