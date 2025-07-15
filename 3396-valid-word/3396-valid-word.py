@@ -25,7 +25,6 @@ class Solution:
         if vowel_flag and consonant_flag:
             return True
         else:
-            print(vowel_flag, consonant_flag)
             return False
 
 
