@@ -4,8 +4,9 @@ class MyHashSet:
         # self.set = [False] * (10**6 + 1)
 
         # Solution 1 - Using linkedlist as buckets
-        # Time - 
-        # Space - 
+        # if n is the range of values allowed and k be the predefined key_range we choose for modulo
+        # Time - O(n / k)
+        # Space - O(k + m); where m is the number of unique values we insert into the HashSet
 
         self.key_range = 700
         self.bucket_arr = [Bucket() for _ in range(self.key_range)] 
