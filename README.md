@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0735-asteroid-collision) |
 | [0777-toeplitz-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0777-toeplitz-matrix) |
 | [0797-rabbits-in-forest](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0797-rabbits-in-forest) |
+| [0816-design-hashset](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0816-design-hashset) |
 | [0882-peak-index-in-a-mountain-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0882-peak-index-in-a-mountain-array) |
 | [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
@@ -198,6 +199,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0797-rabbits-in-forest](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0807-custom-sort-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0807-custom-sort-string) |
+| [0816-design-hashset](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0816-design-hashset) |
 | [0893-all-nodes-distance-k-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0893-all-nodes-distance-k-in-binary-tree) |
 | [0990-verifying-an-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0990-verifying-an-alien-dictionary) |
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
@@ -355,6 +357,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0148-sort-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0148-sort-list) |
 | [0237-delete-node-in-a-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0237-delete-node-in-a-linked-list) |
 | [0758-convert-binary-search-tree-to-sorted-doubly-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0758-convert-binary-search-tree-to-sorted-doubly-linked-list) |
+| [0816-design-hashset](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0816-design-hashset) |
 | [0850-insert-into-a-sorted-circular-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0850-insert-into-a-sorted-circular-linked-list) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1484-linked-list-in-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1484-linked-list-in-binary-tree) |
@@ -523,6 +526,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0346-moving-average-from-data-stream](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0346-moving-average-from-data-stream) |
 | [0348-design-tic-tac-toe](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0348-design-tic-tac-toe) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
+| [0816-design-hashset](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0816-design-hashset) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1955-seat-reservation-manager](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1955-seat-reservation-manager) |
 ## Data Stream
@@ -664,4 +668,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
+## Hash Function
+|  |
+| ------- |
+| [0816-design-hashset](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0816-design-hashset) |
 <!---LeetCode Topics End-->
