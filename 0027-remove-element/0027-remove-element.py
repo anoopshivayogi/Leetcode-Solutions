@@ -38,29 +38,43 @@ class Solution:
 
     def removeElement(self, arr: List[int], val: int) -> int:
 
-        # if len(arr) == 1:
-        #     if arr[0] == val:
-        #         return 0
-        #     else:
-        #         return 1
+        if len(arr) == 1:
+            if arr[0] == val:
+                return 0
+            else:
+                return 1
 
-        # count = 0
+        count = 0
 
-        # l, r = 0, len(arr) - 1
-        # while l < r:
-        #     while arr[l] != val and l < r:
-        #         l += 1
+        l, r = 0, len(arr) - 1
+        while l < r:
+            while l < len(arr) and arr[l] != val: # You want to delete
+                l += 1
 
-        #     while arr[r] == val and l < r:
-        #         r -= 1
+            while  r >= 0 and arr[r] == val: # Already deleted side
+                r -= 1
 
-        #     arr[l], arr[r] = arr[r], arr[l]
+            if l >= r:
+                break
 
-        # return l
+            arr[l], arr[r] = arr[r], arr[l]
+
+        return r+1
 
 
+        # [2, 2] ; val = 2
+        #  l
+        #     r
 
         # j == l and i == r
+
+        # [2, 2, 3, 3] ; val = 3
+        #  l        
+        #           r
+
+        # [3, 3] ; val = 5
+        #  l
+        #     r
 
         if len(arr) == 1 and arr[0] == val:
             return 0
