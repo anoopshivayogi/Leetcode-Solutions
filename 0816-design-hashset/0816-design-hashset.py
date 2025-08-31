@@ -8,6 +8,10 @@ class MyHashSet:
         # Time - O(n / k)
         # Space - O(k + m); where m is the number of unique values we insert into the HashSet
 
+        # NOTE: Fun fact :
+        ## 1. Python uses open addressing to solve the collision problem
+        ## 2. Java before java 8 used to use linkedlist and after java 8 is using red-black BST(Balanced BST)
+
         self.key_range = 700
         self.bucket_arr = [Bucket() for _ in range(self.key_range)] 
 
