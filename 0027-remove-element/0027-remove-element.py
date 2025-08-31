@@ -64,37 +64,14 @@ class Solution:
 
         # [2, 2] ; val = 2
         #  l
-        #     r
+        #  r
 
         # j == l and i == r
 
         # [2, 2, 3, 3] ; val = 3
-        #  l        
-        #           r
+        #        l        
+        #     r
 
         # [3, 3] ; val = 5
         #  l
         #     r
-
-        if len(arr) == 1 and arr[0] == val:
-            return 0
-
-        n = len(arr)
-
-        r = n - 1
-        l = 0
-
-        while l < r:
-
-            while r >= 0 and arr[r] == val:
-                r -= 1
-
-            while l < n and arr[l] != val:
-                l += 1
-
-            if l >= r:
-                break
-
-            arr[l], arr[r] = arr[r], arr[l]
-
-        return r+1
