@@ -41,7 +41,7 @@ class Bucket:
         self.head = Node() # Pseudo Head with val=-1
 
     def insert(self, key):
-        if not self.exists(key):
+        if not self.exists(key):  # NOTE: insert only if the key already doesn't exist in this bucket.
             cur = self.head
 
             while cur.nxt:
