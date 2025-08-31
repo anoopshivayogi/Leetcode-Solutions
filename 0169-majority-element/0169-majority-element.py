@@ -89,21 +89,21 @@ class Solution:
         # return major_ele
 
 
-        # majority_ele = None
-        # count = 0
+        majority_ele = None
+        count = 0
 
-        # for num in nums:
-        #     if not majority_ele or majority_ele == num:
-        #         majority_ele = num
-        #         count += 1
-        #     else:
-        #         count -= 1
+        for num in nums:
+            if not majority_ele or majority_ele == num:
+                majority_ele = num
+                count += 1
+            else:
+                count -= 1
 
-        #         if count == 0:
-        #             majority_ele = num
-        #             count = 1
+                if count == 0:
+                    majority_ele = num
+                    count = 1
 
-        # return majority_ele
+        return majority_ele
 
         # Tracing
 
@@ -120,21 +120,4 @@ class Solution:
         # majority_ele = 2
         # count = 0
 
-
-        majority_ele = None
-        count = 0
-
-        for num in nums:
-            if not majority_ele or majority_ele == num:
-                if not majority_ele:
-                    majority_ele = num
-                count += 1
-            else:
-                count -= 1
-
-                if count == 0:
-                    majority_ele = num
-                    count = 1
-
-        return majority_ele
      
