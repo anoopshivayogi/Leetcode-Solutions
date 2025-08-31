@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
 | [0015-3sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0015-3sum) |
+| [0027-remove-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0031-next-permutation) |
 | [0033-search-in-rotated-sorted-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0033-search-in-rotated-sorted-array) |
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
@@ -368,6 +369,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0015-3sum) |
+| [0027-remove-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0031-next-permutation) |
 | [0088-merge-sorted-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0125-valid-palindrome](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0125-valid-palindrome) |
