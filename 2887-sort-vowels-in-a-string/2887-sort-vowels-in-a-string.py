@@ -14,8 +14,6 @@ class Solution:
         for c in res:
             if c in vowels:
                 counts[mapping[ord('A') - ord(c)]].append(c)
-
-        print(counts)
         
         j = 0
         for i, c in enumerate(res):
