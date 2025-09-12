@@ -260,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2465-shifting-letters-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2465-shifting-letters-ii) |
 | [2580-circular-sentence](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2580-circular-sentence) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2691-count-vowel-strings-in-ranges) |
+| [2887-sort-vowels-in-a-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2887-sort-vowels-in-a-string) |
 | [3174-minimum-number-of-changes-to-make-binary-string-beautiful](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3174-minimum-number-of-changes-to-make-binary-string-beautiful) |
 | [3195-separate-black-and-white-balls](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3195-separate-black-and-white-balls) |
 | [3396-valid-word](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3396-valid-word) |
@@ -425,6 +426,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1539-diagonal-traverse-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1539-diagonal-traverse-ii) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
+| [2887-sort-vowels-in-a-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2887-sort-vowels-in-a-string) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 ## Merge Sort
 |  |
