@@ -7,9 +7,10 @@ class Solution:
 
         freq = Counter(s)
         max_v, max_c = 0, 0
+        vowels = {'a', 'e', 'i', 'o', 'u'}
 
         for c in s:
-            if c in "aeiou":
+            if c in vowels:
                 max_v = max(freq.get(c), max_v)
             else:
                 max_c = max(freq.get(c), max_c)
