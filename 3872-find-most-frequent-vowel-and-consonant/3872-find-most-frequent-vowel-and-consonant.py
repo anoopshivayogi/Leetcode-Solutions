@@ -2,8 +2,8 @@ class Solution:
     def maxFreqSum(self, s: str) -> int:
         
         # Solution 1 - 
-        # Time - 
-        # Space - 
+        # Time - O(2n)
+        # Space - O(1)
 
         freq = Counter(s)
         max_v, max_c = 0, 0
