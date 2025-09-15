@@ -7,17 +7,13 @@ class Solution:
 
         broken = set(brokenLetters)
         text = text.split()
-        res = 0
+        res = len(text)
 
         for word in text:
-            broken_flag = False
             for ch in word:
                 if ch in broken:
-                    broken_flag = True
-                    continue
-            if not broken_flag:
-                res += 1
-
+                    res -= 1
+                    break
         return res
 
 
