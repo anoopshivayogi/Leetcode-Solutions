@@ -14,8 +14,6 @@ class Solution:
         for k, v in freq.items():
             freq_lst[v] += 1
 
-        print(freq_lst)
-
         for idx in range(n, -1, -1):
             if freq_lst[idx] > 0:
                 return freq_lst[idx]*idx
