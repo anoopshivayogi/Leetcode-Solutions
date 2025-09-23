@@ -1,5 +1,10 @@
 class Solution:
     def compareVersion(self, version1: str, version2: str) -> int:
+
+        # Solution 1 - Using normal comparision
+        # Let N be the number of individual digits separated by .
+        # Time - O(2N) - Once to split the individual digits into an array and then to go over the array
+        # Space - O(N)
         
         version1 = version1.split(".")
         version2 = version2.split(".")
