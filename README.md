@@ -591,6 +591,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1146-greatest-common-divisor-of-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
+| [1817-calculate-money-in-leetcode-bank](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1817-calculate-money-in-leetcode-bank) |
 | [2383-add-two-integers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2383-add-two-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3279-alice-and-bob-playing-flower-game) |
 ## Stack
