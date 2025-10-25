@@ -84,35 +84,10 @@ class Solution:
         # return True
 
 
-        # if len(s) != len(t):
-        #     return False
+        # New one
 
-
-        # from collections import defaultdict
-
-        # s_freq, t_freq = {}, {}
-
-        # for c in s:
-        #     if c in s_freq:
-        #         s_freq[c] += 1
-        #     else:
-        #         s_freq[c] = 0
-
-        # for c in t:
-        #     if c in t_freq:
-        #         t_freq[c] += 1
-        #     else:
-        #         t_freq[c] = 0
-
-        # for k, v in s_freq.items():
-        #     if k in t_freq and t_freq[k] == v:
-        #         continue
-        #     return False
-
-        # return True
-
-
-        # Erase
+        if len(s) != len(t):
+            return False
 
         s_dict, t_dict = {}, {}
 
@@ -127,7 +102,6 @@ class Solution:
                 continue
             
             return False
-
 
         for k, v in t_dict.items():
             if k in s_dict and s_dict[k] == v:
