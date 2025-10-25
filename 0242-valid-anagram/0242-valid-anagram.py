@@ -122,4 +122,17 @@ class Solution:
         for c in t:
             t_dict[c] = t_dict.get(c, 0) + 1
 
-        return t_dict == s_dict
+        for k, v in s_dict.items():
+            if k in t_dict and t_dict[k] == v:
+                continue
+            
+            return False
+
+
+        for k, v in t_dict.items():
+            if k in s_dict and s_dict[k] == v:
+                continue
+
+            return False
+
+        return True
