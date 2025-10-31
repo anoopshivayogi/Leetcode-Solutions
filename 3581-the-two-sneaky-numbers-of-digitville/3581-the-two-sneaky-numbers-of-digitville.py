@@ -5,13 +5,27 @@ class Solution:
         # Time - O(n)
         # Space - O(n)
 
-        seen = set()
+        # seen = set()
+        # res = []
+
+        # for n in nums:
+        #     if n in seen:
+        #         res.append(n)
+        #     else:
+        #         seen.add(n)
+
+        # return res
+
+
+        # Solution 1 - Using HashMap
+        # Time - O(n)
+        # Space - O(n)
+
+        freq = Counter(nums)
         res = []
 
-        for n in nums:
-            if n in seen:
-                res.append(n)
-            else:
-                seen.add(n)
+        for k, v in freq.items():
+            if v >= 2:
+                res.append(k)
 
         return res
