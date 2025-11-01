@@ -7,11 +7,11 @@ class Solution:
     def modifiedList(self, nums: List[int], head: Optional[ListNode]) -> Optional[ListNode]:
         
         # Solution 1 - Using hashset
-        # Time - 
-        # Space -
+        # m is the number in nums and n is the number of nodes in the linkedlist
+        # Time - O(n)
+        # Space - O(m)
 
         # dummy -> 1 -> 2 -> 3 -> 4 -> 5
-        # 
 
         remove = set(nums)
         dummy = ListNode()
