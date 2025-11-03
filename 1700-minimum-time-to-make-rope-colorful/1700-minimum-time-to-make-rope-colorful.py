@@ -22,44 +22,47 @@ class Solution:
         # different = cur_count, cur_ele, max_time, total_time ; update (res += total - max_time)
         # Same = cur_count, low_time, max_time, total_time
 
-        # cur_count = 1
-        # cur_ele = ''
-        # max_time = float("-inf")
-        # res = float("inf")
-        # total_time = 0
 
+        # not a good way:
 
-        # for ele, time in zip(colors, neededTime):
-        #     if ele == cur_ele:
-        #         max_time = max(max_time, time)
-        #         total_time += time
-        #         cur_count += 1
-        #     else:
-        #         res += (total_time - max_time)
-        #         cur_ele = ele
-        #         max_time = float("-inf")
-        #         total_time = time
-        #         cur_count = 1
-
-        # return res
-
-
-
-        res = 0
-        total_time = neededTime[0]
+        cur_ele = colors[0]
         max_time = neededTime[0]
+        total_time = neededTime[0]
+        res = 0
 
-        for i in range(1, len(colors)):
-            if colors[i] == colors[i - 1]:
-                # Same color → part of same group
-                total_time += neededTime[i]
-                max_time = max(max_time, neededTime[i])
+        for ele, time in zip(colors[1:], neededTime[1:]):
+            if ele == cur_ele:
+                total_time += time
+                max_time = max(max_time, time)
             else:
-                # Different color → finalize previous group
+                # finalize previous group
                 res += total_time - max_time
-                total_time = neededTime[i]
-                max_time = neededTime[i]
+                # reset for new group
+                cur_ele = ele
+                total_time = time
+                max_time = time
 
         # finalize last group
         res += total_time - max_time
         return res
+
+        # res = 0
+        # total_time = neededTime[0]
+        # max_time = neededTime[0]
+
+        # for i in range(1, len(colors)):
+        #     if colors[i] == colors[i - 1]:
+        #         # Same color → part of same group
+        #         total_time += neededTime[i]
+        #         max_time = max(max_time, neededTime[i])
+        #     else:
+        #         # Different color → finalize previous group
+        #         res += total_time - max_time
+        #         total_time = neededTime[i]
+        #         max_time = neededTime[i]
+
+        # # finalize last group
+        # res += total_time - max_time
+        # return res
+
+
