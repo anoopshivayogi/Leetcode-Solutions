@@ -602,6 +602,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0670-maximum-swap](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0670-maximum-swap) |
 | [0797-rabbits-in-forest](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0797-rabbits-in-forest) |
 | [0912-random-pick-with-weight](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0912-random-pick-with-weight) |
+| [1086-divisor-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1086-divisor-game) |
 | [1146-greatest-common-divisor-of-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1146-greatest-common-divisor-of-strings) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -658,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
 | [0494-target-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0494-target-sum) |
+| [1086-divisor-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1086-divisor-game) |
 | [1178-valid-palindrome-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1178-valid-palindrome-iii) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
 ## Recursion
@@ -713,4 +715,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0816-design-hashset](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0817-design-hashmap) |
+## Brainteaser
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1086-divisor-game) |
+## Game Theory
+|  |
+| ------- |
+| [1086-divisor-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1086-divisor-game) |
 <!---LeetCode Topics End-->
