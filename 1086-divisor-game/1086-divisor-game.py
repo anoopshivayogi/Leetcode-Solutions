@@ -11,10 +11,23 @@ class Solution:
         # If alice always ends up with even and bob odd then bob will end up with 1 and lose the game.
         # The reverse is also true; if alice ends up with odd; then bob can make it odd for alice every time by chosing 1.
 
-        return n % 2 == 0
+        # return n % 2 == 0
 
 
-        # Solution 2 - Dynamic programming
+        # Solution 2 - Memoization
         # Time - 
         # Space - 
 
+        @cache
+        def win(cur: int) -> bool:
+            if cur == 1:
+                return False   # current player cannot move, so loses
+
+            for x in range(1, cur):
+                if cur % x == 0:
+                    # if this move leaves opponent in a losing state, current wins
+                    if not win(cur - x):
+                        return True
+            return False
+
+        return win(n)
