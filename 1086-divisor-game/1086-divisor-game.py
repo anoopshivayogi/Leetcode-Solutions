@@ -15,8 +15,8 @@ class Solution:
 
 
         # Solution 2 - Memoization
-        # Time - 
-        # Space - 
+        # Time - O(n^2)
+        # Space - O(n)
 
         @cache
         def win(cur: int) -> bool:
@@ -26,7 +26,7 @@ class Solution:
             for x in range(1, cur):
                 if cur % x == 0:
                     # if this move leaves opponent in a losing state, current wins
-                    if not win(cur - x):
+                    if not win(cur - x): # next turn answer
                         return True
             return False
 
