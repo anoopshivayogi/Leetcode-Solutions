@@ -2,7 +2,7 @@ class Solution:
     def expand(self, s: str) -> List[str]:
         
 
-        # Solution 1 - backtracking/dfs
+        # Solution 1 - backtracking/dfs recursive
         # Time - 
         # Space -
 
