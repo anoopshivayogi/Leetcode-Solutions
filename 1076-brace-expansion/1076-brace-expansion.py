@@ -4,7 +4,7 @@ class Solution:
 
         # Solution 1 - backtracking/dfs recursive
         # Time - O(3^n or 2^n)
-        # Space - O(1)
+        # Space - O(n)
 
         inp = []
         idx = 0
