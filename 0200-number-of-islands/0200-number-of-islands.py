@@ -164,7 +164,7 @@ class Solution:
         # Space - O(m * n) 
 
         ROWS, COLS = len(grid), len(grid[0])
-        visit = set()
+        # visit = set()
         d = [(1, 0), (0, 1), (-1, 0), (0, -1)]
         islands = 0
 
@@ -174,14 +174,14 @@ class Solution:
                 new_r, new_c = r + inc_r, c + inc_c
 
                 if 0 <= new_r < ROWS and 0 <= new_c < COLS and grid[new_r][new_c] == "1":
-                    visit.add((new_r, new_c))
+                    # visit.add((new_r, new_c))
                     grid[new_r][new_c] = '#'
                     dfs(new_r, new_c)
 
         for r in range(ROWS):
             for c in range(COLS):
                 if grid[r][c] == "1":
-                    # grid[r][c] = '#' # NOTE: not necessary
+                    grid[r][c] = '#' # NOTE: not necessary
                     islands += 1
                     dfs(r, c)
 
