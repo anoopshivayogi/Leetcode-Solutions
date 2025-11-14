@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - backtracking/dfs recursive
-        # Time - 
-        # Space -
+        # Time - O(3^n or 2^n)
+        # Space - O(1)
 
         inp = []
         idx = 0
