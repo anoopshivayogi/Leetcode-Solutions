@@ -103,31 +103,74 @@ class Solution:
 
         # return res
 
-        res = []
-        nums.sort()
+        # res = []
+        # nums.sort()
 
-        for i in range(len(nums)):
+        # for i in range(len(nums)):
 
-            l, r = i + 1, len(nums) - 1
+        #     l, r = i + 1, len(nums) - 1
 
-            if i > 0 and nums[i - 1] == nums[i]:  # Don't change this to while cz the 'i' is controlled by for loop
-                continue
+        #     if i > 0 and nums[i - 1] == nums[i]:  # Don't change this to while cz the 'i' is controlled by for loop
+        #         continue
 
-            while l < r:
+        #     while l < r:
 
-                total = nums[i] + nums[l] + nums[r]
+        #         total = nums[i] + nums[l] + nums[r]
 
-                if total == 0:
-                    res.append([nums[i], nums[l], nums[r]])
-                    l += 1  #NOTE: Increment 'l' in good case; hence you'll also check for duplicate with l and not r
+        #         if total == 0:
+        #             res.append([nums[i], nums[l], nums[r]])
+        #             l += 1  #NOTE: Increment 'l' in good case; hence you'll also check for duplicate with l and not r
 
-                    while l < r and nums[l - 1] == nums[l]:
-                        l += 1
-                        continue
+        #             while l < r and nums[l - 1] == nums[l]:
+        #                 l += 1
+        #                 continue
                     
-                elif total > 0:
-                    r -= 1
+        #         elif total > 0:
+        #             r -= 1
+        #         else:
+        #             l += 1
+
+        # return res
+
+
+
+
+        # Solution - Extending two sum solution to three sum
+        # Time - O(N^2)
+        # Space - O(N)
+
+
+        # [-4, -1, -1, 0, 1, 2]
+
+        def two_sum(i, j, target):
+            res = []
+
+            while i < j:
+                cur_sum = nums[i] + nums[j]
+
+                if cur_sum == target:
+                    res.append([nums[i], nums[j]])
+                    i += 1
+
+                    while i < j and nums[i - 1] == nums[i]:
+                        i += 1
+                        continue
+
+                if cur_sum < target:
+                    i += 1
                 else:
-                    l += 1
+                    j -= 1
+            return res
+
+        nums.sort()
+        n = len(nums)
+        res = []
+
+        for i in range(n - 2):
+            if i-1 >= 0 and nums[i-1] == nums[i]:
+                continue
+            pair = two_sum(i+1, n-1, -nums[i])
+            for p in pair:
+                res.append([nums[i], p[0], p[1]])
 
         return res
