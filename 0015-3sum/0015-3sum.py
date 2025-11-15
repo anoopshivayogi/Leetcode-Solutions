@@ -152,7 +152,7 @@ class Solution:
                     res.append([nums[i], nums[j]])
                     i += 1
 
-                    while i < j and nums[i - 1] == nums[i]:
+                    while i < j and nums[i - 1] == nums[i]: # skipping duplicates inside
                         i += 1
                         continue
 
@@ -167,7 +167,7 @@ class Solution:
         res = []
 
         for i in range(n - 2):
-            if i-1 >= 0 and nums[i-1] == nums[i]:
+            if i-1 >= 0 and nums[i-1] == nums[i]: #Skipping outside duplicate
                 continue
             pair = two_sum(i+1, n-1, -nums[i])
             for p in pair:
