@@ -55,29 +55,55 @@ class Solution:
 
 
 
-
         # Solution 1 - Re-do for interview
         # Time - O(n)
         # Space - O(n)
 
+        # n = len(height)
+        # l_max, r_max = [0]*n, [0]*n
+
+        # cur_max = 0
+        # for i in range(n):
+        #     l_max[i] = cur_max
+        #     cur_max = max(cur_max, height[i])
+
+        # cur_max = 0
+        # for i in range(n-1, -1, -1):
+        #     r_max[i] = cur_max
+        #     cur_max = max(cur_max, height[i])
+
+        # res = 0
+        # for i in range(n):
+        #     cur = min(l_max[i], r_max[i]) - height[i]
+        #     if cur > 0:
+        #         res += cur
+        # return res
+
+
+
+        # Solution 2 - Most Optimised; Minimizing requires only one lowest number
+        # Time - O(N)
+        # Space - O(1)
+
         n = len(height)
-        l_max, r_max = [0]*n, [0]*n
-
-        cur_max = 0
-        for i in range(n):
-            l_max[i] = cur_max
-            cur_max = max(cur_max, height[i])
-
-        cur_max = 0
-        for i in range(n-1, -1, -1):
-            r_max[i] = cur_max
-            cur_max = max(cur_max, height[i])
-
+        l_min_idx, r_min_idx = 0, n - 1
+        l_max, r_max = 0, 0
         res = 0
 
-        for i in range(n):
-            cur = min(l_max[i], r_max[i]) - height[i]
-            if cur > 0:
-                res += cur
+        while l_min_idx < r_min_idx:
+
+            if height[l_min_idx] < height[r_min_idx]:
+                cur_water = l_max - height[l_min_idx]
+                l_max = max(l_max, height[l_min_idx])
+                l_min_idx += 1
+            else:
+                cur_water = r_max - height[r_min_idx]
+                r_max = max(r_max, height[r_min_idx])
+                r_min_idx -= 1
+
+            if cur_water > 0:
+                res += cur_water
 
         return res
+
+            
