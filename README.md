@@ -90,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0001-two-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0004-median-of-two-sorted-arrays) |
+| [0011-container-with-most-water](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0014-longest-common-prefix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0027-remove-element) |
@@ -401,6 +402,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0015-3sum) |
 | [0027-remove-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0027-remove-element) |
 | [0031-next-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0031-next-permutation) |
@@ -529,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0011-container-with-most-water) |
 | [0134-gas-station](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0134-gas-station) |
 | [0253-meeting-rooms-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0253-meeting-rooms-ii) |
 | [0605-can-place-flowers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0605-can-place-flowers) |
