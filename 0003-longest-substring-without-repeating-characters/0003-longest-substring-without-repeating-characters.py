@@ -55,7 +55,7 @@ class Solution:
 
         # Re-do for the interview
         # Time - O(n)
-        # Space - O(n)
+        # Space - O(2n)
 
         # dry - run.
         # "a b c a b c b b"
