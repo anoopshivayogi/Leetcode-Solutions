@@ -107,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0088-merge-sorted-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0088-merge-sorted-array) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0134-gas-station](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
 | [0162-find-peak-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0162-find-peak-element) |
@@ -528,6 +529,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0134-gas-station](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0134-gas-station) |
 | [0253-meeting-rooms-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0253-meeting-rooms-ii) |
 | [0605-can-place-flowers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0605-can-place-flowers) |
 | [0670-maximum-swap](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0670-maximum-swap) |
