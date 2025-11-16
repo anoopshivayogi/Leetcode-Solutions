@@ -92,7 +92,7 @@ class Solution:
 
         for j in range(len(s)):
             if s[j] in seen_map:
-                i = max(i, seen_map[s[j]])
+                i = max(i, seen_map[s[j]]) # This will handle if the duplicate element we've see is within the window.
             
             seen_map[s[j]] = j+1
             res = max(res, j-i+1)
