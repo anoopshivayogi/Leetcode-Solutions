@@ -82,6 +82,9 @@ class Solution:
         #            i
 
         # hashmap = {a: 0; b:1; c: 2}
+        # Solution - Most optimized - avoiding O(2n) -> O(n)
+        # Time - O(n)
+        # Space - O(1)
 
         i = 0
         seen_map = {}
