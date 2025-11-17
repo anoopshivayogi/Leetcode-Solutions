@@ -1,23 +1,23 @@
 class Solution:
     def characterReplacement(self, s: str, k: int) -> int:
-        from collections import defaultdict
-        count = defaultdict(int)
-        maxCount = 0
+        # from collections import defaultdict
+        # count = defaultdict(int)
+        # maxCount = 0
 
-        l, r = 0,0
+        # l, r = 0,0
 
-        while l <= r and r < len(s):
-            count[s[r]] += 1
-            maxf = max(count.values())
+        # while l <= r and r < len(s):
+        #     count[s[r]] += 1
+        #     maxf = max(count.values())
 
-            while ((r-l+1) - maxf) > k:
-                count[s[l]] -= 1
-                l += 1
+        #     while ((r-l+1) - maxf) > k:
+        #         count[s[l]] -= 1
+        #         l += 1
 
-            maxCount = max(r - l + 1, maxCount)
-            r += 1
+        #     maxCount = max(r - l + 1, maxCount)
+        #     r += 1
 
-        return maxCount
+        # return maxCount
 
 
         # Solution 1 - sliding window technique 
