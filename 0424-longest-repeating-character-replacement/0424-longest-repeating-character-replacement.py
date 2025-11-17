@@ -105,6 +105,25 @@ class Solution:
         # time: O(2n * m) = O(n * m) when m = 26; O(n)
         # Space: O(m) when m = 26 ; O(1)
 
+        # l, res = 0, 0
+        # freq = collections.defaultdict(int)
+
+        # for r in range(len(s)):
+        #     freq[s[r]] += 1
+
+        #     while l < r and (r - l + 1) - freq[max(freq, key=lambda x: freq[x])] > k:
+        #         freq[s[l]] -= 1
+        #         if freq[s[l]] == 0:
+        #             del freq[s[l]]
+        #         l += 1
+
+        #     res = max(res, r - l + 1)
+
+        # return res
+
+        # Time - O(n * m)
+        # Space - O(m)
+
         l, res = 0, 0
         freq = collections.defaultdict(int)
 
