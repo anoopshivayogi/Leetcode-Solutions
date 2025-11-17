@@ -207,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0348-design-tic-tac-toe](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0348-design-tic-tac-toe) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
 | [0398-random-pick-index](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0398-random-pick-index) |
+| [0424-longest-repeating-character-replacement](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0523-continuous-subarray-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
@@ -256,6 +257,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
 | [0269-alien-dictionary](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0269-alien-dictionary) |
 | [0408-valid-word-abbreviation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0408-valid-word-abbreviation) |
+| [0424-longest-repeating-character-replacement](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
+| [0424-longest-repeating-character-replacement](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [1046-max-consecutive-ones-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [2211-k-radius-subarray-averages](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2211-k-radius-subarray-averages) |
 ## Prefix Sum
