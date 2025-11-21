@@ -210,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0523-continuous-subarray-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0523-continuous-subarray-sum) |
 | [0560-subarray-sum-equals-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0567-permutation-in-string) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
 | [0797-rabbits-in-forest](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0797-rabbits-in-forest) |
@@ -259,6 +260,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0408-valid-word-abbreviation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0408-valid-word-abbreviation) |
 | [0424-longest-repeating-character-replacement](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
+| [0567-permutation-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0567-permutation-in-string) |
 | [0616-add-bold-tag-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0616-add-bold-tag-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [0721-accounts-merge](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0721-accounts-merge) |
@@ -420,6 +422,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0253-meeting-rooms-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0253-meeting-rooms-ii) |
 | [0295-find-median-from-data-stream](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0295-find-median-from-data-stream) |
 | [0408-valid-word-abbreviation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0408-valid-word-abbreviation) |
+| [0567-permutation-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0680-valid-palindrome-ii) |
 | [1019-squares-of-a-sorted-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1019-squares-of-a-sorted-array) |
 | [1028-interval-list-intersections](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1028-interval-list-intersections) |
@@ -475,6 +478,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0239-sliding-window-maximum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0239-sliding-window-maximum) |
 | [0424-longest-repeating-character-replacement](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0424-longest-repeating-character-replacement) |
+| [0567-permutation-in-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0567-permutation-in-string) |
 | [1046-max-consecutive-ones-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [2211-k-radius-subarray-averages](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2211-k-radius-subarray-averages) |
 ## Prefix Sum
