@@ -112,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0134-gas-station](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0134-gas-station) |
 | [0136-single-number](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0162-find-peak-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0163-missing-ranges) |
 | [0169-majority-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0169-majority-element) |
@@ -614,6 +615,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0066-plus-one) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0371-sum-of-two-integers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0371-sum-of-two-integers) |
 | [0380-insert-delete-getrandom-o1](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0380-insert-delete-getrandom-o1) |
@@ -636,6 +638,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0042-trapping-rain-water) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0114-flatten-binary-tree-to-linked-list) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0227-basic-calculator-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0227-basic-calculator-ii) |
 | [0536-construct-binary-tree-from-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0536-construct-binary-tree-from-string) |
 | [0636-exclusive-time-of-functions](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0636-exclusive-time-of-functions) |
