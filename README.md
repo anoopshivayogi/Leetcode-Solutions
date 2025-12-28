@@ -52,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0975-range-sum-of-bst](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0975-range-sum-of-bst) |
 | [1046-max-consecutive-ones-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1046-max-consecutive-ones-iii) |
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1646-kth-missing-positive-number](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1646-kth-missing-positive-number) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
@@ -155,6 +156,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1056-capacity-to-ship-packages-within-d-days](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1056-capacity-to-ship-packages-within-d-days) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0695-max-area-of-island) |
 | [0777-toeplitz-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0777-toeplitz-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1351-count-negative-numbers-in-a-sorted-matrix](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1351-count-negative-numbers-in-a-sorted-matrix) |
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
