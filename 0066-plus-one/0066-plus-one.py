@@ -23,10 +23,4 @@ class Solution:
         if carry:
             res.append(carry)
 
-        return res[::-1]
-
-        
-
-                
-            
-                
+        return res[::-1]            
