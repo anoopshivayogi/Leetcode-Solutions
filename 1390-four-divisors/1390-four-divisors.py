@@ -2,8 +2,8 @@ class Solution:
     def sumFourDivisors(self, nums: List[int]) -> int:
         
         # Solution 1 - Brute force
-        # Time - 
-        # Space - 
+        # Time - O(n * sqrt(n))
+        # Space - O(1)
 
         res = 0
         for num in nums:
