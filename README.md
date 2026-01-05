@@ -171,6 +171,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1909-buildings-with-an-ocean-view](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1909-buildings-with-an-ocean-view) |
+| [1975-maximum-matrix-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1975-maximum-matrix-sum) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
 | [2211-k-radius-subarray-averages](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2211-k-radius-subarray-averages) |
 | [2308-divide-array-into-equal-pairs](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2308-divide-array-into-equal-pairs) |
@@ -532,6 +533,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1374-leftmost-column-with-at-least-a-one](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1374-leftmost-column-with-at-least-a-one) |
 | [1396-count-servers-that-communicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1396-count-servers-that-communicate) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1975-maximum-matrix-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1975-maximum-matrix-sum) |
 | [3797-design-spreadsheet](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3797-design-spreadsheet) |
 ## Backtracking
 |  |
@@ -559,6 +561,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1304-longest-happy-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1304-longest-happy-string) |
 | [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1700-minimum-time-to-make-rope-colorful) |
+| [1975-maximum-matrix-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1975-maximum-matrix-sum) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2497-maximum-matching-of-players-with-trainers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2497-maximum-matching-of-players-with-trainers) |
 | [2616-maximal-score-after-applying-k-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2616-maximal-score-after-applying-k-operations) |
