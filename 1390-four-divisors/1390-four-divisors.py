@@ -2,7 +2,8 @@ class Solution:
     def sumFourDivisors(self, nums: List[int]) -> int:
         
         # Solution 1 - Brute force
-        # Time - O(n * sqrt(n))
+        # n be the length of the array and let C be the range of elements in the array nums, which does not exceed 10^5
+        # Time - O(n * sqrt(C))
         # Space - O(1)
 
         res = 0
