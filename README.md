@@ -228,6 +228,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1029-vertical-order-traversal-of-a-binary-tree](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1029-vertical-order-traversal-of-a-binary-tree) |
 | [1264-maximum-number-of-words-you-can-type](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1264-maximum-number-of-words-you-can-type) |
 | [1400-find-winner-on-a-tic-tac-toe-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1400-find-winner-on-a-tic-tac-toe-game) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1620-check-if-array-pairs-are-divisible-by-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1620-check-if-array-pairs-are-divisible-by-k) |
@@ -285,6 +286,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1320-remove-all-adjacent-duplicates-in-string-ii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1320-remove-all-adjacent-duplicates-in-string-ii) |
 | [1350-remove-sub-folders-from-the-filesystem](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1350-remove-sub-folders-from-the-filesystem) |
 | [1371-minimum-remove-to-make-valid-parentheses](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1371-minimum-remove-to-make-valid-parentheses) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [1502-construct-k-palindrome-strings](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1502-construct-k-palindrome-strings) |
 | [1537-maximum-score-after-splitting-a-string](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1537-maximum-score-after-splitting-a-string) |
@@ -606,6 +608,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0136-single-number) |
 | [0266-palindrome-permutation](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0266-palindrome-permutation) |
 | [0371-sum-of-two-integers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0371-sum-of-two-integers) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 | [1473-find-the-longest-substring-containing-vowels-in-even-counts](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1473-find-the-longest-substring-containing-vowels-in-even-counts) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2170-count-number-of-maximum-bitwise-or-subsets](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2170-count-number-of-maximum-bitwise-or-subsets) |
@@ -753,6 +756,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0816-design-hashset](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0816-design-hashset) |
 | [0817-design-hashmap](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0817-design-hashmap) |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 ## Brainteaser
 |  |
 | ------- |
@@ -761,4 +765,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1086-divisor-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1086-divisor-game) |
+## Rolling Hash
+|  |
+| ------- |
+| [1461-check-if-a-string-contains-all-binary-codes-of-size-k](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1461-check-if-a-string-contains-all-binary-codes-of-size-k) |
 <!---LeetCode Topics End-->
