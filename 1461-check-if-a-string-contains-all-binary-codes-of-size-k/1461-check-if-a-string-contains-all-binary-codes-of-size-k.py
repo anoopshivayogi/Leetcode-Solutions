@@ -10,5 +10,4 @@ class Solution:
                 seen.add(s[i: i+k])
             if len(seen) == target:
                 return True
-        print(seen)
         return False
