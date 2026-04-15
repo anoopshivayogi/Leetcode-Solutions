@@ -3,8 +3,8 @@ class Solution:
         
 
         # Solution 1 - Using two pointers
-        # Time - 
-        # Space - 
+        # Time - O(n)
+        # Space - O(1)
 
 
         delta = 0
