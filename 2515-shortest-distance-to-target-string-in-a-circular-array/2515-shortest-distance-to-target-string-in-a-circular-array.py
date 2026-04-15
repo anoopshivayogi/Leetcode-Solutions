@@ -3,7 +3,7 @@ class Solution:
         
 
         # Solution 1 - Using two pointers
-        # Time - O(n)
+        # Time - O(n * L) where L is the length of the string target
         # Space - O(1)
 
 
