@@ -192,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
 | [3643-flip-square-submatrix-vertically](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3643-flip-square-submatrix-vertically) |
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
+| [3740-minimum-distance-between-three-equal-elements-i](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3797-design-spreadsheet](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3797-design-spreadsheet) |
 ## Hash Table
 |  |
@@ -245,6 +246,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3455-minimum-length-of-string-after-operations](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3455-minimum-length-of-string-after-operations) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3740-minimum-distance-between-three-equal-elements-i](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3740-minimum-distance-between-three-equal-elements-i) |
 | [3797-design-spreadsheet](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3872-find-most-frequent-vowel-and-consonant) |
 ## String
