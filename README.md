@@ -653,6 +653,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2383-add-two-integers](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/2383-add-two-integers) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3581-the-two-sneaky-numbers-of-digitville](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3581-the-two-sneaky-numbers-of-digitville) |
+| [3783-mirror-distance-of-an-integer](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/3783-mirror-distance-of-an-integer) |
 ## Stack
 |  |
 | ------- |
