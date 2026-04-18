@@ -1,8 +1,8 @@
 class Solution:
     def mirrorDistance(self, n: int) -> int:
-        # Solution 1 - 
-        # Time - 
-        # Space -
+        # Solution 1 - simple solution
+        # Time - O(logn)
+        # Space - O(1)
 
         reverse_num = 0
         num = n
