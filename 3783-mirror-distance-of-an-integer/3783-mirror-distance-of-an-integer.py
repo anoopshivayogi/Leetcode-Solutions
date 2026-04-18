@@ -10,7 +10,6 @@ class Solution:
         while num:
             digit = num % 10
             num = num // 10
-            reverse_num *= 10
-            reverse_num += digit
+            reverse_num = reverse_num * 10 + digit
 
         return abs(reverse_num - n)
