@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0163-missing-ranges) |
 | [0169-majority-element](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0169-majority-element) |
+| [0198-house-robber](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0198-house-robber) |
 | [0200-number-of-islands](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0200-number-of-islands) |
 | [0215-kth-largest-element-in-an-array](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0215-kth-largest-element-in-an-array) |
 | [0217-contains-duplicate](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0217-contains-duplicate) |
@@ -708,6 +709,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0139-word-break](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0139-word-break) |
+| [0198-house-robber](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0198-house-robber) |
 | [0494-target-sum](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/0494-target-sum) |
 | [1086-divisor-game](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1086-divisor-game) |
 | [1178-valid-palindrome-iii](https://github.com/anoopshivayogi/Leetcode-Solutions/tree/master/1178-valid-palindrome-iii) |
