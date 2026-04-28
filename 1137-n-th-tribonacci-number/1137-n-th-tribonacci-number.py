@@ -31,6 +31,10 @@ class Solution:
             
         # return dp[-1]
 
+        # Solution 2 - Most optimised, we realised that we just need to know the last 3 values and don't need to store all the way from the beginning.
+        # Time - O(n)
+        # Space - O(1)
+
         if n == 0:
             return 0
 
