@@ -16,25 +16,25 @@ class Solution:
         # Time = O(n)
         # Space = O(1)
         
-        # n = len(cost)
-        # dp = [0] * (n + 1)
-        # dp[0] = 0
-        # dp[1] = 0
+        n = len(cost)
+        dp = [0] * (n + 1)
+        dp[0] = 0
+        dp[1] = 0
         
-        # for i in range(2, n+1):
-        #     dp[i] = min(dp[i-1] + cost[i-1], dp[i-2] + cost[i-2])
+        for i in range(2, n+1):
+            dp[i] = min(dp[i-1] + cost[i-1], dp[i-2] + cost[i-2])
                   
-        # return dp[-1]
+        return dp[-1]
 
         # Top-down approach
         # Time - O(n)
         # Space - O(n)
 
-        @cache
-        def dp(i):
-            if i <= 1:
-                return 0
+        # @cache
+        # def dp(i):
+        #     if i <= 1:
+        #         return 0
 
-            return min(dp(i-1) + cost[i-1], dp(i-2) + cost[i-2])
+        #     return min(dp(i-1) + cost[i-1], dp(i-2) + cost[i-2])
 
-        return dp(len(cost))
+        # return dp(len(cost))
