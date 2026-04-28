@@ -31,7 +31,7 @@ class Solution:
             
         # return dp[-1]
 
-        # Solution 2 - Most optimised, we realised that we just need to know the last 3 values and don't need to store all the way from the beginning.
+        # Solution 2 - Most optimised, we realised that we just need to know the previous 3 values and don't need to store all the way from the beginning.
         # Time - O(n)
         # Space - O(1)
 
@@ -50,9 +50,3 @@ class Solution:
             n3 = temp
 
         return n3
-
-
-        
-        
-        
-        
