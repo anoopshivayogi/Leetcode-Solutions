@@ -1,5 +1,4 @@
-#include <unordered_set>
-using namespace std;
+
 
 
 class Solution {
@@ -8,7 +7,11 @@ public:
         unordered_set<int> seen;
 
         for(int num: nums){
-            if(!seen.insert(num).second){
+
+            auto result = seen.insert(num);
+            cout<< *result.first << " " << result.second << " " << endl;
+
+            if(!result.second){
                 return true;
             }
         }
