@@ -24,8 +24,8 @@ public:
 
 
         // solution 2 - using sort
-        // time - 
-        // space - 
+        // time - O(nlogn)
+        // space - O(1)
 
         sort(nums.begin(), nums.end());
 
