@@ -3,14 +3,37 @@
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        // solution 1 - using sort technique
+        // Solution 1 - using sort technique
+
+        // sort(s.begin(), s.end());
+        // sort(t.begin(), t.end());
+
+
+        // for(int i=0; i<s.size(); i++){
+        //     cout << s[i] - 'a';
+        // }
+
+        // return s == t;
+
+
+        // Solution 2 - using frequency count
         
+        int count[26] = {0};
 
-        sort(s.begin(), s.end());
-        sort(t.begin(), t.end());
+        for(int i=0; i<s.size(); i++){
+            count[s[i] - 'a']++;
+        }
 
-        return s == t;
+        for(int i=0; i<t.size();i++){
+            count[t[i] - 'a']--;
+        }
 
-        
+        for(int i=0; i<26; i++){
+            if(count[i] != 0){
+                return false;
+            }
+        }
+
+        return true;
     }
 };
