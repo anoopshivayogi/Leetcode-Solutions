@@ -17,6 +17,10 @@ public:
 
 
         // Solution 2 - using frequency count
+
+        if(s.size() != t.size()){
+            return false;
+        }
         
         int count[26] = {0};
 
