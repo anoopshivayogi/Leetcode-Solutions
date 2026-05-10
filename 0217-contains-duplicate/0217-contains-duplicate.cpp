@@ -4,17 +4,37 @@ using namespace std;
 class Solution {
 public:
     bool containsDuplicate(vector<int>& nums) {
-        unordered_set<int> seen;
 
-        for(int num: nums){
+        // solution 1 - using unordered_set
+        // time - O(n)
+        // space - O(1)
 
-            auto result = seen.insert(num);
-            cout<< *result.first << " " << result.second << " " << endl;
+        // unordered_set<int> seen;
+        // for(int num: nums){
 
-            if(!result.second){
+        //     auto result = seen.insert(num);
+        //     cout<< *result.first << " " << result.second << " " << endl;
+
+        //     if(!result.second){
+        //         return true;
+        //     }
+        // }
+        // return false;
+
+
+
+        // solution 2 - using sort
+        // time - 
+        // space - 
+
+        sort(nums.begin(), nums.end());
+
+        for(int i=1; i< nums.size(); i++){
+            if(nums[i] == nums[i-1]){
                 return true;
             }
         }
         return false;
     }
+
 };
