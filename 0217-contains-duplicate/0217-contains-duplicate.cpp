@@ -9,17 +9,17 @@ public:
         // time - O(n)
         // space - O(1)
 
-        // unordered_set<int> seen;
-        // for(int num: nums){
+        unordered_set<int> seen;
+        for(int num: nums){
 
-        //     auto result = seen.insert(num);
-        //     cout<< *result.first << " " << result.second << " " << endl;
+            auto result = seen.insert(num);
+            cout<< *result.first << " " << result.second << " " << endl;
 
-        //     if(!result.second){
-        //         return true;
-        //     }
-        // }
-        // return false;
+            if(!result.second){
+                return true;
+            }
+        }
+        return false;
 
 
 
@@ -27,14 +27,14 @@ public:
         // time - 
         // space - 
 
-        sort(nums.begin(), nums.end());
+        // sort(nums.begin(), nums.end());
 
-        for(int i=1; i< nums.size(); i++){
-            if(nums[i] == nums[i-1]){
-                return true;
-            }
-        }
-        return false;
+        // for(int i=1; i< nums.size(); i++){
+        //     if(nums[i] == nums[i-1]){
+        //         return true;
+        //     }
+        // }
+        // return false;
     }
 
 };
