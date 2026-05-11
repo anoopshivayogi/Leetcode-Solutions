@@ -46,7 +46,6 @@ public:
 
         }
 
-
         vector<vector<string>> result;
 
         for(auto& pair : groups){
