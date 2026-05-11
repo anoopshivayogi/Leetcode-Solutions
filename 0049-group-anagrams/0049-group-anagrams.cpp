@@ -5,7 +5,7 @@ public:
     vector<vector<string>> groupAnagrams(vector<string>& strs) {
         // Solution 1 
         // Time - O(nlogn)
-        // Space - O()
+        // Space - O(logn) - the space used for recursive calls in c++ implementation of sort()
 
         unordered_map<string, vector<string>> groups;
         for(auto& word : strs){
