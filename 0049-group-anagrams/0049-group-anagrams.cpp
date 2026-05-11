@@ -27,7 +27,6 @@ public:
         // Space - 
 
         unordered_map<string, vector<string>> groups;
-
         for(auto& word : strs){
             int count[26] = {0};
 
@@ -36,7 +35,6 @@ public:
             }
 
             // build from the count
-
             string key = "";
             for(int i=0; i<26; i++){
                 key += to_string(count[i]) + "#";
@@ -47,7 +45,6 @@ public:
         }
 
         vector<vector<string>> result;
-
         for(auto& pair : groups){
             result.push_back(pair.second);
         }
