@@ -1,5 +1,9 @@
 class Solution:
     def reverseDegree(self, s: str) -> int:
+
+        # Solution
+        # Time - O(n)
+        # Space - O(1)
         
 
         res = 0
